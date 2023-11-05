@@ -1779,55 +1779,91 @@ h6 {
 @font-face {
   font-family: "spartanBlack";
 
-  src: url("../spartan-cufonfonts/Spartan-Black.ttf");
+  src: url("../fonts/TTF/SpartanMB-Black.ttf") format("truetype");
+
+  font-weight: 800;
+
+  /* This corresponds to ExtraBold font weight */
 }
 
 @font-face {
   font-family: "spartanBold";
 
-  src: url("../spartan-cufonfonts/Spartan-Bold.ttf");
+  src: url("../fonts/TTF/Spartan-Bold.ttf") format("truetype");
+
+  font-weight: 800;
+
+  /* This corresponds to ExtraBold font weight */
 }
 
 @font-face {
   font-family: "spartanExtraBold";
 
-  src: url("../spartan-cufonfonts/Spartan-ExtraBold.ttf");
+  src: url("../fonts/TTF/Spartan-ExtraBold.ttf") format("truetype");
+
+  font-weight: 800;
+
+  /* This corresponds to ExtraBold font weight */
 }
 
 @font-face {
   font-family: "spartanExtraLight";
 
-  src: url("../spartan-cufonfonts/Spartan-ExtraLight.ttf");
+  src: url("../fonts/TTF/Spartan-ExtraLight.ttf") format("truetype");
+
+  font-weight: 200;
+
+  /* This corresponds to ExtraLight font weight */
 }
 
 @font-face {
   font-family: "spartanLight";
 
-  src: url("../spartan-cufonfonts/Spartan-Light.ttf");
+  src: url("../fonts/TTF/Spartan-Light.ttf") format("truetype");
+
+  font-weight: 300;
+
+  /* This corresponds to Light font weight */
 }
 
 @font-face {
   font-family: "spartanMedium";
 
-  src: url("../spartan-cufonfonts/Spartan-Medium.ttf");
+  src: url("../fonts/TTF/Spartan-Medium.ttf") format("truetype");
+
+  font-weight: 500;
+
+  /* This corresponds to Medium font weight */
 }
 
 @font-face {
   font-family: "spartanRegular";
 
-  src: url("../spartan-cufonfonts/Spartan-Regular.ttf");
+  src: url("../fonts/TTF/Spartan-Regular.ttf") format("truetype");
+
+  font-weight: 400;
+
+  /* This corresponds to Regular font weight */
 }
 
 @font-face {
   font-family: "spartanSemiBold";
 
-  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf");
+  src: url("../fonts/TTF/SpartanMB-SemiBold.ttf") format("truetype");
+
+  font-weight: 600;
+
+  /* This corresponds to Semibold font weight */
 }
 
 @font-face {
   font-family: "spartanThin";
 
-  src: url("../spartan-cufonfonts/Spartan-Thin.ttf");
+  src: url("../fonts/TTF/Spartan-Thin.ttf") format("truetype");
+
+  font-weight: 100;
+
+  /* This corresponds to Thin font weight */
 }
 
 /* Font end */
