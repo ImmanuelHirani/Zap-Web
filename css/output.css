@@ -1779,7 +1779,7 @@ h6 {
 @font-face {
   font-family: "spartanBlack";
 
-  src: url("../fonts/TTF/SpartanMB-Black.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Black.otf");
 
   font-weight: 800;
 
@@ -1789,7 +1789,7 @@ h6 {
 @font-face {
   font-family: "spartanBold";
 
-  src: url("../fonts/TTF/Spartan-Bold.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Bold.otf");
 
   font-weight: 800;
 
@@ -1799,7 +1799,7 @@ h6 {
 @font-face {
   font-family: "spartanExtraBold";
 
-  src: url("../fonts/TTF/Spartan-ExtraBold.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-ExtraBold.otf");
 
   font-weight: 800;
 
@@ -1809,7 +1809,7 @@ h6 {
 @font-face {
   font-family: "spartanExtraLight";
 
-  src: url("../fonts/TTF/Spartan-ExtraLight.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-ExtraLight.otf");
 
   font-weight: 200;
 
@@ -1819,7 +1819,7 @@ h6 {
 @font-face {
   font-family: "spartanLight";
 
-  src: url("../fonts/TTF/Spartan-Light.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Light.otf");
 
   font-weight: 300;
 
@@ -1829,7 +1829,7 @@ h6 {
 @font-face {
   font-family: "spartanMedium";
 
-  src: url("../fonts/TTF/Spartan-Medium.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Medium.otf");
 
   font-weight: 500;
 
@@ -1839,7 +1839,7 @@ h6 {
 @font-face {
   font-family: "spartanRegular";
 
-  src: url("../fonts/TTF/Spartan-Regular.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Regular.otf");
 
   font-weight: 400;
 
@@ -1849,7 +1849,7 @@ h6 {
 @font-face {
   font-family: "spartanSemiBold";
 
-  src: url("../fonts/TTF/SpartanMB-SemiBold.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-SemiBold.otf");
 
   font-weight: 600;
 
@@ -1859,7 +1859,7 @@ h6 {
 @font-face {
   font-family: "spartanThin";
 
-  src: url("../fonts/TTF/Spartan-Thin.ttf") format("truetype");
+  src: url("../fonts/OTF/SpartanMB-Thin.otf");
 
   font-weight: 100;
 
