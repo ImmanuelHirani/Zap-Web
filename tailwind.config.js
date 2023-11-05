@@ -27,15 +27,15 @@ module.exports = {
       },
 
       fontFamily: {
-        spartanThin: ["spartanThin"],
-        spartanSemiBold: ["spartanSemiBold"],
-        spartanRegular: ["spartanRegular"],
-        spartanMedium: ["spartanMedium"],
-        spartanLight: ["spartanLight"],
-        spartanExtraLight: ["spartanExtraLight"],
-        spartanExtraBold: ["spartanExtraBold"],
-        spartanBold: ["spartanBold"],
-        spartanBlack: ["spartanBlack"],
+        'spartanThin': ["spartanThin"],
+        'spartanSemiBold': ["spartanSemiBold"],
+        'spartanRegular': ["spartanRegular"],
+        'spartanMedium': ["spartanMedium"],
+        'spartanLight': ["spartanLight"],
+        'spartanExtraLight': ["spartanExtraLight"],
+        'spartanExtraBold': ["spartanExtraBold"],
+        'spartanBold': ["spartanBold"],
+        'spartanBlack': ["spartanBlack"],
       },
 
       colors: {

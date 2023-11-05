@@ -866,10 +866,6 @@ hr {
   margin-top: 18rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .block {
   display: block;
 }
@@ -914,6 +910,10 @@ hr {
   height: 1.5rem;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
 .h-\[100\%\] {
   height: 100%;
 }
@@ -933,10 +933,6 @@ hr {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-9 {
-  height: 2.25rem;
 }
 
 .w-12 {
@@ -995,6 +991,10 @@ hr {
   width: 20rem;
 }
 
+.w-9 {
+  width: 2.25rem;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -1038,10 +1038,6 @@ hr {
 
 .w-full {
   width: 100%;
-}
-
-.w-9 {
-  width: 2.25rem;
 }
 
 .max-w-screen-lg {
@@ -1117,16 +1113,16 @@ hr {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1783,91 +1779,55 @@ h6 {
 @font-face {
   font-family: "spartanBlack";
 
-  src: url("../spartan-cufonfonts/Spartan-Black.ttf") format("truetype");
-
-  font-weight: 800;
-
-  /* This corresponds to ExtraBold font weight */
+  src: url("../spartan-cufonfonts/Spartan-Black.ttf");
 }
 
 @font-face {
   font-family: "spartanBold";
 
-  src: url("../spartan-cufonfonts/Spartan-Bold.ttf") format("truetype");
-
-  font-weight: 800;
-
-  /* This corresponds to ExtraBold font weight */
+  src: url("../spartan-cufonfonts/Spartan-Bold.ttf");
 }
 
 @font-face {
   font-family: "spartanExtraBold";
 
-  src: url("../spartan-cufonfonts/Spartan-ExtraBold.ttf") format("truetype");
-
-  font-weight: 800;
-
-  /* This corresponds to ExtraBold font weight */
+  src: url("../spartan-cufonfonts/Spartan-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: "spartanExtraLight";
 
-  src: url("../spartan-cufonfonts/Spartan-ExtraLight.ttf") format("truetype");
-
-  font-weight: 200;
-
-  /* This corresponds to ExtraLight font weight */
+  src: url("../spartan-cufonfonts/Spartan-ExtraLight.ttf");
 }
 
 @font-face {
   font-family: "spartanLight";
 
-  src: url("../spartan-cufonfonts/Spartan-Light.ttf") format("truetype");
-
-  font-weight: 300;
-
-  /* This corresponds to Light font weight */
+  src: url("../spartan-cufonfonts/Spartan-Light.ttf");
 }
 
 @font-face {
   font-family: "spartanMedium";
 
-  src: url("../spartan-cufonfonts/Spartan-Medium.ttf") format("truetype");
-
-  font-weight: 500;
-
-  /* This corresponds to Medium font weight */
+  src: url("../spartan-cufonfonts/Spartan-Medium.ttf");
 }
 
 @font-face {
   font-family: "spartanRegular";
 
-  src: url("../spartan-cufonfonts/Spartan-Regular.ttf") format("truetype");
-
-  font-weight: 400;
-
-  /* This corresponds to Regular font weight */
+  src: url("../spartan-cufonfonts/Spartan-Regular.ttf");
 }
 
 @font-face {
   font-family: "spartanSemiBold";
 
-  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf") format("truetype");
-
-  font-weight: 600;
-
-  /* This corresponds to Semibold font weight */
+  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf");
 }
 
 @font-face {
   font-family: "spartanThin";
 
-  src: url("../spartan-cufonfonts/Spartan-Thin.ttf") format("truetype");
-
-  font-weight: 100;
-
-  /* This corresponds to Thin font weight */
+  src: url("../spartan-cufonfonts/Spartan-Thin.ttf");
 }
 
 /* Font end */
@@ -2120,6 +2080,10 @@ h6 {
     display: none;
   }
 
+  .md\:h-12 {
+    height: 3rem;
+  }
+
   .md\:h-16 {
     height: 4rem;
   }
@@ -2132,8 +2096,8 @@ h6 {
     height: 18rem;
   }
 
-  .md\:h-12 {
-    height: 3rem;
+  .md\:w-12 {
+    width: 3rem;
   }
 
   .md\:w-16 {
@@ -2173,10 +2137,6 @@ h6 {
     width: fit-content;
   }
 
-  .md\:w-12 {
-    width: 3rem;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2209,12 +2169,12 @@ h6 {
     gap: 1rem;
   }
 
-  .md\:gap-8 {
-    gap: 2rem;
-  }
-
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:p-0 {
@@ -2662,12 +2622,12 @@ h6 {
     top: -20rem;
   }
 
-  .\33xl\:left-\[80\%\] {
-    left: 80%;
-  }
-
   .\33xl\:left-36 {
     left: 9rem;
+  }
+
+  .\33xl\:left-\[80\%\] {
+    left: 80%;
   }
 
   .\33xl\:h-16 {
