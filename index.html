@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZAP | Homepage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <body>
+    <header id="navCont" class="transition-all ease-in-out duration-300 fixed top-0 inset-x-0 z-50 nav-bg-Gradient">
+      <nav class="container relative p-4 py-7">
+        <ul class="flex items-center text-dark-grey font-spartanSemiBold">
+          <li>
+            <a href="index.html">
+              <img src="temp-asset/statis-asset/Logo-Zap.svg" class="md:w-[70%] w-[45%]" alt="" />
+            </a>
+          </li>
+          <div class="3xl:text-lg 2xl:text-base text-sm transition-all ease-in-out duration-200 ms-auto xl:flex 3xl:gap-14 2xl:gap-10 gap-6 items-center hidden">
+            <li>
+              <span type="button" class="dropdownNav flex gap-2 cursor-pointer pb-0"
+                >Treatment
+                <svg xmlns="http://www.w3.org/2000/svg" class="3xl:w-6 w-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 9l6 6l6 -6"></path>
+                </svg>
+                <!-- Top-12 -->
+                <ul class="dropDownBox text-white absolute pb-0 top-0 translate-y-1/2 inset-x-0 opacity-0 -z-10 md:block hidden transition-all ease-in-out duration-500">
+                  <li class="w-full flex gap-4 px-4 items-center uppercase text-green-ZAP font-spartanBold">
+                    <a href="all-Treatment.html" class="bg-light-green w-80 hover:bg-green-ZAP hover:text-white px-4 py-4 rounded-lg cursor-pointer">Face</a>
+                    <a href="all-Treatment.html" class="bg-light-green w-80 hover:bg-green-ZAP hover:text-white px-4 py-4 rounded-lg cursor-pointer">Body</a>
+                    <a href="all-Treatment.html" class="bg-light-green w-80 hover:bg-green-ZAP hover:text-white px-4 py-4 rounded-lg cursor-pointer">Hair removal</a>
+                    <a href="all-Treatment.html" class="bg-light-green w-80 hover:bg-green-ZAP hover:text-white px-4 py-4 rounded-lg cursor-pointer">DRIPS & HEALTH</a>
+                    <a href="all-Treatment.html" class="bg-light-green w-80 hover:bg-green-ZAP hover:text-white px-4 py-4 rounded-lg cursor-pointer">ALL TREATMENT</a>
+                  </li>
+                </ul>
+              </span>
+            </li>
+            <li>
+              <a href="solution.html">Solusi Kami</a>
+            </li>
+            <li>
+              <a href="#">Promo</a>
+            </li>
+            <li>
+              <a href="store.html">E-Store</a>
+            </li>
+            <li>
+              <a href="lokasi.html">Lokasi</a>
+            </li>
+            <li>
+              <a href="#">Artikel</a>
+            </li>
+            <li>
+              <a href="about-us.html">Tentang ZAP</a>
+            </li>
+          </div>
+          <li class="flex items-center gap-6 ms-auto">
+            <a href="" class="bg-green-ZAP px-5 md:text-base text-sm rounded-lg md:py-2.5 py-1 text-white md:block hidden">Online Booking</a>
+            <div class="relative">
+              <a id="" type="button" class="language transition-all ease-in-out duration-500 cursor-pointer flex items-center gap-1"
+                ><img class="shadow-lg rounded-full lg:w-fit w-8" src="temp-asset/statis-asset/ID-Bahasa.png" alt="" />
+                <!-- Svg -->
+                <svg class="transition ease-in-out duration-300" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 9l6 6l6 -6"></path>
+                </svg>
+                <!-- Svg end -->
+              </a>
+              <div id="" class="languageBox md:text-base text-xs transition-all ease-in-out duration-300 absolute bg-white shadow-xl rounded-lg px-1 py-1 flex flex-col gap-2 md:w-40 w-36 top-0 translate-y-0 -z-20 right-0 scale-0 origin-top-right">
+                <a class="cursor-pointer flex gap-3 items-center justify-between hover:bg-light-green px-4 py-2 rounded-lg" data-lang="ID">
+                  <img src="temp-asset/statis-asset/ID-Bahasa.png" class="md:w-fit w-6" alt="" />ID
+                  <svg xmlns="http://www.w3.org/2000/svg" class="opacity-0 text-green-ZAP" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5 12l5 5l10 -10"></path>
+                  </svg>
+                </a>
+                <a class="cursor-pointer flex gap-3 items-center justify-between hover:bg-light-green px-4 py-2 rounded-lg" data-lang="ENG">
+                  <img src="temp-asset/statis-asset/ENG-Bahasa.png" class="md:w-fit w-6" alt="" />ENG
+                  <svg xmlns="http://www.w3.org/2000/svg" class="opacity-0 text-green-ZAP" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5 12l5 5l10 -10"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <a href="#" class="relative">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 relative" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
+                  fill="#31AB5C"
+                />
+                <path d="M7 24.0007C8.10456 24.0007 8.99999 23.1053 8.99999 22.0007C8.99999 20.8962 8.10456 20.0007 7 20.0007C5.89543 20.0007 5 20.8962 5 22.0007C5 23.1053 5.89543 24.0007 7 24.0007Z" fill="#31AB5C" />
+                <path d="M17 24.0007C18.1046 24.0007 19 23.1053 19 22.0007C19 20.8962 18.1046 20.0007 17 20.0007C15.8954 20.0007 15 20.8962 15 22.0007C15 23.1053 15.8954 24.0007 17 24.0007Z" fill="#31AB5C" />
+              </svg>
+              <span class="badge absolute flex items-center justify-center text-[10px] text-white -top-2 -right-2 bg-pink-ZAP md:w-5 md:h-5 w-4 h-4 rounded-full">1</span>
+            </a>
+            <button id="navBurger" class="xl:hidden flex flex-col gap-1">
+              <span class="w-[23px] h-1 rounded-full bg-black transition-all origin-top-right ease-in-out duration-300"></span>
+              <span class="w-[23px] h-1 rounded-full bg-black transition-all ease-in-out duration-300"></span>
+              <span class="w-[23px] h-1 rounded-full bg-black transition-all origin-bottom-right ease-in-out duration-300"></span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full -translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
+        <div class="container nav-wrapper">
+          <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-bg-nav opacity-10 -translate-y-10"></div>
+          <ul class="xl:hidden flex flex-col gap-12 md:text-lg text-sm uppercase transition-all ease-in-out duration-100 -z-10 font-spartanSemiBold mt-20">
+            <li class="transition-all ease-in-out duration-300 relative">
+              <span class="dropdownNav flex gap-2 items-center hover:text-green-ZAP hover:underline hover:underline-offset-8"
+                >Treatment
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M6 9l6 6l6 -6"></path>
+                  </svg>
+                </span>
+              </span>
+              <ul class="dropDownBox flex flex-col gap-7 absolute top-5 md:left-10 left-5 opacity-0 -z-10 transition-all ease-in-out duration-100">
+                <li>
+                  <a href="all-Treatment.html" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">All treatment</a>
+                </li>
+                <li>
+                  <a href="all-Treatment.html" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Hair Removal</a>
+                </li>
+                <li>
+                  <a href="all-Treatment.html" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Face</a>
+                </li>
+                <li>
+                  <a href="all-Treatment.html" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Body</a>
+                </li>
+                <li>
+                  <a href="all-Treatment.html" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">DRIPS & HEALTH</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Promo</a>
+            </li>
+            <!-- pb-40 -->
+
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">E-Store</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Lokasi</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Artikel</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Tentang ZAP</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Solusi Kami</a>
+            </li>
+            <li>
+              <a href="" class="hover:text-green-ZAP hover:underline hover:underline-offset-8">Online booking</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner md:my-0">
+        <div class="container-banner swiper relative" id="swiperBanner">
+          <div class="hero-banner-content">
+            <div class="swiper-wrapper">
+              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
+              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
+              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
+              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
+            </div>
+          </div>
+          <div class="swiper-pagination banner-pagination"></div>
+          <!-- Banner Text lg -> md -->
+          <div class="banner-text container md:block hidden">
+            <div class="absolute bottom-1/2 translate-y-1/2 z-20 w-[35%] flex flex-col gap-[22px]">
+              <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
+              <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
+              <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold text-sm">Booking Sekarang</a>
+            </div>
+          </div>
+        </div>
+        <!-- Banner Text sm -->
+        <div class="banner-text container md:hidden mt-5">
+          <div class="flex flex-col gap-[22px] text-center">
+            <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
+            <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
+            <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs mx-auto">Booking Sekarang</a>
+          </div>
+        </div>
+      </section>
+      <section class="kenapa-memilih-zap flex flex-col lg:gap-16 gap-4">
+        <div class="title text-center flex flex-col gap-4 p-4">
+          <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">Kenapa Memilih ZAP?</h2>
+          <hr class="mx-auto" />
+          <h6>Kami berkomitmen untuk selalu memberikanmu pelayanan terbaik sebaik mungkin</h6>
+        </div>
+        <div class="content grid lg:grid-cols-2 grid-cols-1 gap-10">
+          <div class="img-wrapper">
+            <img src="temp-asset/homepage/Why-choose-us.png" class="w-full" alt="" />
+          </div>
+          <div class="container 3xl:self-center self-end">
+            <div class="icon-container lg:flex md:grid grid-cols-2 flex flex-col 3xl:gap-20 xl:gap-6 gap-9">
+              <div class="icon-wrapper lg:w-[80%] w-full">
+                <div class="flex md:gap-8 gap-5">
+                  <img src="temp-asset/homepage/Icon-Experienced.png" class="3xl:w-16 3xl:h-16 w-12 h-12" alt="" />
+                  <div class="body capitalize flex flex-col gap-2">
+                    <h6 class="font-spartanSemiBold text-green-ZAP">experienced</h6>
+                    <h6 class="text-justify">Lebih dari 13 tahun ZAP Group hadir sebagai destinasi solusi bagi treatment kecantikan dan tubuh terpercaya di Indonesia</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="icon-wrapper lg:w-[80%] w-full">
+                <div class="flex md:gap-8 gap-5">
+                  <img src="temp-asset/homepage/Icon-professional-Treatment.png" class="3xl:w-16 3xl:h-16 w-12 h-12" alt="" />
+                  <div class="body capitalize flex flex-col gap-2">
+                    <h6 class="font-spartanSemiBold text-green-ZAP">Professional Treatment</h6>
+                    <h6 class="text-justify">Telah melakukan lebih dari 6.000.000 treatment menjadikan ZAP sebagai ahlinya dan paling dicari serta dipercaya di industri kecantikan</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="icon-wrapper lg:w-[80%] w-full">
+                <div class="flex md:gap-8 gap-5">
+                  <img src="temp-asset/homepage/Icon-Adcanced-ABT.png" class="3xl:w-16 3xl:h-16 w-12 h-12" alt="" />
+                  <div class="body capitalize flex flex-col gap-2">
+                    <h6 class="font-spartanSemiBold text-green-ZAP">Advanced and Best Technology</h6>
+                    <h6 class="text-justify">Menggunakan teknologi terbaik dikelasnya dengan material dan produk yang bermutu serta didukung oleh kepraktisan sistem yang terintegrasi secara online di seluruh cabang se-Indonesia.</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="icon-wrapper lg:w-[80%] w-full">
+                <div class="flex md:gap-8 gap-5">
+                  <img src="temp-asset/homepage/icon-ontime.png" class="3xl:w-16 3xl:h-16 w-12 h-12" alt="" />
+                  <div class="body capitalize flex flex-col gap-2">
+                    <h6 class="font-spartanSemiBold text-green-ZAP">On Time Treatment</h6>
+                    <h6 class="text-justify">Seluruh Brand ZAP mengutamakan ketepatan waktu treatment, karena waktu begitu berharga.</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="treatment-pilihan relative">
+        <div class="grid lg:grid-cols-8 grid-cols-2">
+          <div class="lg:col-span-5 col-span-2 relative">
+            <img src="temp-asset/homepage/treatment-pilihan-bg.png" class="w-full lg:block hidden h-[100%]" alt="" />
+            <div class="treatment-pilihan-text container lg:absolute bottom-1/2 lg:translate-y-1/2 3xl:left-36  2xl:left-24 left-12 md:w-[50%] lg:text-start text-center">
+              <div class="flex flex-col gap-[22px]">
+                <h2 class="leading-relaxed font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">Treatment Pilihan</h2>
+                <hr class="lg:mx-0 mx-auto" />
+                <h6 class="font-spartanRegular">ZAP merupakan pioner treatment hair removal terbaik sekaligus hadir sebagai treatment berbasis laser terpercaya dengan keamanan terbaik.</h6>
+                <a href="#" type="button" class="lg:block hidden px-9 lg:py-3 py-3 bg-green-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs lg:mx-0 mx-auto">Lihat Semua</a>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-3 col-span-2 self-center lg:absolute lg:left-1/2 lg:p-0 p-3">
+            <div class="swiper lg:w-[1000px]">
+              <div class="Treatment-pilihan-Content">
+                <div class="swiper-wrapper p-2">
+                  <div class="swiper-slide treatment-pilihan-wrapper-card relative bg-white w-[55%] hover:outline hover:outline-[7px] py-4 hover:outline-green-ZAP rounded-lg flex flex-col gap-7 hover:bg-light-green outline outline-[1px] outline-grey-ZAP">
+                    <div class="head-content px-4">
+                      <img src="temp-asset/homepage/treatment-pilihan-1.png" class="w-full" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-4 px-4">
+                      <h6 class="font-spartanSemiBold">DNA SALMON</h6>
+                      <h6>Treatment terbaik hasil riset revolusioner yang telah teruji hasilnya</h6>
+                    </div>
+                    <div class="footer-content flex gap-2.5 px-4">
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">beauty</h6>
+                      </span>
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">Dull Skin</h6>
+                      </span>
+                      <span class="badge bg-pink-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-pink-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">dermatologis</h6>
+                      </span>
+                    </div>
+                    <div class="absolute top-8">
+                      <img src="temp-asset/homepage/treatment-favorite-svg.svg" class="h-11 relative" alt="" />
+                      <p class="text-[9px] absolute uppercase text-white bottom-1/2 translate-y-1/2 -translate-x-1/2 left-12 font-spartanMedium tracking-widest">
+                        TERFAVORIT <br />
+                        SAAT INI
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide treatment-pilihan-wrapper-card relative bg-white w-[55%] hover:outline hover:outline-[7px] py-4 hover:outline-green-ZAP rounded-lg flex flex-col gap-7 hover:bg-light-green outline outline-[1px] outline-grey-ZAP">
+                    <div class="head-content px-4">
+                      <img src="temp-asset/homepage/treatment-pilihan-1.png" class="w-full" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-4 px-4">
+                      <h6 class="font-spartanSemiBold">DNA SALMON</h6>
+                      <h6>Treatment terbaik hasil riset revolusioner yang telah teruji hasilnya</h6>
+                    </div>
+                    <div class="footer-content flex gap-2.5 px-4">
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">beauty</h6>
+                      </span>
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">Dull Skin</h6>
+                      </span>
+                      <span class="badge bg-pink-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-pink-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">dermatologis</h6>
+                      </span>
+                    </div>
+                    <div class="absolute top-8">
+                      <img src="temp-asset/homepage/treatment-favorite-svg.svg" class="h-11 relative" alt="" />
+                      <p class="text-[9px] absolute uppercase text-white bottom-1/2 translate-y-1/2 -translate-x-1/2 left-12 font-spartanMedium tracking-widest">
+                        TERFAVORIT <br />
+                        SAAT INI
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide treatment-pilihan-wrapper-card relative bg-white w-[55%] hover:outline hover:outline-[7px] py-4 hover:outline-green-ZAP rounded-lg flex flex-col gap-7 hover:bg-light-green outline outline-[1px] outline-grey-ZAP">
+                    <div class="head-content px-4">
+                      <img src="temp-asset/homepage/treatment-pilihan-1.png" class="w-full" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-4 px-4">
+                      <h6 class="font-spartanSemiBold">DNA SALMON</h6>
+                      <h6>Treatment terbaik hasil riset revolusioner yang telah teruji hasilnya</h6>
+                    </div>
+                    <div class="footer-content flex gap-2.5 px-4">
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">beauty</h6>
+                      </span>
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">Dull Skin</h6>
+                      </span>
+                      <span class="badge bg-pink-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-pink-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">dermatologis</h6>
+                      </span>
+                    </div>
+                    <div class="absolute top-8">
+                      <img src="temp-asset/homepage/treatment-favorite-svg.svg" class="h-11 relative" alt="" />
+                      <p class="text-[9px] absolute uppercase text-white bottom-1/2 translate-y-1/2 -translate-x-1/2 left-12 font-spartanMedium tracking-widest">
+                        TERFAVORIT <br />
+                        SAAT INI
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide treatment-pilihan-wrapper-card relative bg-white w-[55%] hover:outline hover:outline-[7px] py-4 hover:outline-green-ZAP rounded-lg flex flex-col gap-7 hover:bg-light-green outline outline-[1px] outline-grey-ZAP">
+                    <div class="head-content px-4">
+                      <img src="temp-asset/homepage/treatment-pilihan-1.png" class="w-full" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-4 px-4">
+                      <h6 class="font-spartanSemiBold">DNA SALMON</h6>
+                      <h6>Treatment terbaik hasil riset revolusioner yang telah teruji hasilnya</h6>
+                    </div>
+                    <div class="footer-content flex gap-2.5 px-4">
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">beauty</h6>
+                      </span>
+                      <span class="badge bg-green-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-green-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">Dull Skin</h6>
+                      </span>
+                      <span class="badge bg-pink-ZAP w-fit px-3 py-1.5 rounded-full bg-opacity-[20%] text-pink-ZAP capitalize">
+                        <h6 class="lg:text-xs text-[10px]">dermatologis</h6>
+                      </span>
+                    </div>
+                    <div class="absolute top-8">
+                      <img src="temp-asset/homepage/treatment-favorite-svg.svg" class="h-11 relative" alt="" />
+                      <p class="text-[9px] absolute uppercase text-white bottom-1/2 translate-y-1/2 -translate-x-1/2 left-12 font-spartanMedium tracking-widest">
+                        TERFAVORIT <br />
+                        SAAT INI
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-custom-nav absolute bottom-1/2 translate-y-1/2 z-10 3xl:left-[80%] 2xl:left-[65%] xl:left-[50%] md:left-[90%] left-[80%] inset-x-0 w-fit cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-20 text-white relative" viewBox="0 0 99 99" fill="none" id="nextTreatmentPilihan">
+                  <g filter="url(#filter0_d_5468_18871)">
+                    <circle cx="49.5" cy="49.5" r="31.5" fill="#FDFDFD" />
+                  </g>
+                  <path
+                    d="M51.9233 56.7441C51.7595 56.58 51.6674 56.3576 51.6674 56.1258C51.6674 55.8939 51.7595 55.6715 51.9233 55.5074L57.7217 49.7091L40.875 49.7091C40.6429 49.7091 40.4204 49.6169 40.2563 49.4528C40.0922 49.2887 40 49.0662 40 48.8341C40 48.602 40.0922 48.3795 40.2563 48.2154C40.4204 48.0513 40.6429 47.9591 40.875 47.9591L57.7217 47.9591L51.9233 42.1608C51.8082 42.0538 51.724 41.9178 51.6796 41.767C51.6353 41.6162 51.6324 41.4562 51.6713 41.304C51.7103 41.1517 51.7896 41.0127 51.9008 40.9017C52.0121 40.7907 52.1513 40.7118 52.3037 40.6733C52.4558 40.6343 52.6156 40.637 52.7663 40.6811C52.917 40.7253 53.053 40.8092 53.16 40.9241L60.4517 48.2158C60.6155 48.3798 60.7076 48.6022 60.7076 48.8341C60.7076 49.066 60.6155 49.2884 60.4517 49.4524L53.16 56.7441C52.9959 56.908 52.7735 57 52.5417 57C52.3098 57 52.0874 56.908 51.9233 56.7441Z"
+                    fill="black"
+                  />
+                  <defs>
+                    <filter id="filter0_d_5468_18871" x="0" y="0" width="99" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                      <feOffset />
+                      <feGaussianBlur stdDeviation="9" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix type="matrix" values="0 0 0 0 0.32549 0 0 0 0 0.403922 0 0 0 0 0.282353 0 0 0 0.28 0" />
+                      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5468_18871" />
+                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5468_18871" result="shape" />
+                    </filter>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mx-auto w-fit">
+          <a href="#" type="button" class="lg:hidden px-5 py-3 bg-green-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs">Lihat Semua</a>
+        </div>
+      </section>
+      <section class="promo">
+        <div class="title text-center flex flex-col gap-4 p-4">
+          <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">Promo</h2>
+          <hr class="mx-auto" />
+          <h6>Promo menarik yang sesuai dengan kebutuhanmu bisa kamu dapatkan disini</h6>
+        </div>
+        <div class="swiper text-center md:mt-8 mt-0 ">
+          <div class="promo-content">
+            <div class="swiper-wrapper py-1 relative">
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-1.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-2.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-3.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-2.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-3.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="temp-asset/homepage/Promo-2.png" class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-custom-nav absolute bottom-1/2 translate-y-1/2 left-0 z-10 flex inset-x-0 md:mx-10 mx-4 justify-between lg:px-5 md:px-3">
+            <img src="temp-asset/statis-asset/Arrow_R.png" class="md:w-16 md:h-16 w-12 h-12" id="prevPromo" alt="" />
+            <img src="temp-asset/statis-asset/Arrow_L.png" class="md:w-16 md:h-16 w-12 h-12" id="nextPromo" alt="" />
+          </div>
+        </div>
+        <div class="container text-center">
+          <a href="#" type="button" class="px-9 lg:py-3 py-3 bg-green-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs md:mt-8 mt-0">Lihat Semua</a>
+        </div>  
+      </section>
+      <section class="brand bg-light-green py-16">
+        <div class="container flex flex-col md:gap-16 gap-8">
+          <div class="title text-center flex flex-col gap-4">
+            <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">ZAP BRANDS</h2>
+            <hr class="mx-auto" />
+            <h6>ZAP Brands memiliki brand dengan spesifikasi khusus yang akan membantumu memberikan solusi sesuai kebutuhanmu</h6>
+          </div>
+          <div class="brand-content md:flex grid grid-cols-2 lg:gap-6 gap-3">
+            <div class="brand-1 relative group rounded-2xl overflow-hidden w-full">
+              <img src="temp-asset/homepage/Brand-Zappremiere.png" class="w-full" alt="" />
+              <img src="temp-asset/homepage/Brand-Zappremiere-Ttile.png" class="absolute z-10 bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[75%] group-hover:opacity-0 transition-all ease-in-out duration-500" alt="" />
+              <div class="overlay absolute bg-black bg-opacity-80 rounded-2xl top-0 translate-y-full h-full transition-all ease-in-out duration-300 group-hover:translate-y-0">
+                <div class="header bg-brownCream-zap p-3.5 rounded-2xl rounded-b-none">
+                  <img src="temp-asset/homepage/Brand-Zappremiere-Ttile.png" class="w-[45%]" alt="" />
+                </div>
+                <div class="body text-white lg:p-6 md:p-4 p-2.5 relative xl:top-3 lg:top-9 md:top-4 top-2">
+                  <h6 class="text-justify 3xl:text-lg lg:text-base  text-[9px]">ZAP Premiere menggunakan teknologi laser terbaik, dirancang khusus untuk menjawab masalah kulit yang sulit diatasi.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="brand-2 relative group rounded-2xl overflow-hidden w-full">
+              <img src="temp-asset/homepage/Brand-Menlogy.png" class="w-full" alt="" />
+              <img src="temp-asset/homepage/Brand-Menlogy-Title.png" class="absolute z-10 bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[75%] group-hover:opacity-0 transition-all ease-in-out duration-500" alt="" />
+              <div class="overlay absolute bg-black bg-opacity-80 rounded-2xl top-0 translate-y-full h-full transition-all ease-in-out duration-300 group-hover:translate-y-0">
+                <div class="header bg-brown-zap p-3.5 rounded-2xl rounded-b-none">
+                  <img src="temp-asset/homepage/Brand-Menlogy-Title.png" class="w-[45%]" alt="" />
+                </div>
+                <div class="body text-white lg:p-6 md:p-4 p-2.5 relative xl:top-3 lg:top-9 md:top-4 top-2">
+                  <h6 class="text-justify 3xl:text-lg lg:text-base  text-[9px]">Treatment khusus untuk pria, mulai dari masalah rambut sampai treatment untuk memulihkan stamina.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="brand-3 relative group rounded-2xl overflow-hidden w-full">
+              <img src="temp-asset/homepage/Brand-Juva.png" class="w-full" alt="" />
+              <img src="temp-asset/homepage/Brand-Juva-Headtitle.png" class="absolute z-10 bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[50%] group-hover:opacity-0 transition-all ease-in-out duration-500" alt="" />
+              <div class="overlay absolute bg-black bg-opacity-80 rounded-2xl top-0 translate-y-full h-full transition-all ease-in-out duration-300 group-hover:translate-y-0">
+                <div class="header bg-light-maggenta p-3.5 rounded-2xl rounded-b-none">
+                  <img src="temp-asset/homepage/Brand-Juva-Headtitle.png" class="w-[25%]" alt="" />
+                </div>
+                <div class="body text-white lg:p-6 md:p-4 p-2.5 relative xl:top-3 lg:top-9 md:top-4 top-2">
+                  <h6 class="text-justify 3xl:text-lg lg:text-base  text-[9px]">Rawat kulit wajahmu dengan jenis kulit cenderung berjerawat dengan rangkaian produk Acne Series dari ZAP Beauty dan JUVA.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="brand-4 relative group rounded-2xl overflow-hidden w-full">
+              <img src="temp-asset/homepage/Brand-Zaphealth.png" class="w-full" alt="" />
+              <img src="temp-asset/homepage/Brand-Zaphealth-Title.png" class="absolute z-10 bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[75%] group-hover:opacity-0 transition-all ease-in-out duration-500" alt="" />
+              <div class="overlay absolute bg-black bg-opacity-80 rounded-2xl top-0 translate-y-full h-full transition-all ease-in-out duration-300 group-hover:translate-y-0">
+                <div class="header bg-blue-water-zap p-3.5 rounded-2xl rounded-b-none">
+                  <img src="temp-asset/homepage/Brand-Zaphealth-Title.png" class="w-[45%]" alt="" />
+                </div>
+                <div class="body text-white lg:p-6 md:p-4 p-2.5 relative xl:top-3 lg:top-9 md:top-4 top-2">
+                  <h6 class="uppercase text-justify 3xl:text-lg lg:text-base  text-[9px]">BE PREPARED FOR THE NEW CONCEPT OF ZAP HEALTH</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial">
+        <div class="container relative lg:p-4 md:p-0 p-4 ">
+          <div class="title text-center flex flex-col gap-4">
+            <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">Kata Mereka tentang ZAP</h2>
+            <hr class="mx-auto" />
+            <h6>Cerita dibalik kebahagiaan mereka yang meningkat karena ZAP</h6>
+          </div>
+          <div class="swiper 3xl:w-[1620px] 2xl:w-[1024px] xl:w-[900px] max-w-screen-xl mt-16">
+            <div class="testimonial-content  ">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+                  <div class="swiper-slide bg-light-maggenta w-[25%] flex flex-col gap-6 px-4 py-9 items-center">
+                    <div class="head">
+                      <img src="temp-asset/homepage/Testimonial-1.png" class="rounded-full outline outline-[1px] outline-white" alt="">
+                    </div>
+                    <div class="body text-center">
+                      <h6>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the industry's standard dummy</h6>
+                    </div>
+                    <div class="footer text-center">
+                      <h6 class="font-spartanSemiBold">Mitha Smith</h6>
+                      <h6>Waktu NgeZAP sejak 2012</h6>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-custom-nav absolute top-1/2 translate-y-1/2 left-0 z-10 flex inset-x-0 lg:mx-0 mx-2  justify-between lg:px-5 md:px-3">
+            <img src="temp-asset/statis-asset/Arrow_R.png" class="md:w-16 md:h-16 w-12 h-12" id="prevTesti" alt="" />
+            <img src="temp-asset/statis-asset/Arrow_L.png" class="md:w-16 md:h-16 w-12 h-12" id="nextTesti" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="layananHomeCare">
+          <div class="container ">
+            <div class="wrapper mx-auto 3xl:max-w-screen-2xl 2xl:max-w-screen-xl  max-w-screen-lg bg-light-green relative lg:p-0 py-6 lg:grid grid-cols-5 rounded-lg lg:h-72 h-fit lg:gap-0 ">
+              <div class="left-content lg:col-span-1 col-span-5">
+                <img src="temp-asset/homepage/Layanan homecare Rectangel.png" class=" h-full  lg:block hidden" alt="">
+                <img src="temp-asset/homepage/Layana-Homecare-Item.png" class="lg:absolute bottom-1/2 lg:translate-y-1/2 -left-24 lg:w-[30%] md:w-[40%] w-[50%] mx-auto  " alt="">
+              </div>
+              <div class="right-content lg:col-span-4 col-span-5 flex flex-col lg:gap-6 gap-3  justify-center lg:px-20 lg:text-start text-center lg:mt-0 mt-6 p-4 ">
+                <h2 class="font-spartanSemiBold 3xl:text-3xl lg:text-2xl text-green-ZAP md:tracking-[4.2px] tracking-[3PX]">LAYANAN HOMECARE ADA UNTUKMU</h2>
+                <h6 class="font-spartanSemiBold">Buat kamu yang nggak punya banyak waktu, <br>
+                  layanan ini bisa bantu kamu langsung bawa pulang produk pilihanmu
+                </h6>
+                  <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-white text-green-ZAP rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs  lg:mx-0 mx-auto ">Hubungi Kami</a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container flex flex-col gap-8">
+        <img src="temp-asset/statis-asset/Logo-Zap.svg" class="lg:w-40 md:w-32 w-24 mx-auto" alt="">
+        <span class="flex md:flex-row flex-col md:gap-16 gap-4 justify-center items-center">
+          <h6>Download Katalog</h6>
+          <h6>Liputan</h6>
+          <h6>FAQ</h6>
+          <h6>Contact Us</h6>
+        </span>
+        <hr class="w-full border-[1px] border-dark-grey border-opacity-20">
+        <div class="related-links flex justify-between items-center">
+          <span class="flex flex-col gap-4">
+            <h6>Social Media</h6>
+            <div class="flex md:gap-12 gap-6 items-center">
+              <a href="">
+                <img src="temp-asset/statis-asset/fb-footer.png" alt="">
+              </a>
+              <a href="">
+                <img src="temp-asset/statis-asset/insta-footer.png" alt="">
+              </a>
+              <a href="">
+                <img src="temp-asset/statis-asset/yotube-footer.png" alt="">
+              </a>
+            </div>
+          </span>
+          <span class="flex flex-col gap-4">
+            <h6>Official Marketplace</h6>
+            <div class="flex md:gap-12 gap-6 items-center self-end">
+              <a href="">
+                <img src="temp-asset/statis-asset/blibli-footer.png" alt="">
+              </a>
+              <a href="">
+                <img src="temp-asset/statis-asset/shope-footer.png" alt="">
+              </a>
+              <a href="">
+                <img src="temp-asset/statis-asset/tokopedia-footer.png" alt="">
+              </a>
+            </div>
+          </span>
+        </div>
+        <h6 class="text-center">Copyright © 2023 PT.Zulu Alpha Papa All Right Reserved</h6>
+      </div>
+    </footer>
+  </body>
+  <script src="js/nav.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+</html>
