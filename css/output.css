@@ -1180,6 +1180,18 @@ hr {
   width: 40%;
 }
 
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
 .max-w-screen-lg {
   max-width: 1024px;
 }
@@ -1375,6 +1387,10 @@ hr {
 
 .gap-\[22px\] {
   gap: 22px;
+}
+
+.gap-3\.5 {
+  gap: 0.875rem;
 }
 
 .gap-x-1 {
