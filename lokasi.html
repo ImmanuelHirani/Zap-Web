@@ -1609,103 +1609,65 @@
           <!-- Main content End-->
           <!-- ------------------------------- -->
           <!-- Treatment Schedule -->
-          <div id="ModalTreatment" class="scale-0">
-            <div class="modal bg-black bg-opacity-50 fixed inset-0 flex items-center justify-center z-50">
-              <div class="modal-content scale-0 transition-all ease-in-out duration-200 capitalize bg-white py-4 md:px-8 px-4 rounded-lg shadow-md w-fit h-fit relative">
-                <div class="modal-header flex justify-end">
-                  <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white w-10 h-10 text-4xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                      <path d="M18 6l-12 12"></path>
-                      <path d="M6 6l12 12"></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="modal-body py-2 flex flex-col md:gap-12 gap-6">
-                  <h2 class="text-green-ZAP text-center font-spartanMedium md:tracking-[4.2px] tracking-[3PX]">
+          <div class="modal bg-black  bg-opacity-50  fixed inset-0 md:flex items-center justify-center z-50 ">
+            <div class="modalTreatment mt-5 md:px-0 px-4" id="ModalTreatment">
+              <div class="wrapper-jadwalTreatment  rounded-lg bg-white  max-w-screen-md mx-auto  md:px-16 px-8 relative">
+              <div class="swiper swiperJadwal " id="swiperJadwal">
+                <div class="jadwal-content">
+                  <h2 class="text-green-ZAP text-center font-spartanMedium md:tracking-[4.2px] tracking-[3PX] mt-10">
                     JADWAL DOKTER <br />
                     DERMATOLOGIS <br />
                     CITIWALK SUDIRMAN
                   </h2>
-                  <div class="swiper max-w-screen-sm">
-                    <div class="jadwal-content">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="schedule flex md:flex-row flex-col md:gap-16 gap-6 text-center font-spartanMedium">
-                            <div class="doctor-1 w-72 flex flex-col md:gap-8 gap-4">
-                              <img src="temp-asset/Lokasi/Doctor.png" class="mx-auto md:w-fit w-32" alt="" />
-                              <h5>dr. Putu Marcellina Nagariani Hartono, Sp.KK, M.Kes</h5>
-                              <div class="schedule-1 flex flex-col gap-2">
-                                <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">jumat <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">sabtu <span>02.00 PM - 07.00 PM</span></h6>
-                              </div>
-                            </div>
-                            <div class="doctor-2 w-72 flex flex-col md:gap-8 gap-4">
-                              <img src="temp-asset/Lokasi/Doctor2.png" class="mx-auto md:w-fit w-32" alt="" />
-                              <h5>dr. Putu Ayu Elvina, M. Biomed, Sp.KK</h5>
-                              <div class="schedule-1 flex flex-col gap-2">
-                                <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                              </div>
-                            </div>
+                  <div class="swiper-wrapper pb-20 mt-10 ">
+                    <div class="swiper-slide">
+                      <div class="wrapper grid md:grid-cols-2 grid-cols-1 md:gap-16 gap-8 ">
+                        <div class="left-content flex flex-col gap-8 font-spartanSemiBold">
+                          <img src="temp-asset/Lokasi/Doctor.png" class="md:w-[70%] w-[50%] mx-auto" alt="">
+                          <h6 class="text-sm">dr. Putu Marcellina Nagariani Hartono, Sp.KK, M.Kes</h6>
+                          <div class="schedule-1 flex flex-col gap-2 capitalize ">
+                            <h6 class="flex justify-between text-sm">selasa <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">kamis <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">jumat <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">sabtu <span>02.00 PM - 07.00 PM</span></h6>
                           </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="schedule flex md:flex-row flex-col md:gap-16 gap-6 text-center font-spartanMedium">
-                              <div class="doctor-1 w-72 flex flex-col md:gap-8 gap-4">
-                                <img src="temp-asset/Lokasi/Doctor.png" class="mx-auto md:w-fit w-32" alt="" />
-                                <h5>dr. Putu Marcellina Nagariani Hartono, Sp.KK, M.Kes</h5>
-                                <div class="schedule-1 flex flex-col gap-2">
-                                  <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">jumat <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">sabtu <span>02.00 PM - 07.00 PM</span></h6>
-                                </div>
-                              </div>
-                              <div class="doctor-2 w-72 flex flex-col md:gap-8 gap-4">
-                                <img src="temp-asset/Lokasi/Doctor2.png" class="mx-auto md:w-fit w-32" alt="" />
-                                <h5>dr. Putu Ayu Elvina, M. Biomed, Sp.KK</h5>
-                                <div class="schedule-1 flex flex-col gap-2">
-                                  <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                </div>
-                              </div>
-                            </div>
+                        <div class="right-content flex flex-col gap-8 font-spartanSemiBold">
+                          <img src="temp-asset/Lokasi/Doctor.png" class="md:w-[70%] w-[50%] mx-auto" alt="">
+                          <h6 class="text-sm">dr. Putu Ayu Elvina, M. Biomed, Sp.KK</h6>
+                          <div class="schedule-1 flex flex-col gap-2 capitalize">
+                            <h6 class="flex justify-between text-sm">selasa <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">kamis <span>02.00 PM - 07.00 PM</span></h6>
                           </div>
-                          <div class="swiper-slide">
-                            <div class="schedule flex md:flex-row flex-col md:gap-16 gap-6 text-center font-spartanMedium">
-                              <div class="doctor-1 w-72 flex flex-col md:gap-8 gap-4">
-                                <img src="temp-asset/Lokasi/Doctor.png" class="mx-auto md:w-fit w-32" alt="" />
-                                <h5>dr. Putu Marcellina Nagariani Hartono, Sp.KK, M.Kes</h5>
-                                <div class="schedule-1 flex flex-col gap-2">
-                                  <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">jumat <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">sabtu <span>02.00 PM - 07.00 PM</span></h6>
-                                </div>
-                              </div>
-                              <div class="doctor-2 w-72 flex flex-col md:gap-8 gap-4">
-                                <img src="temp-asset/Lokasi/Doctor2.png" class="mx-auto md:w-fit w-32" alt="" />
-                                <h5>dr. Putu Ayu Elvina, M. Biomed, Sp.KK</h5>
-                                <div class="schedule-1 flex flex-col gap-2">
-                                  <h6 class="flex justify-between">selasa <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                  <h6 class="flex justify-between">kamis <span>02.00 PM - 07.00 PM</span></h6>
-                                </div>
-                              </div>
-                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="wrapper grid md:grid-cols-2 grid-cols-1 gap-16 ">
+                        <div class="left-content flex flex-col gap-8 font-spartanSemiBold">
+                          <img src="temp-asset/Lokasi/Doctor.png" class="md:w-[70%] w-[50%] mx-auto" alt="">
+                          <h6 class="text-sm">dr. Putu Marcellina Nagariani Hartono, Sp.KK, M.Kes</h6>
+                          <div class="schedule-1 flex flex-col gap-2 capitalize ">
+                            <h6 class="flex justify-between text-sm">selasa <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">kamis <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">jumat <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">sabtu <span>02.00 PM - 07.00 PM</span></h6>
                           </div>
+                        </div>
+                        <div class="right-content flex flex-col gap-8 font-spartanSemiBold">
+                          <img src="temp-asset/Lokasi/Doctor.png" class="md:w-[70%] w-[50%] mx-auto" alt="">
+                          <h6 class="text-sm">dr. Putu Ayu Elvina, M. Biomed, Sp.KK</h6>
+                          <div class="schedule-1 flex flex-col gap-2 capitalize">
+                            <h6 class="flex justify-between text-sm">selasa <span>02.00 PM - 07.00 PM</span></h6>
+                            <h6 class="flex justify-between text-sm">kamis <span>02.00 PM - 07.00 PM</span></h6>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <div class="swiper-pagination jadwal-paggination"></div>
+              </div>
               </div>
             </div>
           </div>
@@ -1731,6 +1693,7 @@
               <h6 class="font-spartanSemiBold">TEBET</h6>
             </div>
           </div>
+
         </div>
       </section>
     </main>

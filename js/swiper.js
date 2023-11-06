@@ -258,6 +258,11 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
     grabCursor: true,
     slidesPerView: 1,
     // If we need pagination
+
+    pagination: {
+      el: '#swiperJadwal .jadwal-paggination',
+      clickable: true
+    },
   
     // Navigation arrows
     navigation: {

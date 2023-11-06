@@ -186,7 +186,7 @@
 
 /* Homepage */
 
-/* Banner */
+/* Paggination */
 #swiperBanner .swiper-pagination {
   @apply md:bottom-10;
 }
@@ -198,7 +198,17 @@
 #swiperBanner .swiper-pagination-bullet-active {
   @apply bg-green-ZAP;
 }
-/* Banner end */
+
+
+
+#swiperJadwal .swiper-pagination-bullet {
+  @apply opacity-100 bg-light-green md:w-3 md:h-3 w-2 h-2;
+}
+
+#swiperJadwal .swiper-pagination-bullet-active {
+  @apply bg-green-ZAP;
+}
+/* Paggination end */
 
 /* Homepage end */
 
