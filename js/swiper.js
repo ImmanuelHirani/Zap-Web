@@ -206,5 +206,65 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
       },
     }
   });
+
+
+  let ProductRecomend = new Swiper(".productRecomend-Content", {
+
+    loop:true,
+    grabCursor: true,
+    // If we need pagination
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nextProductRecom',
+      prevEl: '#prevProductRecom',
+    },
+  
+    breakpoints: {
+      360: {
+        slidesPerView: 1.8,
+        spaceBetween: 12,
+        centeredSlides: true,
+      },
+  
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 12,
+        centeredSlides: true,
+
+      },
+      968: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        centeredSlides: true,
+      },
+
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 32,
+        centeredSlides: true,
+      },
+    },
+  });
   
   // E-store End
+
+
+  // Jadwal Lokasi
+
+  let JadwalLokasi= new Swiper(".jadwal-content", {
+
+    loop:true,
+    grabCursor: true,
+    slidesPerView: 1,
+    // If we need pagination
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nextSchedule',
+      prevEl: '#prevSchedule',
+    },
+  
+
+  });
+  // Jadwal  End

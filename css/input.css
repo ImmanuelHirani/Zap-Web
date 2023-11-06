@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;
@@ -10,59 +9,55 @@
 
   input[type="number"]::-webkit-inner-spin-button,
   input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  appearance: none;
-  margin: 0;
-}
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
 
+  .chooseby::-webkit-scrollbar {
+    display: none;
+  }
 
   html {
     @apply scroll-smooth text-dark-grey;
   }
 
   body {
-    @apply bg-white-ZAP font-spartanRegular overflow-x-hidden ;
+    @apply bg-white-ZAP font-spartanRegular overflow-x-hidden;
   }
 
   section {
-    @apply md:my-[89px] my-16;
+    @apply md:my-[89px] my-20;
   }
 
   .container {
     @apply p-4;
   }
 
-
   hr {
-    @apply md:border-2 border-[1px] border-grey-ZAP w-24
+    @apply md:border-2 border-[1px] border-grey-ZAP w-24;
   }
-
-
 
   /* Accordion */
   @layer components {
-
-
     .accordion-header.active i {
-        @apply transition ease-in-out duration-300;
-        transform:rotateX(180deg);
+      @apply transition ease-in-out duration-300;
+      transform: rotateX(180deg);
     }
-  
+
     .accordion-body {
-        @apply  max-h-0 overflow-hidden transition-all duration-200 ease-in-out
+      @apply max-h-0 overflow-hidden transition-all duration-200 ease-in-out;
     }
   }
   /* Accordion End */
 
-    
-.nav-bg-Gradient {
-    background: linear-gradient(180deg, rgba(250, 247, 245, 0.99) 67.48%, rgba(250, 247, 245, 0.77) 79.33%, rgba(250, 247, 245, 0.00) 100%);
-}
+  .nav-bg-Gradient {
+    background: linear-gradient(180deg, rgba(250, 247, 245, 0.99) 67.48%, rgba(250, 247, 245, 0.77) 79.33%, rgba(250, 247, 245, 0) 100%);
+  }
 
-.zapSeries-color {
-  background: linear-gradient(180deg, #127836 0%, #67C390 100%);
-}
-
+  .zapSeries-color {
+    background: linear-gradient(180deg, #127836 0%, #67c390 100%);
+  }
 }
 
 /* Font */
@@ -122,90 +117,130 @@
 }
 /* Font end */
 
-
 @layer utilities {
-    /* .text-stroke  {
+  /* .text-stroke  {
           -webkit-text-fill-color: transparent;
           -webkit-text-stroke-width: 12px;
           @apply text-Black-storke
       } */
-  
-    h1 {
-      @apply 2xl:text-[40px] lg:text-3xl md:text-base text-lg ;
-    }
-  
-    h2 {
-      @apply  lg:text-2xl md:text-xl text-sm;
-    }
-  
-    h3 {
-      @apply md:text-2xl text-base;
-    }
-  
-    h5 {
-      @apply md:text-base text-sm;
-    }
-  
-    h6 {
-      @apply 2xl:text-base lg:text-sm text-xs;
-    }
+
+  h1 {
+    @apply 2xl:text-[40px] lg:text-3xl md:text-base text-lg;
   }
 
-  /* Global */
-  .pb-active {
-    @apply lg:pb-0 md:pb-[280px] pb-[230px];
-  }
-  
-  .dropMenu-Active {
-    @apply 2xl:top-[60px] md:top-16 top-[52px] md:left-0 z-10 opacity-100;
-  }
-  
-  .nav-active > span:nth-child(1) {
-    @apply -rotate-45 bg-red-500;
-  }
-  
-  .nav-active > span:nth-child(2) {
-    @apply scale-0;
-  }
-  
-  .nav-active > span:nth-child(3) {
-    @apply rotate-45 bg-red-500;
+  h2 {
+    @apply lg:text-2xl md:text-xl text-sm;
   }
 
-  .navCont-active {
-    @apply 3xl:pb-16 md:pb-16 shadow-md bg-white-ZAP;
+  h3 {
+    @apply md:text-2xl text-base;
   }
 
+  h5 {
+    @apply md:text-base text-sm;
+  }
+
+  h6 {
+    @apply 2xl:text-base lg:text-sm text-xs;
+  }
+}
+
+/* Global */
+.pb-active {
+  @apply lg:pb-0 md:pb-[280px] pb-[230px];
+}
+
+.dropMenu-Active {
+  @apply 2xl:top-[60px] md:top-16 top-[52px] md:left-0 z-10 opacity-100;
+}
+
+.nav-active > span:nth-child(1) {
+  @apply -rotate-45 bg-red-500;
+}
+
+.nav-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.nav-active > span:nth-child(3) {
+  @apply rotate-45 bg-red-500;
+}
+
+.navCont-active {
+  @apply 3xl:pb-16 md:pb-16 shadow-md bg-white-ZAP;
+}
 
 .language-Active > svg {
-    @apply rotate-180
-  }
-  
-  .languageBox-Active {
-    @apply scale-100 translate-y-12 z-50
-  }
-  
-  .languageBox-Active > button {
-    @apply scale-100
-  }
-  
-  /* Global End */
-  
-  /* Homepage */
+  @apply rotate-180;
+}
 
-    /* Banner */
-    #swiperBanner .swiper-pagination {
-        @apply md:bottom-10 ;
-      }
-      
-      #swiperBanner .swiper-pagination-bullet {
-        @apply opacity-100 bg-light-green md:w-3 md:h-3 w-2 h-2;
-      }
-      
-      #swiperBanner .swiper-pagination-bullet-active {
-        @apply bg-green-ZAP;
-      }
-    /* Banner end */
+.languageBox-Active {
+  @apply scale-100 translate-y-12 z-50;
+}
 
-  /* Homepage end */
+.languageBox-Active > button {
+  @apply scale-100;
+}
+
+/* Global End */
+
+/* Homepage */
+
+/* Banner */
+#swiperBanner .swiper-pagination {
+  @apply md:bottom-10;
+}
+
+#swiperBanner .swiper-pagination-bullet {
+  @apply opacity-100 bg-light-green md:w-3 md:h-3 w-2 h-2;
+}
+
+#swiperBanner .swiper-pagination-bullet-active {
+  @apply bg-green-ZAP;
+}
+/* Banner end */
+
+/* Homepage end */
+
+/* Locations */
+
+.ModalActive > .modal > .modal-content {
+  @apply scale-100
+}
+
+/* Locations End */
+
+/* loc end */
+
+/* Solutions */
+.btn-active {
+  @apply outline outline-[3px] outline-green-ZAP
+}
+
+.fit-treatment-tracker-Active {
+  @apply bg-green-ZAP text-white font-spartanMedium cursor-pointer 
+}
+
+.button-choose-active {
+  @apply bg-green-ZAP text-white transition-all ease-in-out duration-75
+}
+
+.button-fit-treatment-active {
+  @apply bg-green-ZAP text-white transition-all ease-in-out duration-200
+}
+
+
+.box-treatment-Active {
+  @apply md:pb-80 pb-96 
+}
+
+.box-treatment-Active > .treatment-choise-box {
+  @apply scale-100 
+}
+
+.treatmentChoose-active {
+  @apply border-4 border-green-ZAP
+}
+
+/* Solutions end */
 
