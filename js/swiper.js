@@ -174,3 +174,37 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
     });
 
   // About Us End
+
+
+  // E-store
+  const bannerStoreSwiper = new Swiper(".banner-Store-content ", {
+    grabCursor: true,
+    loop:true,
+    // If we need pagination
+    pagination: {
+      el: '#swiperBanner .banner-pagination',
+      clickable: true
+    },
+    autoplay : {
+        delay : 2500,
+        disableOnInteraction: false,
+    },
+
+    navigation: {
+      nextEl: '#nextBannerStore ',
+      prevEl: '#prevBannerStore ',
+    },
+
+
+    // Navigation arrows
+    breakpoints: {
+      600: {
+        slidesPerView: 1,
+      },
+      968: {
+        slidesPerView: 1,
+      },
+    }
+  });
+  
+  // E-store End
