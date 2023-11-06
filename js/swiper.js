@@ -263,6 +263,8 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
       el: '#swiperJadwal .jadwal-paggination',
       clickable: true
     },
+
+    
   
     // Navigation arrows
     navigation: {
