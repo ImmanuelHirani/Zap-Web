@@ -8,7 +8,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-
+        'offcanvas-bg': "url('../temp-asset/statis-asset/Navbar.png')",
       },
 
       keyframes: {

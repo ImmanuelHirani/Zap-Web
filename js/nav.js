@@ -99,8 +99,6 @@ function activateDropdown(dropdownNav) {
   const parentNav = dropdownNav.parentNode;
   const dropMenu = parentNav.querySelector(".dropDownBox");
 
-  console.log(parentNav, dropMenu);
-
   parentNav.classList.add("pb-active");
 
   dropMenu.classList.add("dropMenu-Active");

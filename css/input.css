@@ -254,3 +254,47 @@
 
 /* Solutions end */
 
+
+
+/* treatment */
+
+.Box-Active {
+  @apply z-10 mt-2 opacity-100
+}
+
+.Choose-Active > svg {
+  @apply rotate-180
+}
+
+/* treatment end */
+
+
+/* about us */
+
+.modal-carrier-active > .card-item {
+  @apply opacity-100
+}
+
+.modal-share-active{
+  @apply opacity-100
+}
+
+.box-active {
+  @apply z-50 bg-opacity-30
+}
+
+.modalSucces-Active {
+  @apply scale-100
+}
+
+.popImg-Active {
+  @apply opacity-100 z-50
+}
+
+/* about us end */
+
+
+
+
+
+
