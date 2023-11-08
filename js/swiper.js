@@ -259,19 +259,15 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
     slidesPerView: 1,
     // If we need pagination
 
-    pagination: {
-      el: '#swiperJadwal .jadwal-paggination',
-      clickable: true
-    },
-
-    
-  
-    // Navigation arrows
     navigation: {
       nextEl: '#nextSchedule',
       prevEl: '#prevSchedule',
     },
-  
+
+    pagination: {
+      el: '.swiperJadwal .jadwal-paggination',
+      clickable: true
+    },
 
   });
   // Jadwal  End

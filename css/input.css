@@ -18,6 +18,8 @@
     display: none;
   }
 
+
+
   html {
     @apply scroll-smooth text-dark-grey;
   }
@@ -188,7 +190,7 @@
 
 /* Paggination */
 #swiperBanner .swiper-pagination {
-  @apply md:bottom-10;
+  @apply md:bottom-10 bottom-[260px] ;
 }
 
 #swiperBanner .swiper-pagination-bullet {
@@ -201,11 +203,11 @@
 
 
 
-#swiperJadwal .swiper-pagination-bullet {
+.swiperJadwal .swiper-pagination-bullet {
   @apply opacity-100 bg-light-green md:w-3 md:h-3 w-2 h-2;
 }
 
-#swiperJadwal .swiper-pagination-bullet-active {
+.swiperJadwal .swiper-pagination-bullet-active {
   @apply bg-green-ZAP;
 }
 /* Paggination end */

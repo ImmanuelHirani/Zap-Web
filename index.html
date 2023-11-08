@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ZAP | Homepage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="website icon" type="png" href="temp-asset/statis-asset/Logo-Zap.svg" />
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <body>
@@ -103,7 +104,7 @@
           </li>
         </ul>
       </nav>
-      <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full -translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
+      <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
         <div class="container nav-wrapper">
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat  bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-bg-nav opacity-10 -translate-y-10"></div>
@@ -165,33 +166,35 @@
     </header>
     <main>
       <section class="banner md:my-0">
-        <div class="container-banner swiper relative" id="swiperBanner">
+        <div class="container-banner swiper" id="swiperBanner">
           <div class="hero-banner-content">
-            <div class="swiper-wrapper">
-              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
-              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
-              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
-              <img src="temp-asset/homepage/Hero-Banner.png" class="swiper-slide" alt="" />
+            <div class="swiper-wrapper md:pb-0 pb-56 ">
+              <div class="swiper-slide ">
+                <img src="temp-asset/homepage/Hero-Banner.png " class="relative"  alt="" />
+                <div class="banner-text container">
+                  <div class="absolute md:p-0 px-8 md:bottom-1/2 md:translate-y-1/2 z-20 md:w-[35%] w-full -bottom-56  md:text-start md:items-start items-center text-center flex flex-col md:inset-x-auto inset-x-0 gap-[22px]">
+                    <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
+                    <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
+                    <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs">Booking Sekarang</a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <img src="temp-asset/homepage/Hero-Banner.png " class="relative"  alt="" />
+                <div class="banner-text container">
+                  <div class="absolute md:p-0 px-8 md:bottom-1/2 md:translate-y-1/2 z-20 md:w-[35%] w-full -bottom-56  md:text-start md:items-start items-center text-center flex flex-col md:inset-x-auto inset-x-0 gap-[22px]">
+                    <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
+                    <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
+                    <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs">Booking Sekarang</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="swiper-pagination banner-pagination"></div>
           <!-- Banner Text lg -> md -->
-          <div class="banner-text container md:block hidden">
-            <div class="absolute bottom-1/2 translate-y-1/2 z-20 w-[35%] flex flex-col gap-[22px]">
-              <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
-              <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
-              <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold text-sm">Booking Sekarang</a>
-            </div>
-          </div>
+          <div class="swiper-pagination banner-pagination"></div>
         </div>
         <!-- Banner Text sm -->
-        <div class="banner-text container md:hidden mt-5">
-          <div class="flex flex-col gap-[22px] text-center">
-            <h1 class="leading-relaxed font-spartanSemiBold">Klinik berbasis laser terbesar dengan hospitality terbaik dan medical terpercaya.</h1>
-            <h6 class="font-spartanRegular">NgeZAP sesuai kebutuhanmu mulai dari treatment wajah hingga tubuh dengan konsultasi dokter GRATIS di seluruh Indonesia.</h6>
-            <a href="#" type="button" class="px-6 lg:py-3 py-3 bg-pink-ZAP text-white rounded-lg w-fit font-spartanSemiBold md:text-sm text-xs mx-auto">Booking Sekarang</a>
-          </div>
-        </div>
       </section>
       <section class="kenapa-memilih-zap flex flex-col lg:gap-16 gap-4">
         <div class="title text-center flex flex-col gap-4 p-4">
@@ -476,8 +479,8 @@
               <img src="temp-asset/homepage/Brand-Juva.png" class="w-full" alt="" />
               <img src="temp-asset/homepage/Brand-Juva-Headtitle.png" class="absolute z-10 bottom-1/2 translate-y-1/2 right-1/2 translate-x-1/2 w-[50%] group-hover:opacity-0 transition-all ease-in-out duration-500" alt="" />
               <div class="overlay absolute bg-black bg-opacity-80 rounded-2xl top-0 translate-y-full h-full transition-all ease-in-out duration-300 group-hover:translate-y-0">
-                <div class="header bg-light-maggenta p-3.5 rounded-2xl rounded-b-none">
-                  <img src="temp-asset/homepage/Brand-Juva-Headtitle.png" class="w-[25%]" alt="" />
+                <div class="header bg-white-ZAP p-3.5 rounded-2xl rounded-b-none">
+                  <img src="temp-asset/homepage/Brand-Juva-Headtitle-overlay.png" class="w-[25%]" alt="" />
                 </div>
                 <div class="body text-white lg:p-6 md:p-4 p-2.5 relative xl:top-3 lg:top-9 md:top-4 top-2">
                   <h6 class="text-justify 3xl:text-lg lg:text-base  text-[9px]">Rawat kulit wajahmu dengan jenis kulit cenderung berjerawat dengan rangkaian produk Acne Series dari ZAP Beauty dan JUVA.</h6>
