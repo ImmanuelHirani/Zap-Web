@@ -53,6 +53,10 @@ okClosebtn.addEventListener('click', () => {
             othertoggle.classList.remove('active');
         }
     });
+
+        
+    jobDesc.classList.remove('hidden')
+    form.classList.add('hidden')
 })
 
 applyBtn.addEventListener('click' ,() => {

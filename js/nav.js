@@ -4,69 +4,56 @@ const navLinks = document.getElementById("navLinks");
 const dropdownNavs = document.querySelectorAll(".dropdownNav");
 const nav = document.querySelector("header");
 
+// Language
+const languages = document.querySelectorAll(".language");
+const languageBoxes = document.querySelectorAll(".languageBox");
+const languageSelector = document.querySelector(".language img"); // Menggunakan selektor yang benar untuk gambar bahasa
+const defaultLanguageButton = document.querySelector(".languageBox a[data-lang='ID']"); // Menemukan tombol bahasa default (ID)
 
+// Mengatur bahasa default (ID) tercentang
+defaultLanguageButton.querySelector("svg").classList.toggle("opacity-100");
 
+languages.forEach((language, index) => {
+  language.addEventListener("click", () => {
+    language.classList.toggle("language-Active");
 
-  // Language
-  const languages = document.querySelectorAll(".language");
-  const languageBoxes = document.querySelectorAll(".languageBox");
-  const languageSelector = document.querySelector(".language img"); // Menggunakan selektor yang benar untuk gambar bahasa
-  const defaultLanguageButton = document.querySelector(
-    ".languageBox a[data-lang='ID']"
-  ); // Menemukan tombol bahasa default (ID)
+    // Mengecek apakah languageBox terkait sudah aktif atau tidak
+    const isActive = languageBoxes[index].classList.contains("languageBox-Active");
 
-  // Mengatur bahasa default (ID) tercentang
-  defaultLanguageButton.querySelector("svg").classList.toggle("opacity-100");
+    // Menghapus kelas 'languageBox-Active' dari semua elemen languageBoxes
+    languageBoxes.forEach((box) => box.classList.remove("languageBox-Active"));
 
-  languages.forEach((language, index) => {
-    language.addEventListener("click", () => {
-      language.classList.toggle("language-Active");
+    // Jika languageBox terkait tidak aktif, maka aktifkan kembali
+    if (!isActive) {
+      languageBoxes[index].classList.add("languageBox-Active");
+    }
+  });
+});
 
-      // Mengecek apakah languageBox terkait sudah aktif atau tidak
-      const isActive =
-        languageBoxes[index].classList.contains("languageBox-Active");
+// Menambahkan event listener untuk setiap tombol di dalam languageBox
+languageBoxes.forEach((languageBox) => {
+  const buttons = languageBox.querySelectorAll("a");
 
-      // Menghapus kelas 'languageBox-Active' dari semua elemen languageBoxes
-      languageBoxes.forEach((box) =>
-        box.classList.remove("languageBox-Active")
-      );
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Mengambil teks tombol yang dipilih dari atribut data-lang
+      const selectedText = button.getAttribute("data-lang");
 
-      // Jika languageBox terkait tidak aktif, maka aktifkan kembali
-      if (!isActive) {
-        languageBoxes[index].classList.add("languageBox-Active");
-      }
+      // Mengatur teks pada elemen .language
+      languageSelector.src = `temp-asset/statis-asset/${selectedText}-Bahasa.png`;
+
+      // Mengatur opacity untuk svg check
+      buttons.forEach((btn) => btn.querySelector("svg").classList.remove("opacity-100"));
+      button.querySelector("svg").classList.add("opacity-100");
+
+      // Menutup languageBox saat tombol dipilih
+      languageBox.classList.remove("languageBox-Active");
+
+      // Hapus 'language-Active' dari semua elemen language setelah tombol dipilih
+      languages.forEach((lang) => lang.classList.remove("language-Active"));
     });
   });
-
-  // Menambahkan event listener untuk setiap tombol di dalam languageBox
-  languageBoxes.forEach((languageBox) => {
-    const buttons = languageBox.querySelectorAll("a");
-
-    buttons.forEach((button) => {
-      button.addEventListener("click", () => {
-        // Mengambil teks tombol yang dipilih dari atribut data-lang
-        const selectedText = button.getAttribute("data-lang");
-
-        // Mengatur teks pada elemen .language
-        languageSelector.src = `temp-asset/statis-asset/${selectedText}-Bahasa.png`;
-
-        // Mengatur opacity untuk svg check
-        buttons.forEach((btn) =>
-          btn.querySelector("svg").classList.remove("opacity-100")
-        );
-        button.querySelector("svg").classList.add("opacity-100");
-
-        // Menutup languageBox saat tombol dipilih
-        languageBox.classList.remove("languageBox-Active");
-
-        // Hapus 'language-Active' dari semua elemen language setelah tombol dipilih
-        languages.forEach((lang) => lang.classList.remove("language-Active"));
-      });
-    });
-  });
-
-
-
+});
 
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 50) {

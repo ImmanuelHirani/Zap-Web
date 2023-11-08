@@ -19,9 +19,9 @@
           </li>
           <div class="3xl:text-lg 2xl:text-base text-sm transition-all ease-in-out duration-200 ms-auto xl:flex 3xl:gap-14 2xl:gap-10 gap-6 items-center hidden">
             <li>
-              <span type="button" class="dropdownNav flex gap-2 cursor-pointer pb-0"
+              <span type="button" class="dropdownNav flex gap-2 cursor-pointer pb-0 hover:text-green-ZAP"
                 >Treatment
-                <svg xmlns="http://www.w3.org/2000/svg" class="3xl:w-6 w-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 3xl:w-6 w-5" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M6 9l6 6l6 -6"></path>
                 </svg>
@@ -38,22 +38,22 @@
               </span>
             </li>
             <li>
-              <a href="solution.html">Solusi Kami</a>
+              <a href="solution.html" class="hover:text-green-ZAP">Solusi Kami</a>
             </li>
             <li>
-              <a href="#">Promo</a>
+              <a href="#" class="hover:text-green-ZAP">Promo</a>
             </li>
             <li>
-              <a href="store.html">E-Store</a>
+              <a href="store.html" class="hover:text-green-ZAP">E-Store</a>
             </li>
             <li>
-              <a href="lokasi.html">Lokasi</a>
+              <a href="lokasi.html" class="hover:text-green-ZAP">Lokasi</a>
             </li>
             <li>
-              <a href="#">Artikel</a>
+              <a href="#" class="hover:text-green-ZAP">Artikel</a>
             </li>
             <li>
-              <a href="about-us.html">Tentang ZAP</a>
+              <a href="about-us.html" class="hover:text-green-ZAP">Tentang ZAP</a>
             </li>
           </div>
           <li class="flex items-center gap-6 ms-auto">
@@ -104,7 +104,7 @@
           </li>
         </ul>
       </nav>
-      <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full -translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
+      <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
         <div class="container nav-wrapper">
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat  bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-bg-nav opacity-10 -translate-y-10"></div>
@@ -112,12 +112,12 @@
             <li class="transition-all ease-in-out duration-300 relative">
               <span class="dropdownNav flex gap-2 items-center hover:text-green-ZAP hover:underline hover:underline-offset-8"
                 >Treatment
-                <span>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     
+                  <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M6 9l6 6l6 -6"></path>
                   </svg>
-                </span>
+         
               </span>
               <ul class="dropDownBox flex flex-col gap-7 absolute top-5 md:left-10 left-5 opacity-0 -z-10 transition-all ease-in-out duration-100">
                 <li>
@@ -464,18 +464,9 @@
                     <label for="nama">Akun sosial media</label>
                     <input type="text" name="sosialmedia" placeholder="masukan link salah satu sosial media mu" class="lg:text-xs text-[10px] border-gray-300 border-2 px-4 w-full h-14 rounded-lg focus:outline-none" />
                     <label for="">Upload CV (pdf / docx, max 1MB) </label>
-                    <label class="lg:text-xs text-[10px] bg-green-ZAP w-28 flex justify-between font-spartanMedium items-center lg:px-3 px-5 py-2 rounded-lg text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-5 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                        <path d="M7 9l5 -5l5 5"></path>
-                        <path d="M12 4l0 12"></path>
-                      </svg>
-                      Pilih file
-                      <input type="file" class="hidden" />
-                    </label>
-                  </form>
-                  <a type="button" class="cursor-pointer kirim-button bg-green-ZAP capitalize text-white font-spartanMedium px-12 py-2 rounded-lg w-fit mx-auto mt-4 md:text-base text-xs">kirim</a>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                    <button type="submit" class="cursor-pointer kirim-button bg-green-ZAP capitalize text-white font-spartanMedium px-12 py-2 rounded-lg w-fit mx-auto mt-4 md:text-base text-xs">kirim</button>
+                  </form> 
                 </div>
               </div>
               <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white md:w-10 md:h-10 w-9 h-9">
@@ -492,14 +483,14 @@
               <div class="modal-body py-2 text-center flex flex-col gap-4">
                 <h5 class="capitalize text-green-ZAP font-spartanMedium">dokument telah terkirim</h5>
                 <h6>SIlahkan menunggu follow up dari team HR ZAP Clinic ya</h6>
-                <button id="okClosebtn" class="bg-green-ZAP uppercase md:px-16 px-8 md:py-1 py-2 w-fit mx-auto rounded-lg text-white font-spartanMedium md:text-base text-xs">ok</button>
+                <button id="okClosebtn" class="bg-green-ZAP uppercase md:px-16 px-4 py-1  w-fit mx-auto rounded-lg text-white font-spartanMedium md:text-base text-sm flex">ok</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="achivement">
-        <div class="container">
+        <div class="container flex flex-col gap-8">
           <div class="title text-center flex flex-col gap-4">
             <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">our achievements</h2>
             <hr class="mx-auto" />

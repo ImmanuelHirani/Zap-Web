@@ -11,21 +11,6 @@ module.exports = {
         'offcanvas-bg': "url('../temp-asset/statis-asset/Navbar.png')",
       },
 
-      keyframes: {
-        wiggle: {
-
-        },
-
-        bgSlider: {
-     
-        }
-        
-      },
-
-      animation: {
-        
-      },
-
       fontFamily: {
         spartanThin: ["spartanThin"],
         spartanSemiBold: ["spartanSemiBold"],

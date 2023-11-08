@@ -164,6 +164,14 @@
   @apply scale-0;
 }
 
+.navDrop-Active > svg {
+  @apply rotate-180
+}
+
+.navDrop-Active  {
+  @apply text-green-ZAP
+}
+
 .nav-active > span:nth-child(3) {
   @apply rotate-45 bg-red-500;
 }
@@ -302,6 +310,36 @@
 }
 
 /* about us end */
+
+
+/* Floating button */
+.livechat-active {
+  @apply scale-100 
+}
+
+.b-active {
+  @apply transform scale-0
+}
+
+.C-active {
+  @apply transform scale-100
+}
+
+.o-active {
+  @apply transform scale-0
+}
+
+.w-active {
+  @apply transform scale-100 md:-translate-y-20 -translate-y-16
+}
+
+.l-active {
+  @apply transform scale-100 md:-translate-y-40 -translate-y-32 
+}
+
+/* Floating button End*/
+
+
 
 
 
