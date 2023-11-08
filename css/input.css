@@ -216,8 +216,16 @@
 
 /* Locations */
 
-.ModalActive > .modal > .modal-content {
-  @apply scale-100
+
+
+.modalSchedule-active {
+  @apply z-50 bg-opacity-30
+}
+
+.active > .wrapper-jadwalTreatment {
+
+  @apply opacity-100
+
 }
 
 /* Locations End */

@@ -1488,10 +1488,6 @@ hr {
   align-self: center;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1656,10 +1652,6 @@ hr {
 
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
 }
 
 .bg-opacity-75 {
@@ -2439,10 +2431,13 @@ h6 {
 
 /* Locations */
 
-.ModalActive > .modal > .modal-content {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.modalSchedule-active {
+  z-index: 50;
+  --tw-bg-opacity: 0.3;
+}
+
+.active > .wrapper-jadwalTreatment {
+  opacity: 1;
 }
 
 /* Locations End */
@@ -2786,15 +2781,6 @@ h6 {
     height: 336px;
   }
 
-  .md\:h-\[650px\] {
-    height: 650px;
-  }
-
-  .md\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
   .md\:w-10 {
     width: 2.5rem;
   }
@@ -3017,11 +3003,6 @@ h6 {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .md\:pb-0 {
