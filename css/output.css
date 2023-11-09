@@ -883,10 +883,6 @@ hr {
   grid-column: span 8 / span 8;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -999,10 +995,6 @@ hr {
   margin-top: 2px;
 }
 
-.mt-9 {
-  margin-top: 2.25rem;
-}
-
 .line-clamp-1 {
   overflow: hidden;
   display: -webkit-box;
@@ -1109,10 +1101,6 @@ hr {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-3 {
-  height: 0.75rem;
 }
 
 .w-10 {
@@ -1711,11 +1699,6 @@ hr {
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
-
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .border-opacity-20 {
@@ -3024,10 +3007,6 @@ h6 {
     margin-top: 89px;
   }
 
-  .md\:mt-36 {
-    margin-top: 9rem;
-  }
-
   .md\:block {
     display: block;
   }
@@ -3341,11 +3320,6 @@ h6 {
     padding-bottom: 2rem;
   }
 
-  .md\:py-32 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-  }
-
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -3509,10 +3483,6 @@ h6 {
     margin-top: 24rem;
   }
 
-  .lg\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -3672,6 +3642,10 @@ h6 {
     gap: 4rem;
   }
 
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
   .lg\:gap-24 {
     gap: 6rem;
   }
@@ -3686,10 +3660,6 @@ h6 {
 
   .lg\:gap-8 {
     gap: 2rem;
-  }
-
-  .lg\:gap-20 {
-    gap: 5rem;
   }
 
   .lg\:gap-x-10 {
