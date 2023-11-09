@@ -106,18 +106,17 @@
       </nav>
       <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
         <div class="container nav-wrapper">
-          <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat  bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
+          <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-bg-nav opacity-10 -translate-y-10"></div>
           <ul class="xl:hidden flex flex-col gap-12 md:text-lg text-sm uppercase transition-all ease-in-out duration-100 -z-10 font-spartanSemiBold mt-20">
             <li class="transition-all ease-in-out duration-300 relative">
               <span class="dropdownNav flex gap-2 items-center hover:text-green-ZAP hover:underline hover:underline-offset-8"
                 >Treatment
-     
-                  <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M6 9l6 6l6 -6"></path>
-                  </svg>
-         
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 9l6 6l6 -6"></path>
+                </svg>
               </span>
               <ul class="dropDownBox flex flex-col gap-7 absolute top-5 md:left-10 left-5 opacity-0 -z-10 transition-all ease-in-out duration-100">
                 <li>
@@ -556,7 +555,7 @@
       </section>
       <section class="shareContent">
         <div class="bg-dark-grey bg-opacity-0 fixed inset-0 -z-50 w-full h-full">
-          <div class="share-card opacity-0  rounded-lg max-w-screen-sm mx-auto md:px-12 px-6 md:py-0 py-6 bg-white-ZAP md:w-[638px] w-[90%] md:h-[336px] h-fit  flex flex-col md:justify-center absolute inset-x-0 bottom-1/2 translate-y-1/2 gap-6">
+          <div class="share-card opacity-0 rounded-lg max-w-screen-sm mx-auto md:px-12 px-6 md:py-0 py-6 bg-white-ZAP md:w-[638px] w-[90%] md:h-[336px] h-fit flex flex-col md:justify-center absolute inset-x-0 bottom-1/2 translate-y-1/2 gap-6">
             <h6 class="font-spartanSemiBold">Ajak temanmu treatment bareng-bareng!</h6>
             <div class="card-details p-4 flex md:flex-row flex-col gap-4 bg-light-green rounded-lg">
               <img src="temp-asset/E-store/card-treatment-2.png" class="md:w-[30%] w-full" alt="" />
@@ -579,12 +578,12 @@
                 <a href=""> <img src="temp-asset/E-store/CopyLink.png" class="md:w-fit w-[60%]" alt="" /></a>
               </div>
             </span>
-            <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal  text-white md:w-10 md:h-10 w-9 h-9">
-              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x md:w-6 w-4"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white md:w-10 md:h-10 w-9 h-9">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x md:w-6 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                 <path d="M18 6l-12 12"></path>
                 <path d="M6 6l12 12"></path>
-             </svg>
+              </svg>
             </button>
           </div>
         </div>
@@ -689,88 +688,94 @@
       </section>
       <section class="floating-cart relative">
         <!-- lg button  -->
-        <div class="container lg:flex  fixed bottom-8 inset-x-0 z-20 bg-white px-12 py-4 shadow-xl rounded-md font-spartanMedium  hidden  gap-2  capitalize">
-            <div class="left-content flex  justify-between  w-[900px] ">
-              <!-- Name Item -->
-              <div class="item-name flex gap-4 flex-col">
-                  <h6>Buy 1 Get 1 Yellow Laser</h6>
-                  <h2>Rp 2.250.000</h2>
-              </div>
-              <!-- Name Item End -->
-              <!-- Quantity Item  -->
-              <div class="quantity-item flex flex-col gap-2 ">
-                  <p>qty</p>
-                  <div class="flex gap-2 ">
-                    <button class="bg-gray-300 rounded-md">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-9 h-9" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M5 12l14 0"></path>
-                     </svg>
-                    </button>
-                    <input type="number" class=" rounded-md border-2 border-green-ZAP text-center w-10" value="1">
-                    <button class="bg-green-ZAP rounded-md">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-9 h-9" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M12 5l0 14"></path>
-                        <path d="M5 12l14 0"></path>
-                     </svg>
-                    </button>
-                  </div>
-              </div>
-              <!-- Quantity Item End -->
-            </div>
-            <div class="right-content flex items-end gap-2 w-[500px]">
-              <button class="tambah-keranjang rounded-md flex justify-center bg-green-ZAP px-4 py-2 gap-4 text-white h-fit">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                  <path d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z" fill="#FAF7F5"/>
-                  <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5"/>
-                  <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5"/>
-                </svg>
-                <p>Tambah ke keranjang</p>
-              </button>
-              <button class="beli-sekarang rounded-md flex justify-center bg-light-maggenta px-4 py-2 gap-4 text-green-ZAP  h-fit">
-                <p>Beli Sekarang</p>
-              </button>
-            </div>
-        </div>
-        <!-- lg  button End  -->
-        <!-- md  button   -->
-        <div class="lg:hidden md:flex hidden fixed bottom-0 inset-x-0 z-20 bg-white px-4 py-4 shadow-xl rounded-md font-spartanMedium text-xs   gap-2  capitalize">
-          <div class="left-content flex  justify-between w-[500px] ">
+        <div class="container lg:flex fixed bottom-8 inset-x-0 z-20 bg-white px-12 py-4 shadow-xl rounded-md font-spartanMedium hidden gap-2 capitalize">
+          <div class="left-content flex justify-between w-[900px]">
             <!-- Name Item -->
             <div class="item-name flex gap-4 flex-col">
-                <h6>Buy 1 Get 1 Yellow Laser</h6>
-                <h2>Rp 2.250.000</h2>
+              <h6>Buy 1 Get 1 Yellow Laser</h6>
+              <h2>Rp 2.250.000</h2>
             </div>
             <!-- Name Item End -->
             <!-- Quantity Item  -->
-            <div class="quantity-item flex flex-col gap-2 ">
-                <p>qty</p>
-                <div class="flex gap-2 ">
-                  <button class="bg-gray-300 rounded-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                      <path d="M5 12l14 0"></path>
-                   </svg>
-                  </button>
-                  <input type="number" class=" rounded-md border-2 border-green-ZAP text-center w-7" value="1">
-                  <button class="bg-green-ZAP rounded-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                      <path d="M12 5l0 14"></path>
-                      <path d="M5 12l14 0"></path>
-                   </svg>
-                  </button>
-                </div>
+            <div class="quantity-item flex flex-col gap-2">
+              <p>qty</p>
+              <div class="flex gap-2">
+                <button class="bg-gray-300 rounded-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-9 h-9" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5 12l14 0"></path>
+                  </svg>
+                </button>
+                <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-10" value="1" />
+                <button class="bg-green-ZAP rounded-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-9 h-9" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 5l0 14"></path>
+                    <path d="M5 12l14 0"></path>
+                  </svg>
+                </button>
+              </div>
             </div>
             <!-- Quantity Item End -->
           </div>
-          <div class="right-content  flex items-end justify-end gap-2  w-[430px]">
+          <div class="right-content flex items-end gap-2 w-[500px]">
+            <button class="tambah-keranjang rounded-md flex justify-center bg-green-ZAP px-4 py-2 gap-4 text-white h-fit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
+                  fill="#FAF7F5"
+                />
+                <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
+                <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
+              </svg>
+              <p>Tambah ke keranjang</p>
+            </button>
+            <button class="beli-sekarang rounded-md flex justify-center bg-light-maggenta px-4 py-2 gap-4 text-green-ZAP h-fit">
+              <p>Beli Sekarang</p>
+            </button>
+          </div>
+        </div>
+        <!-- lg  button End  -->
+        <!-- md  button   -->
+        <div class="lg:hidden md:flex hidden fixed bottom-0 inset-x-0 z-20 bg-white px-4 py-4 shadow-xl rounded-md font-spartanMedium text-xs gap-2 capitalize">
+          <div class="left-content flex justify-between w-[500px]">
+            <!-- Name Item -->
+            <div class="item-name flex gap-4 flex-col">
+              <h6>Buy 1 Get 1 Yellow Laser</h6>
+              <h2>Rp 2.250.000</h2>
+            </div>
+            <!-- Name Item End -->
+            <!-- Quantity Item  -->
+            <div class="quantity-item flex flex-col gap-2">
+              <p>qty</p>
+              <div class="flex gap-2">
+                <button class="bg-gray-300 rounded-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5 12l14 0"></path>
+                  </svg>
+                </button>
+                <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-7" value="1" />
+                <button class="bg-green-ZAP rounded-md">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M12 5l0 14"></path>
+                    <path d="M5 12l14 0"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <!-- Quantity Item End -->
+          </div>
+          <div class="right-content flex items-end justify-end gap-2 w-[430px]">
             <button class="tambah-keranjang rounded-md flex justify-center items-center bg-green-ZAP px-4 py-2 gap-4 text-white">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 24 24" fill="none">
-                <path d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z" fill="#FAF7F5"/>
-                <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5"/>
-                <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5"/>
+                <path
+                  d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
+                  fill="#FAF7F5"
+                />
+                <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
+                <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
               </svg>
               <p>Tambah ke keranjang</p>
             </button>
@@ -781,12 +786,15 @@
         </div>
         <!-- md  button End  -->
         <!-- sm button -->
-        <div class="container md:hidden flex  fixed bottom-0 inset-x-0 z-20 bg-white px-2 py-4 shadow-xl rounded-md font-spartanMedium text-xs justify-center   gap-2  capitalize">
+        <div class="container md:hidden flex fixed bottom-0 inset-x-0 z-20 bg-white px-2 py-4 shadow-xl rounded-md font-spartanMedium text-xs justify-center gap-2 capitalize">
           <button id="tambah-keranjang" class="w-full rounded-md flex justify-center bg-green-ZAP px-1 py-2 gap-2 text-white h-fit">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none">
-              <path d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z" fill="#FAF7F5"/>
-              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5"/>
-              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5"/>
+              <path
+                d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
+                fill="#FAF7F5"
+              />
+              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
+              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
             </svg>
             <p>Tambah ke keranjang</p>
           </button>
@@ -796,97 +804,100 @@
         </div>
         <!-- sm button End -->
         <!-- Add to Cart  -->
-        <div id="addtoCart" class=" bg-black md:hidden hidden fixed inset-0 bg-opacity-40 z-50 text-xs capitalize font-spartanMedium">
-          <div class="flex flex-col gap-3 container absolute bottom-0 b bg-white-ZAP rounded-md rounded-b-none  py-4  ">
+        <div id="addtoCart" class="bg-black md:hidden hidden fixed inset-0 bg-opacity-40 z-50 text-xs capitalize font-spartanMedium">
+          <div class="flex flex-col gap-3 container absolute bottom-0 b bg-white-ZAP rounded-md rounded-b-none py-4">
             <div class="flex justify-between items-center">
-            <!-- Name Item -->
-            <div class="item-name flex gap-3 flex-col">
+              <!-- Name Item -->
+              <div class="item-name flex gap-3 flex-col">
                 <h6>Buy 1 Get 1 Yellow Laser</h6>
                 <h2>Rp 2.250.000</h2>
-            </div>
-            <!-- Name Item End -->
-            <!-- Quantity Item  -->
-            <div class="quantity-item flex flex-col gap-2 ">
+              </div>
+              <!-- Name Item End -->
+              <!-- Quantity Item  -->
+              <div class="quantity-item flex flex-col gap-2">
                 <p>qty</p>
-                <div class="flex gap-2 ">
+                <div class="flex gap-2">
                   <button class="bg-gray-300 rounded-md">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M5 12l14 0"></path>
-                   </svg>
+                    </svg>
                   </button>
-                  <input type="number" class=" rounded-md border-2 border-green-ZAP text-center w-8" value="1">
+                  <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-8" value="1" />
                   <button class="bg-green-ZAP rounded-md">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M12 5l0 14"></path>
                       <path d="M5 12l14 0"></path>
-                   </svg>
+                    </svg>
                   </button>
                 </div>
+              </div>
+              <!-- Quantity Item End -->
             </div>
-            <!-- Quantity Item End -->
-          </div>
-          <button class="rounded-md flex w-full justify-center bg-green-ZAP px-4 py-2 gap-3 text-white h-fit">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none">
-              <path d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z" fill="#FAF7F5"/>
-              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5"/>
-              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5"/>
-            </svg>
-            <p>Tambah ke keranjang</p>
-          </button>
-          <span  class="absolute right-0 -top-9  mx-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="closeCart w-8 h-8 text-white hover:text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M18 6l-12 12"></path>
-              <path d="M6 6l12 12"></path>
-           </svg>
-          </span>
+            <button class="rounded-md flex w-full justify-center bg-green-ZAP px-4 py-2 gap-3 text-white h-fit">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
+                  fill="#FAF7F5"
+                />
+                <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
+                <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
+              </svg>
+              <p>Tambah ke keranjang</p>
+            </button>
+            <span class="absolute right-0 -top-9 mx-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="closeCart w-8 h-8 text-white hover:text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+              </svg>
+            </span>
           </div>
         </div>
         <!-- Add to Cart End -->
         <!-- Checkout now -->
-        <div id="checkOut" class=" bg-black md:hidden hidden fixed inset-0 bg-opacity-40 z-50 text-xs capitalize font-spartanMedium">
-          <div class="flex flex-col gap-3 container absolute bottom-0 b bg-white-ZAP rounded-md rounded-b-none  py-4  ">
+        <div id="checkOut" class="bg-black md:hidden hidden fixed inset-0 bg-opacity-40 z-50 text-xs capitalize font-spartanMedium">
+          <div class="flex flex-col gap-3 container absolute bottom-0 b bg-white-ZAP rounded-md rounded-b-none py-4">
             <div class="flex justify-between items-center">
-            <!-- Name Item -->
-            <div class="item-name flex gap-3 flex-col">
+              <!-- Name Item -->
+              <div class="item-name flex gap-3 flex-col">
                 <h6>Buy 1 Get 1 Yellow Laser</h6>
                 <h2>Rp 2.250.000</h2>
-            </div>
-            <!-- Name Item End -->
-            <!-- Quantity Item  -->
-            <div class="quantity-item flex flex-col gap-2 ">
+              </div>
+              <!-- Name Item End -->
+              <!-- Quantity Item  -->
+              <div class="quantity-item flex flex-col gap-2">
                 <p>qty</p>
-                <div class="flex gap-2 ">
+                <div class="flex gap-2">
                   <button class="bg-gray-300 rounded-md">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M5 12l14 0"></path>
-                   </svg>
+                    </svg>
                   </button>
-                  <input type="number" class=" rounded-md border-2 border-green-ZAP text-center w-8" value="1">
+                  <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-8" value="1" />
                   <button class="bg-green-ZAP rounded-md">
                     <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                       <path d="M12 5l0 14"></path>
                       <path d="M5 12l14 0"></path>
-                   </svg>
+                    </svg>
                   </button>
                 </div>
+              </div>
+              <!-- Quantity Item End -->
             </div>
-            <!-- Quantity Item End -->
-          </div>
-          <button class="rounded-md flex justify-center bg-light-maggenta px-4 py-2 gap-4 text-green-ZAP  h-fit">
-            <p>Beli Sekarang</p>
-          </button>
-          <span class=" absolute right-0 -top-9  mx-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="closeCart w-8 h-8 text-white hover:text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M18 6l-12 12"></path>
-              <path d="M6 6l12 12"></path>
-           </svg>
-          </span>
+            <button class="rounded-md flex justify-center bg-light-maggenta px-4 py-2 gap-4 text-green-ZAP h-fit">
+              <p>Beli Sekarang</p>
+            </button>
+            <span class="absolute right-0 -top-9 mx-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="closeCart w-8 h-8 text-white hover:text-red-500" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+              </svg>
+            </span>
           </div>
         </div>
         <!-- Checkout now End -->

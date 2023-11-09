@@ -177,7 +177,7 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
 
 
   // E-store
-  const bannerStoreSwiper = new Swiper(".banner-Store-content ", {
+  let bannerStoreSwiper = new Swiper(".banner-Store-content ", {
     grabCursor: true,
     loop:true,
     // If we need pagination
@@ -271,3 +271,159 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
 
   });
   // Jadwal  End
+
+
+  // Treatemnt Details
+
+  let stepSwiper = new Swiper(".Step-content ", {
+    slidesPerView: 2,
+    loop:true,
+    grabCursor: true,
+    // If we need pagination
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nextstep',
+      prevEl: '#prevstep',
+    },
+  
+    breakpoints: {
+      360: {
+        slidesPerView: 2,
+        spaceBetween: 40,
+        centeredSlides: true,
+
+      },
+  
+      600: {
+        slidesPerView: 3,
+        spaceBetween: 52,
+
+      },
+      968: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 80,
+        centeredSlides: true,
+      },
+    }
+  });
+
+
+
+  let carakerjaSwiper = new Swiper(".cara-kerjaTreatment-content", {
+    slidesPerView: 2,
+    spaceBetween:20,
+    grabCursor: true,
+    // If we need pagination
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nextCaraKerja',
+      prevEl: '#prevCaraKerja',
+    },
+  
+    breakpoints: {
+      360: {
+        slidesPerView: 2,
+        spaceBetween: 12,
+      },
+  
+      600: {
+        slidesPerView: 2.5,
+        spaceBetween: 12,
+
+      },
+      968: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+    }
+  });
+
+
+  let BaSwiper = new Swiper(".card-content-Before-After", {
+    grabCursor: true,
+    loop:true,
+    // If we need pagination
+    pagination: {
+      clickable: true,
+      dynamicBullets: true,
+    },
+    autoplay : {
+      delay : 4000,
+      disableOnInteraction: true,
+  },
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nextBeforeAfter',
+      prevEl: '#prevBeforeAfter',
+    },
+
+    breakpoints: {
+      360: {
+        slidesPerView: 1.3,
+        spaceBetween: 12,
+        centeredSlides: true,
+      },
+  
+      600: {
+        slidesPerView: 2.5,
+        spaceBetween: 12,
+
+      },
+      968: {
+        slidesPerView: 3.5,
+        spaceBetween: 10,
+        centeredSlides: true,
+
+      },
+    },
+  });
+
+
+  let RaSwiper = new Swiper(".card-content-treatment", {
+    slidesPerView: 1.1,
+    spaceBetween: 10,
+    grabCursor: true,
+    loop:true,   
+   
+    autoplay : {
+      delay : 4000,
+      disableOnInteraction: false,
+  },
+    // Navigation arrows
+    navigation: {
+      nextEl: '#nexttreatmentRecomendations',
+      prevEl: '#prevtreatmentRecomendations',
+    },
+    breakpoints: {
+      360: {
+        slidesPerView: 1.1,
+        spaceBetween: 10,
+        centeredSlides: true,
+      },
+  
+      600: {
+        slidesPerView: 2.2,
+        spaceBetween: 12,
+        centeredSlides: true,
+
+      },
+      968: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+
+
+      },
+    },
+  });
+
+
+  // Treatemnt Details end
+
+
