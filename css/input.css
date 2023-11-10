@@ -18,6 +18,10 @@
     display: none;
   }
 
+  .tabel-kelebihanZAP::-webkit-scrollbar {
+    display:none
+  }
+
 
 
   html {

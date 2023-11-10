@@ -382,6 +382,7 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
         centeredSlides: true,
 
       },
+
     },
   });
 
@@ -415,10 +416,24 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
 
       },
       968: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 10,
 
 
+      },
+
+      1320 : {
+        slidesPerView: 2.5,
+        spaceBetween: 10,
+        centeredSlides: true,
+
+      },
+
+
+      1600: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        centeredSlides: true,
       },
     },
   });
