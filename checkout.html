@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZAP | Checkout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="website icon"
+      type="png"
+      href="temp-asset/statis-asset/Logo-Zap.svg"
+    />
+    <link rel="stylesheet" href="css/output.css" />
+  </head>
+  <style>
+    .pink_bulet {
+      background: rgba(248, 149, 140, 0.2);
+    }
+    .box-shadow {
+      box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.09);
+    }
+    .borderless-input {
+      border: none;
+      transition: border-bottom 0.3s ease; /* Add a smooth transition effect */
+    }
+
+    .borderless-input:focus {
+      outline: none;
+    }
+    @media only screen and (max-width: 768px) {
+      .detail_harga {
+        width: 50%;
+      }
+    }
+    @media only screen and (max-width: 690px) {
+      .detail_harga {
+        width: 50%;
+      }
+      .detail_harga_2 {
+        width: 50%;
+      }
+    }
+    @media only screen and (max-width: 557px) {
+      .harga {
+        flex-direction: column;
+        align-items: start;
+      }
+      .promo {
+        flex-direction: column;
+        width: 100%;
+      }
+      .promo_atas {
+        width: 100%;
+      }
+      .input_promo {
+        width: 65%;
+      }
+      .detail_harga {
+        width: 100%;
+      }
+      /* .dalem {
+        justify-content: left;
+        align-items: left;
+      } */
+    }
+  </style>
+  <body class="bg-white-ZAP">
+    <header>
+      <div class="container pt-[103px]">
+        <img src="temp-asset/statis-asset/Logo-Zap.svg" alt="" />
+      </div>
+    </header>
+    <main class="">
+      <div class="container">
+        <div class="flex flex-col items-center gap-4">
+          <h1 class="uppercase text-[21px] font-spartanMedium text-dark-grey">
+            checkout
+          </h1>
+          <hr class="w-[100px] h-0.5 bg-dark-grey" />
+        </div>
+        <div
+          class="container border border-solid border-zap-border mt-[21px] rounded-lg box-shadow"
+        >
+          <div>
+            <h1 class="text-green-ZAP font-spartanMedium text-[21px] uppercase">
+              Data Pengiriman
+            </h1>
+          </div>
+          <div class="mt-[21px]">
+            <form action="" class="flex flex-col gap-3">
+              <div class="nama flex gap-3">
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
+                >
+                  <input
+                    type="text"
+                    placeholder="Tulis Nama Depan"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
+                >
+                  <input
+                    type="text"
+                    placeholder="Tulis Nama Belakang"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+              </div>
+              <div class="hp-email flex gap-3">
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
+                >
+                  <input
+                    type="text"
+                    placeholder="Cth: 08123456789"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
+                >
+                  <input
+                    type="text"
+                    placeholder="Email yang masih aktif"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+              </div>
+              <div class="alamat flex gap-3">
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-full"
+                >
+                  <input
+                    type="text"
+                    placeholder="Tulis alamat kamu"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+              </div>
+              <div class="detail-alamat flex gap-3">
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
+                >
+                  <input
+                    type="text"
+                    placeholder="Kabupaten/ Kota"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
+                >
+                  <input
+                    type="text"
+                    placeholder="Kecamatan"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
+                >
+                  <input
+                    type="text"
+                    placeholder="Kelurahan"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div
+                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
+                >
+                  <input
+                    type="text"
+                    placeholder="Kode Pos"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="container border border-solid border-zap-border mt-5 rounded-lg box-shadow"
+        >
+          <div>
+            <h1 class="text-green-ZAP font-spartanMedium text-[21px] uppercase">
+              Daftar Belanja
+            </h1>
+          </div>
+          <div class="mt-[31px dalem] flex justify-between">
+            <div class="flex items-center">
+              <div>
+                <img src="temp-asset/cart/product.svg" alt="" />
+              </div>
+              <div class="ml-4">
+                <div class="w-[241px]">
+                  <h1 class="text-sm font-spartanSemiBold text-dark-grey">
+                    New Edition 1 Year Upper Arm Hair Removal Membership
+                  </h1>
+                </div>
+
+                <div class="flex gap-[6px] harga items-center">
+                  <div class="flex gap-[6px] items-center">
+                    <div class="rounded-[54px] pink_bulet">
+                      <h1
+                        class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
+                      >
+                        50%
+                      </h1>
+                    </div>
+                    <h1
+                      class="font-spartanRegular text-[10px] text-dark-grey line-through"
+                    >
+                      Rp 4.500.000
+                    </h1>
+                  </div>
+                  <div>
+                    <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
+                      Rp 2.250.000
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h1 class="font-spartanRegular text-dark-grey text-[13px]">x2</h1>
+            </div>
+            <div>
+              <h1 class="text-dark-grey font-spartanRegular text-[13px]">
+                Rp 4.500.000
+              </h1>
+            </div>
+          </div>
+          <hr class="w-full bg-dark-grey h-px opacity-30 mt-5" />
+          <div class="mt-[31px] flex justify-between test">
+            <div class="flex items-center">
+              <div>
+                <img src="temp-asset/cart/product.svg" alt="" />
+              </div>
+              <div class="ml-4">
+                <div class="w-[241px]">
+                  <h1 class="text-sm font-spartanSemiBold text-dark-grey">
+                    New Edition 1 Year Upper Arm Hair Removal Membership
+                  </h1>
+                </div>
+
+                <div class="flex gap-[6px] items-center harga">
+                  <div class="flex gap-[6px] items-center dalem">
+                    <div class="rounded-[54px] pink_bulet">
+                      <h1
+                        class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
+                      >
+                        50%
+                      </h1>
+                    </div>
+                    <h1
+                      class="font-spartanRegular text-[10px] text-dark-grey line-through"
+                    >
+                      Rp 4.500.000
+                    </h1>
+                  </div>
+                  <div>
+                    <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
+                      Rp 2.250.000
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h1 class="font-spartanRegular text-dark-grey text-[13px]">x2</h1>
+            </div>
+            <div>
+              <h1 class="text-dark-grey font-spartanRegular text-[13px]">
+                Rp 4.500.000
+              </h1>
+            </div>
+          </div>
+          <hr class="w-full bg-dark-grey h-px opacity-30 mt-5" />
+
+          <div class="flex justify-between mt-[27px] promo">
+            <div class="w-1/2 promo_atas">
+              <h1 class="text-[10px] font-spartanRegular text-dark-grey">
+                Kode Promo
+              </h1>
+              <div class="flex gap-3 promo_atas">
+                <div
+                  class="px-[25px] py-[10px] border-zap-border border border-solid rounded-lg w-1/2 input_promo"
+                >
+                  <input
+                    type="text"
+                    placeholder="Masukan kode promo"
+                    class="bg-transparent w-full"
+                  />
+                </div>
+                <div class="bg-green-ZAP rounded-lg flex items-center">
+                  <h1
+                    class="text-sm text-white-ZAP font-spartanSemiBold py-[9px] px-4 text-center"
+                  >
+                    Terapkan Promo
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col w-[353px] detail_harga">
+              <div class="flex">
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-dark-grey text-[13px] font-spartanRegular"
+                  >
+                    SUb total
+                  </h1>
+                </div>
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-black-ZAP text-[13px] font-spartanRegular"
+                  >
+                    Rp 8.492.999
+                  </h1>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-dark-grey text-[13px] font-spartanRegular"
+                  >
+                    ongkos kirim
+                  </h1>
+                </div>
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-black-ZAP text-[13px] font-spartanRegular"
+                  >
+                    Rp 0
+                  </h1>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-dark-grey text-[13px] font-spartanRegular"
+                  >
+                    diskon
+                  </h1>
+                </div>
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-black-ZAP text-[13px] font-spartanRegular"
+                  >
+                    Rp 0
+                  </h1>
+                </div>
+              </div>
+              <div class="flex">
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-dark-grey text-sm font-spartanSemiBold"
+                  >
+                    Total belanja
+                  </h1>
+                </div>
+                <div class="w-[165px] detail_harga_2">
+                  <h1
+                    class="uppercase text-right text-black-ZAP text-sm font-spartanSemiBold"
+                  >
+                    Rp 8.492.999
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between mt-5">
+          <div></div>
+          <div class="bg-green-ZAP rounded-lg flex items-center">
+            <h1
+              class="text-sm text-white-ZAP font-spartanSemiBold py-[9px] px-4 text-center"
+            >
+              Proses Pembayaran Sekarang
+            </h1>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="mt-[90px]">
+      <div class="container flex items-center justify-center">
+        <h1 class="font-spartanRegular text-[13px] text-dark-grey">
+          Copyright © 2023 PT.Zulu Alpha Papa All Right Reserved
+        </h1>
+      </div>
+    </footer>
+  </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const inputs = document.querySelectorAll(".border-zap-border input");
+
+      inputs.forEach(function (input) {
+        input.addEventListener("input", function () {
+          if (input.value.trim() !== "") {
+            input.classList.add("borderless-input");
+          } else {
+            input.classList.remove("borderless-input");
+          }
+        });
+
+        input.addEventListener("focus", function () {
+          input.classList.add("borderless-input");
+        });
+
+        input.addEventListener("blur", function () {
+          if (input.value.trim() === "") {
+            input.classList.remove("borderless-input");
+          }
+        });
+      });
+    });
+  </script>
+</html>

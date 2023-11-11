@@ -8,7 +8,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        'offcanvas-bg': "url('../temp-asset/statis-asset/Navbar.png')",
+        "offcanvas-bg": "url('../temp-asset/statis-asset/Navbar.png')",
       },
 
       fontFamily: {
@@ -24,18 +24,20 @@ module.exports = {
       },
 
       colors: {
-        "green-ZAP" : "#31AB5C",
-        "black-ZAP" : "#231F20",
+        "green-ZAP": "#31AB5C",
+        "black-ZAP": "#231F20",
         "white-ZAP": "#FAF7F5",
         "light-green": "#E0F2D6",
         "yellow-ZAP": "#F8D6B7",
         "light-maggenta": "#EFCDC2",
-        "pink-ZAP": "#F8958C", 
+        "pink-ZAP": "#F8958C",
         "grey-ZAP": "#767876",
         "dark-grey": "#343534",
         "brownCream-zap": "#C0A279",
         "brown-zap": "#8B4328",
         "blue-water-zap": "#50ABF0",
+        "zap-border": "#D3D3D3",
+        "zap-brown-table": "#B49E78",
       },
 
       screens: {
