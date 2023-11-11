@@ -9,6 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "offcanvas-bg": "url('../temp-asset/statis-asset/Navbar.png')",
+        "onlineBookGreen-bg": "url('../temp-asset/homepage/Booking-1.png')",
+        "onlineBookPink-bg": "url('../temp-asset/homepage/Booking-2.png')",
       },
 
       fontFamily: {
