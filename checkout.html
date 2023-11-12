@@ -48,6 +48,21 @@
         flex-direction: column;
         align-items: start;
       }
+      .hp-email {
+        flex-direction: column;
+      }
+      .hp,
+      .email,
+      .kabupaten-kecamatan,
+      .kelurahan-pos {
+        width: 100%;
+      }
+      .detail-alamat {
+        flex-direction: column;
+      }
+      .title_product{
+        width: 100%;
+      }
       .promo {
         flex-direction: column;
         width: 100%;
@@ -61,10 +76,6 @@
       .detail_harga {
         width: 100%;
       }
-      /* .dalem {
-        justify-content: left;
-        align-items: left;
-      } */
     }
   </style>
   <body class="bg-white-ZAP">
@@ -439,92 +450,160 @@
           <div class="mt-[21px]">
             <form action="" class="flex flex-col gap-3">
               <div class="nama flex gap-3">
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
-                >
-                  <input
-                    type="text"
-                    placeholder="Tulis Nama Depan"
-                    class="bg-transparent w-full"
-                  />
+                <div class="w-1/2">
+                  <label
+                    for=""
+                    class="font-spartanRegular text-dark-grey text-[8px]"
+                    >Nama Depan</label
+                  >
+                  <div
+                    class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Tulis Nama Depan"
+                      class="bg-transparent w-full"
+                    />
+                  </div>
                 </div>
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
-                >
-                  <input
-                    type="text"
-                    placeholder="Tulis Nama Belakang"
-                    class="bg-transparent w-full"
-                  />
+
+                <div class="w-1/2">
+                  <label
+                    for=""
+                    class="font-spartanRegular text-dark-grey text-[8px]"
+                    >Nama Belakang</label
+                  >
+                  <div
+                    class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Tulis Nama Depan"
+                      class="bg-transparent w-full"
+                    />
+                  </div>
                 </div>
               </div>
               <div class="hp-email flex gap-3">
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
-                >
-                  <input
-                    type="text"
-                    placeholder="Cth: 08123456789"
-                    class="bg-transparent w-full"
-                  />
+                <div class="w-1/2 hp">
+                  <label
+                    for=""
+                    class="font-spartanRegular text-dark-grey text-[8px]"
+                    >No HP</label
+                  >
+                  <div
+                    class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Tulis Nama Depan"
+                      class="bg-transparent w-full"
+                    />
+                  </div>
                 </div>
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/2"
-                >
-                  <input
-                    type="text"
-                    placeholder="Email yang masih aktif"
-                    class="bg-transparent w-full"
-                  />
+                <div class="w-1/2 email">
+                  <label
+                    for=""
+                    class="font-spartanRegular text-dark-grey text-[8px]"
+                    >Email</label
+                  >
+                  <div
+                    class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Tulis Nama Depan"
+                      class="bg-transparent w-full"
+                    />
+                  </div>
                 </div>
               </div>
               <div class="alamat flex gap-3">
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-full"
-                >
-                  <input
-                    type="text"
-                    placeholder="Tulis alamat kamu"
-                    class="bg-transparent w-full"
-                  />
+                <div class="w-full">
+                  <label
+                    for=""
+                    class="font-spartanRegular text-dark-grey text-[8px]"
+                    >Alamat</label
+                  >
+                  <div
+                    class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                  >
+                    <input
+                      type="text"
+                      placeholder="Tulis Nama Depan"
+                      class="bg-transparent w-full"
+                    />
+                  </div>
                 </div>
               </div>
               <div class="detail-alamat flex gap-3">
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
-                >
-                  <input
-                    type="text"
-                    placeholder="Kabupaten/ Kota"
-                    class="bg-transparent w-full"
-                  />
+                <div class="flex w-1/2 gap-3 kabupaten-kecamatan">
+                  <div class="w-full kabupaten">
+                    <label
+                      for=""
+                      class="font-spartanRegular text-dark-grey text-[8px]"
+                      >Kabupaten/Kota</label
+                    >
+                    <div
+                      class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Tulis Nama Depan"
+                        class="bg-transparent w-full"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full kecamatan">
+                    <label
+                      for=""
+                      class="font-spartanRegular text-dark-grey text-[8px]"
+                      >Kecamatan</label
+                    >
+                    <div
+                      class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Tulis Nama Depan"
+                        class="bg-transparent w-full"
+                      />
+                    </div>
+                  </div>
                 </div>
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
-                >
-                  <input
-                    type="text"
-                    placeholder="Kecamatan"
-                    class="bg-transparent w-full"
-                  />
-                </div>
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
-                >
-                  <input
-                    type="text"
-                    placeholder="Kelurahan"
-                    class="bg-transparent w-full"
-                  />
-                </div>
-                <div
-                  class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg w-1/4"
-                >
-                  <input
-                    type="text"
-                    placeholder="Kode Pos"
-                    class="bg-transparent w-full"
-                  />
+                <div class="flex w-1/2 gap-3 kelurahan-pos">
+                  <div class="w-full kelurahan">
+                    <label
+                      for=""
+                      class="font-spartanRegular text-dark-grey text-[8px]"
+                      >Kelurahan</label
+                    >
+                    <div
+                      class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Tulis Nama Depan"
+                        class="bg-transparent w-full"
+                      />
+                    </div>
+                  </div>
+                  <div class="w-full kodepos">
+                    <label
+                      for=""
+                      class="font-spartanRegular text-dark-grey text-[8px]"
+                      >Kode Pos</label
+                    >
+                    <div
+                      class="px-[25px] py-[15px] border-zap-border border border-solid rounded-lg"
+                    >
+                      <input
+                        type="text"
+                        placeholder="Tulis Nama Depan"
+                        class="bg-transparent w-full"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </form>
@@ -544,7 +623,7 @@
                 <img src="temp-asset/cart/product.svg" alt="" />
               </div>
               <div class="ml-4">
-                <div class="w-[241px]">
+                <div class="w-[241px] title_product">
                   <h1 class="text-sm font-spartanSemiBold text-dark-grey">
                     New Edition 1 Year Upper Arm Hair Removal Membership
                   </h1>
@@ -590,7 +669,7 @@
                 <img src="temp-asset/cart/product.svg" alt="" />
               </div>
               <div class="ml-4">
-                <div class="w-[241px]">
+                <div class="w-[241px] title_product">
                   <h1 class="text-sm font-spartanSemiBold text-dark-grey">
                     New Edition 1 Year Upper Arm Hair Removal Membership
                   </h1>

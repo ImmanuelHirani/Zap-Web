@@ -1666,6 +1666,10 @@ hr {
   min-width: 100%;
 }
 
+.min-w-\[100px\] {
+  min-width: 100px;
+}
+
 .max-w-5xl {
   max-width: 64rem;
 }

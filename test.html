@@ -16,321 +16,96 @@
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <style>
-    .swiper {
-      margin-inline: 250px !important;
+    input[type="checkbox"] + span,
+    input[type="checkbox"] + span::before {
+      display: inline-block;
+      vertical-align: middle;
     }
-    .swiper-slide {
-      display: flex;
-      justify-content: space-between;
+
+    input[type="checkbox"] {
+      opacity: 0;
+      position: absolute;
     }
-    .swiper-button-prev::after,
-    .swiper-button-next::after {
+
+    input[type="checkbox"] + span {
+      font: normal 11px/14px Arial, Sans-serif;
+      color: #333;
+    }
+
+    input[type="checkbox"] + span::before {
       content: "";
+      width: 12px;
+      height: 12px;
+      margin: 0 4px 0 0;
+      border: solid 1px #a8a8a8;
+      line-height: 14px;
+      text-align: center;
+
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+
+      background: #f6f6f6;
+      background: -moz-radial-gradient(#f6f6f6, #dfdfdf);
+      background: -webkit-radial-gradient(#f6f6f6, #dfdfdf);
+      background: -ms-radial-gradient(#f6f6f6, #dfdfdf);
+      background: -o-radial-gradient(#f6f6f6, #dfdfdf);
+      background: radial-gradient(#f6f6f6, #dfdfdf);
     }
-    .swiper-button-prev,
-    .swiper-button-next {
-      width: initial;
-      height: initial;
+
+    input[type="checkbox"]:checked + span::before {
+      color: #666;
     }
-    .swiper-button-prev {
-      left: 0;
+
+    input[type="checkbox"]:disabled + span {
+      cursor: default;
+
+      -moz-opacity: 0.4;
+      -webkit-opacity: 0.4;
+      opacity: 0.4;
     }
-    .swiper-button-next {
-      right: 0;
+
+    input[type="checkbox"] + span::before {
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
     }
-    @media only screen and (max-width: 1300px) {
-      .swiper {
-        margin-inline: 100px !important;
-      }
-      .btn-left {
-        left: 2rem;
-      }
-      .btn-right {
-        right: 2rem;
-      }
+
+    input[type="checkbox"]:checked + span::before {
+      content: "\2714";
+      font-size: 12px;
     }
-    @media only screen and (max-width: 515px) {
-      .swiper {
-        margin-inline: 50px !important;
-      }
+
+    input[class="red"] + span::before {
+      border: solid 1px green;
+      background: white;
     }
-    @media only screen and (max-width: 450px) {
-      .swiper-slide {
-        grid-template-columns: 1fr !important;
-      }
-    }
-    @media only screen and (max-width: 434px) {
-      #head-title a {
-        font-size: 12px;
-        display: flex;
-        gap: 2px;
-      }
-      .title-text {
-        font-size: 30px;
-        line-height: 150%;
-      }
-      .date {
-        font-size: 10px;
-      }
-    }
-    @media only screen and (max-width: 415px) {
-      .judul-article {
-        font-size: 12px;
-      }
-      .swiper {
-        margin-inline: 25px !important;
-      }
-      .btn-left img,
-      .btn-right img {
-        width: 36px;
-      }
-      .btn-left {
-        left: 1rem;
-      }
-      .btn-right {
-        right: 1rem;
-      }
-    }
-    @media only screen and (max-width: 365px) {
-      .swiper {
-        margin-inline: 12px !important;
-      }
-      .btn-left {
-        left: 0.5rem;
-      }
-      .btn-right {
-        right: 0.5rem;
-      }
-    }
-    @media only screen and (max-width: 345px) {
-      #head-title a {
-        font-size: 10px;
-        display: flex;
-        gap: 2px;
-      }
-      .title-text {
-        font-size: 20px;
-        line-height: 150%;
-      }
-      .date {
-        font-size: 8px;
-      }
+    input[class="red"]:checked + span::before {
+      color: green;
     }
   </style>
 
   <body class="bg-white-ZAP">
     <main class="mt-32">
       <section class="artikel-terkait">
-        <div class="swiper-containers relative">
-          <div class="card__container lg:max-w-screen-lg swiper">
-            <div class="card__content md:mx-3">
-              <div class="swiper-wrapper flex items-center sm:p-1">
-                <div
-                  class="flex items-center border border-solid border-zap-border container rounded-lg bg-light-green swiper-slide"
-                >
-                  <div class="flex gap-[27px] bg-red-300">
-                    <div>
-                      <img src="temp-asset/cart/product.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col gap-[6px]">
-                      <h1 class="text-sm text-dark-grey font-spartanSemiBold">
-                        Buy 1 Get 1 Yellow Laser
-                      </h1>
-                      <div class="flex gap-[6px]">
-                        <div class="rounded-[54px] pink_bulet">
-                          <h1
-                            class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
-                          >
-                            50%
-                          </h1>
-                        </div>
-                        <h1
-                          class="font-spartanRegular text-[10px] text-dark-grey line-through"
-                        >
-                          Rp 4.500.000
-                        </h1>
-                      </div>
-                      <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
-                        Rp 2.250.000
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center border border-solid border-zap-border container rounded-lg bg-light-green swiper-slide"
-                >
-                  <div class="flex gap-[27px]">
-                    <div>
-                      <img src="temp-asset/cart/product.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col gap-[6px]">
-                      <h1 class="text-sm text-dark-grey font-spartanSemiBold">
-                        Buy 1 Get 1 Yellow Laser
-                      </h1>
-                      <div class="flex gap-[6px]">
-                        <div class="rounded-[54px] pink_bulet">
-                          <h1
-                            class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
-                          >
-                            50%
-                          </h1>
-                        </div>
-                        <h1
-                          class="font-spartanRegular text-[10px] text-dark-grey line-through"
-                        >
-                          Rp 4.500.000
-                        </h1>
-                      </div>
-                      <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
-                        Rp 2.250.000
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center border border-solid border-zap-border container rounded-lg bg-light-green swiper-slide"
-                >
-                  <div class="flex gap-[27px]">
-                    <div>
-                      <img src="temp-asset/cart/product.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col gap-[6px]">
-                      <h1 class="text-sm text-dark-grey font-spartanSemiBold">
-                        Buy 1 Get 1 Yellow Laser
-                      </h1>
-                      <div class="flex gap-[6px]">
-                        <div class="rounded-[54px] pink_bulet">
-                          <h1
-                            class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
-                          >
-                            50%
-                          </h1>
-                        </div>
-                        <h1
-                          class="font-spartanRegular text-[10px] text-dark-grey line-through"
-                        >
-                          Rp 4.500.000
-                        </h1>
-                      </div>
-                      <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
-                        Rp 2.250.000
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="flex items-center border border-solid border-zap-border container rounded-lg bg-light-green swiper-slide"
-                >
-                  <div class="flex gap-[27px]">
-                    <div>
-                      <img src="temp-asset/cart/product.svg" alt="" />
-                    </div>
-                    <div class="flex flex-col gap-[6px]">
-                      <h1 class="text-sm text-dark-grey font-spartanSemiBold">
-                        Buy 1 Get 1 Yellow Laser
-                      </h1>
-                      <div class="flex gap-[6px]">
-                        <div class="rounded-[54px] pink_bulet">
-                          <h1
-                            class="font-spartanRegular text-pink-ZAP text-[10px] px-3 py-0.5"
-                          >
-                            50%
-                          </h1>
-                        </div>
-                        <h1
-                          class="font-spartanRegular text-[10px] text-dark-grey line-through"
-                        >
-                          Rp 4.500.000
-                        </h1>
-                      </div>
-                      <h1 class="text-sm text-green-ZAP font-spartanSemiBold">
-                        Rp 2.250.000
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="btn-left absolute left-32 right-0 top-0 bottom-0">
-            <img
-              src="/temp-asset/article-detail/slider-arrow-left.png"
-              class="swiper-button-prev"
-              alt=""
-            />
-          </div>
-          <div class="btn-right absolute left-0 right-32 top-0 bottom-0">
-            <img
-              src="/temp-asset/article-detail/slider-arrow-right.png"
-              class="swiper-button-next"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="swiper text-center md:mt-8 mt-0">
-          <div class="promo-content">
-            <div class="swiper-wrapper py-1 relative">
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-1.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-2.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-3.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-2.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-3.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="temp-asset/homepage/Promo-2.png"
-                  class="outline outline-[1px] outline-grey-ZAP rounded-lg w-full"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="swiper-custom-nav absolute bottom-1/2 translate-y-1/2 left-0 z-10 flex inset-x-0 md:mx-10 mx-4 justify-between lg:px-5 md:px-3"
+        <div class="flex items-center gap-3 mt-[41px] checkbox">
+          <input
+            type="checkbox"
+            class="cursor-pointer border-2 border-solid border-grey-ZAP w-[21px] h-[21px] all"
+          />
+          <span class="font-spartanRegular text-[13px] text-grey-ZAP"
+            >Pilih Semua</span
           >
-            <img
-              src="temp-asset/statis-asset/Arrow_R.png"
-              class="md:w-16 md:h-16 w-12 h-12"
-              id="prevPromo"
-              alt=""
-            />
-            <img
-              src="temp-asset/statis-asset/Arrow_L.png"
-              class="md:w-16 md:h-16 w-12 h-12"
-              id="nextPromo"
-              alt=""
-            />
-          </div>
         </div>
+
+        <label
+          ><input
+            type="checkbox"
+            checked="checked"
+            name="checkbox-01"
+            class="red"
+          /><span>selected checkbox</span></label
+        >
       </section>
     </main>
     <footer>
