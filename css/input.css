@@ -349,24 +349,10 @@
   width: 518px;
   margin-top: 24px;
 }
-table {
-  border-collapse: collapse;
-}
-table td,
-th {
-  border-left: 1px solid #31ab5c;
-  border-right: 1px solid #31ab5c;
-}
-th {
-  border: 1px solid #31ab5c;
-}
-table td:first-child {
-  border-left: 1px solid #31ab5c;
-}
 
-table td:last-child {
-  border-right: none;
-}
+
+
+
 .lifetime__button:hover {
   cursor: pointer;
 }

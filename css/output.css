@@ -776,12 +776,12 @@ hr {
   left: 1.25rem;
 }
 
-.left-\[80\%\] {
-  left: 80%;
+.left-\[1000px\] {
+  left: 1000px;
 }
 
-.left-\[900px\] {
-  left: 900px;
+.left-\[80\%\] {
+  left: 80%;
 }
 
 .right-0 {
@@ -854,18 +854,6 @@ hr {
 
 .top-8 {
   top: 2rem;
-}
-
-.left-\[1000px\] {
-  left: 1000px;
-}
-
-.left-\[1200px\] {
-  left: 1200px;
-}
-
-.left-\[00px\] {
-  left: 00px;
 }
 
 .-z-10 {
@@ -1182,10 +1170,6 @@ hr {
 
 .mt-\[78px\] {
   margin-top: 78px;
-}
-
-.mt-\[90px\] {
-  margin-top: 90px;
 }
 
 .line-clamp-1 {
@@ -2184,6 +2168,10 @@ hr {
   border-bottom-width: 6px;
 }
 
+.border-r {
+  border-right-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -2732,10 +2720,6 @@ hr {
 
 .pt-9 {
   padding-top: 2.25rem;
-}
-
-.pt-\[103px\] {
-  padding-top: 103px;
 }
 
 .pt-\[10px\] {
@@ -3640,28 +3624,6 @@ h6 {
 .benefit {
   width: 518px;
   margin-top: 24px;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-table td,
-th {
-  border-left: 1px solid #31ab5c;
-  border-right: 1px solid #31ab5c;
-}
-
-th {
-  border: 1px solid #31ab5c;
-}
-
-table td:first-child {
-  border-left: 1px solid #31ab5c;
-}
-
-table td:last-child {
-  border-right: none;
 }
 
 .lifetime__button:hover {
