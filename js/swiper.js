@@ -441,4 +441,36 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
 
   // Treatemnt Details end
 
+// Cart
 
+let OtherProductCartContent = new Swiper(".otherproductCart-content", {
+  grabCursor: true,
+  loop:true,   
+  // If we need pagination
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '#nextCartOtherproduct',
+    prevEl: '#prevCartOtherproduct',
+  },
+
+
+  breakpoints: {
+    360: {
+      slidesPerView: 1.1,
+      spaceBetween: 12,
+    },
+
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 12,
+
+    },
+    968: {
+      slidesPerView: 2,
+      spaceBetween: 12,
+    },
+  },
+});
+
+// Cart end

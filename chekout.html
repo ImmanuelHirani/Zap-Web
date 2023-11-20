@@ -164,351 +164,178 @@
       </div>
     </header>
     <main>
-      <section class="cart">
-        <div class="container">
-          <div class="grid grid-cols-8 md:gap-14 gap-7">
-            <div class="lg:col-span-6 col-span-8 md:gap-12 gap-6 flex flex-col">
-              <div class="title text-center flex flex-col gap-4 p-4">
-                <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">KERANJANG BELANJA</h2>
-                <hr class="mx-auto" />
-              </div>
-              <span class="flex items-center gap-4">
-                <input type="checkbox" name="CheckAll" id="CheckAll" />
-                <label for="CheckAll">Pilih Semua</label>
-              </span>
-              <!-- Cart item -->
-              <div class="cart_item flex flex-col items-end gap-6">
-                <div class="flex items-center md:gap-8 gap-4 justify-between">
-                  <span>
-                    <input type="checkbox" />
-                  </span>
-                  <div class="flex md:gap-6 gap-2 md:items-center items-start">
-                    <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] md:w-[30%] w-[40%] shadow-md" alt="" />
-                    <span class="flex flex-col gap-3">
-                      <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                      <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                        <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                        <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                      </div>
-                      <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                      <span class="md:hidden flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 7l16 0" />
-                          <path d="M10 11l0 6" />
-                          <path d="M14 11l0 6" />
-                          <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                          <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                        </svg>
-                        <div class="flex gap-2">
-                          <button class="bg-gray-300 rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                          <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-6" value="1" />
-                          <button class="bg-green-ZAP rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M12 5l0 14"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </span>
-                    </span>
-                  </div>
-                  <span class="md:flex hidden items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M4 7l16 0" />
-                      <path d="M10 11l0 6" />
-                      <path d="M14 11l0 6" />
-                      <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                      <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                    </svg>
-                    <div class="flex gap-2">
-                      <button class="bg-gray-300 rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                      <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-8" value="1" />
-                      <button class="bg-green-ZAP rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M12 5l0 14"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </span>
-                </div>
-                <hr class="w-full border-[0.1px] border-grey-ZAP" />
-              </div>
-              <div class="cart_item flex flex-col items-end gap-6">
-                <div class="flex items-center md:gap-8 gap-4 justify-between">
-                  <span>
-                    <input type="checkbox" />
-                  </span>
-                  <div class="flex md:gap-6 gap-2 md:items-center items-start">
-                    <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] md:w-[30%] w-[40%] shadow-md" alt="" />
-                    <span class="flex flex-col gap-3">
-                      <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                      <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                        <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                        <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                      </div>
-                      <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                      <span class="md:hidden flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 7l16 0" />
-                          <path d="M10 11l0 6" />
-                          <path d="M14 11l0 6" />
-                          <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                          <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                        </svg>
-                        <div class="flex gap-2">
-                          <button class="bg-gray-300 rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                          <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-6" value="1" />
-                          <button class="bg-green-ZAP rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M12 5l0 14"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </span>
-                    </span>
-                  </div>
-                  <span class="md:flex hidden items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M4 7l16 0" />
-                      <path d="M10 11l0 6" />
-                      <path d="M14 11l0 6" />
-                      <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                      <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                    </svg>
-                    <div class="flex gap-2">
-                      <button class="bg-gray-300 rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                      <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-8" value="1" />
-                      <button class="bg-green-ZAP rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M12 5l0 14"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </span>
-                </div>
-                <hr class="w-full border-[0.1px] border-grey-ZAP" />
-              </div>
-              <div class="cart_item flex flex-col items-end gap-6">
-                <div class="flex items-center md:gap-8 gap-4 justify-between">
-                  <span>
-                    <input type="checkbox" />
-                  </span>
-                  <div class="flex md:gap-6 gap-2 md:items-center items-start">
-                    <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] md:w-[30%] w-[40%] shadow-md" alt="" />
-                    <span class="flex flex-col gap-3">
-                      <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                      <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                        <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                        <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                      </div>
-                      <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                      <span class="md:hidden flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                          <path d="M4 7l16 0" />
-                          <path d="M10 11l0 6" />
-                          <path d="M14 11l0 6" />
-                          <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                          <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                        </svg>
-                        <div class="flex gap-2">
-                          <button class="bg-gray-300 rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                          <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-6" value="1" />
-                          <button class="bg-green-ZAP rounded-md">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                              <path d="M12 5l0 14"></path>
-                              <path d="M5 12l14 0"></path>
-                            </svg>
-                          </button>
-                        </div>
-                      </span>
-                    </span>
-                  </div>
-                  <span class="md:flex hidden items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <path d="M4 7l16 0" />
-                      <path d="M10 11l0 6" />
-                      <path d="M14 11l0 6" />
-                      <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />
-                      <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" />
-                    </svg>
-                    <div class="flex gap-2">
-                      <button class="bg-gray-300 rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                      <input type="number" class="rounded-md border-2 border-green-ZAP text-center w-8" value="1" />
-                      <button class="bg-green-ZAP rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-white w-8 h-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                          <path d="M12 5l0 14"></path>
-                          <path d="M5 12l14 0"></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </span>
-                </div>
-                <hr class="w-full border-[0.1px] border-grey-ZAP" />
-              </div>
-              <!-- Cart item End -->
-              <!-- Other Product -->
-              <div class="otherproductCart mt-12">
-                <div class="title text-center flex flex-col gap-4 mb-6">
-                  <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">KAMU BISA TAMBAH KE KERANJANG</h2>
-                  <hr class="mx-auto" />
-                </div>
-                <div class="swiper md:mt-8 mt-0 relative">
-                  <div class="otherproductCart-content">
-                    <div class="swiper-wrapper py-1">
-                      <div class="swiper-slide">
-                        <div class="bg-light-green flex flex-col gap-4 p-4">
-                          <div class="flex lg:gap-6 gap-3.5 items-center">
-                            <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[30%] md:w-[40%] w-[30%]" alt="" />
-                            <div class="flex flex-col gap-3">
-                              <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                              <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                                <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                                <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                              </div>
-                              <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                            </div>
-                          </div>
-                          <button class="tambah-keranjang rounded-md w-full flex justify-center items-center bg-green-ZAP px-4 py-2 gap-4 text-white lg:text-base md:text-sm text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 24 24" fill="none">
-                              <path
-                                d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
-                                fill="#FAF7F5"
-                              />
-                              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
-                              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
-                            </svg>
-                            <p>Tambah ke keranjang</p>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="bg-light-green flex flex-col gap-4 p-4">
-                          <div class="flex lg:gap-6 gap-3.5 items-center">
-                            <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[30%] md:w-[40%] w-[30%]" alt="" />
-                            <div class="flex flex-col gap-3">
-                              <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                              <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                                <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                                <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                              </div>
-                              <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                            </div>
-                          </div>
-                          <button class="tambah-keranjang rounded-md w-full flex justify-center items-center bg-green-ZAP px-4 py-2 gap-4 text-white lg:text-base md:text-sm text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 24 24" fill="none">
-                              <path
-                                d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
-                                fill="#FAF7F5"
-                              />
-                              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
-                              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
-                            </svg>
-                            <p>Tambah ke keranjang</p>
-                          </button>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="bg-light-green flex flex-col gap-4 p-4">
-                          <div class="flex lg:gap-6 gap-3.5 items-center">
-                            <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[30%] md:w-[40%] w-[30%]" alt="" />
-                            <div class="flex flex-col gap-3">
-                              <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
-                              <div class="font-spartanRegular md:text-sm text-xs flex items-center gap-x-2">
-                                <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
-                                <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
-                              </div>
-                              <p class="text-green-600 font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</p>
-                            </div>
-                          </div>
-                          <button class="tambah-keranjang rounded-md w-full flex justify-center items-center bg-green-ZAP px-4 py-2 gap-4 text-white lg:text-base md:text-sm text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4" viewBox="0 0 24 24" fill="none">
-                              <path
-                                d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
-                                fill="#FAF7F5"
-                              />
-                              <path d="M7 24.0006C8.10456 24.0006 8.99999 23.1052 8.99999 22.0006C8.99999 20.8961 8.10456 20.0006 7 20.0006C5.89543 20.0006 5 20.8961 5 22.0006C5 23.1052 5.89543 24.0006 7 24.0006Z" fill="#FAF7F5" />
-                              <path d="M17 24.0006C18.1046 24.0006 19 23.1052 19 22.0006C19 20.8961 18.1046 20.0006 17 20.0006C15.8954 20.0006 15 20.8961 15 22.0006C15 23.1052 15.8954 24.0006 17 24.0006Z" fill="#FAF7F5" />
-                            </svg>
-                            <p>Tambah ke keranjang</p>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-custom-nav absolute bottom-1/2 translate-y-1/2 left-0 z-10 flex inset-x-0 justify-between">
-                    <img src="temp-asset/statis-asset/Arrow_R.png" class="lg:w-14 lg:h-14 md:w-12 md:h-12 w-9 h-9 absolute left-0 bottom-1/2 translate-y-1/2" id="prevCartOtherproduct" alt="" />
-                    <img src="temp-asset/statis-asset/Arrow_L.png" class="lg:w-14 lg:h-14 md:w-12 md:h-12 w-9 h-9 absolute right-0 bottom-1/2 translate-y-1/2" id="nextCartOtherproduct" alt="" />
-                  </div>
-                </div>
-              </div>
-              <!-- Other Product End -->
+      <section class="checkout">
+        <div class="container flex flex-col gap-6">
+          <div class="title text-center flex flex-col gap-4 p-4 w-full">
+            <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX]">CHECKOUT</h2>
+            <hr class="mx-auto" />
+          </div>
+          <div class="DaftarPengiriman w-full bg-white-ZAP shadow-lg border-[1px] border-grey-ZAP border-opacity-30 rounded-lg lg:p-8 md:p-6 p-3">
+            <div class="title flex flex-col gap-4">
+              <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX] text-green-ZAP">DATA PENGIRIMAN</h2>
             </div>
-            <div class="lg:col-span-2 col-span-8">
-              <div class="info-cartLG rounded-lg border-[1px] md:block sticky hidden top-24 border-grey-ZAP">
-                <div class="head bg-light-green rounded-lg p-4">
-                  <h6 class="text-center">Total Belanja</h6>
+            <form action="" class="grid grid-cols-4 md:gap-4 gap-x-2 gap-y-4 md:mt-8 mt-6">
+              <span class="flex flex-col gap-2 col-span-2">
+                <label for=""><h6>Nama Depan</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Tulis Nama Depan" />
+              </span>
+              <span class="flex flex-col gap-2 col-span-2">
+                <label for=""><h6>Nama Belakang</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Tulis Nama Belakang" />
+              </span>
+              <span class="flex flex-col gap-2 col-span-2">
+                <label for=""><h6>Nomor HP</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Cth : 08123456789" />
+              </span>
+              <span class="flex flex-col gap-2 col-span-2">
+                <label for=""><h6>Email</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Email yang masih aktif" />
+              </span>
+              <span class="flex flex-col gap-2 col-span-4">
+                <label for=""><h6>Alamat lengkap</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Tulis alamat kamu" />
+              </span>
+              <span class="flex flex-col gap-2 md:col-span-1 col-span-2">
+                <label for=""><h6>Kabupaten/Kota</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Kabupaten / Kota" />
+              </span>
+              <span class="flex flex-col gap-2 md:col-span-1 col-span-2">
+                <label for=""><h6>Kecamatan</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Kecamatan" />
+              </span>
+              <span class="flex flex-col gap-2 md:col-span-1 col-span-2">
+                <label for=""><h6>Kelurahan</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Kelurahan" />
+              </span>
+              <span class="flex flex-col gap-2 md:col-span-1 col-span-2">
+                <label for=""><h6>Kode Pos</h6></label>
+                <input type="text" class="outline-none border-[1px] border-grey-ZAP border-opacity-30 px-4 py-3 rounded-lg w-full 2xl:text-base lg:text-sm text-xs" placeholder="Kode Pos" />
+              </span>
+            </form>
+          </div>
+          <div class="DaftarBelanja w-full bg-white-ZAP shadow-lg border-[1px] border-grey-ZAP border-opacity-30 rounded-lg lg:p-8 md:p-6 p-3">
+            <div class="title flex flex-col gap-4">
+              <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX] text-green-ZAP">Daftar Belanja</h2>
+            </div>
+            <div class="cart_item flex flex-col gap-6 mt-6">
+              <div class="flex justify-between items-center md:gap-8 gap-4">
+                <div class="flex lg:w-1/2 md:w-[60%] w-full md:gap-6 gap-2 md:items-center items-start">
+                  <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] w-[20%] shadow-md" alt="" />
+                  <span class="flex flex-col gap-3 w-full">
+                    <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
+                    <div class="font-spartanRegular w-full md:text-sm text-xs flex items-center gap-x-2">
+                      <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
+                      <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
+                    </div>
+                    <span class="flex justify-between">
+                      <h6 class="font-semibold text-green-ZAP lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                      <div class="md:hidden">
+                        <h6>X2</h6>
+                      </div>
+                      <div class="md:hidden">
+                        <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                      </div>
+                    </span>
+                  </span>
                 </div>
-                <div class="body flex flex-col justify-center gap-4 items-center p-4">
-                  <h6>3 items</h6>
-                  <p class="text-green-600 font-semibold">Rp 8.492.999</p>
-                  <a class="w-full bg-green-ZAP p-2 text-white rounded-lg text-center" href="chekout.html">Beli Sekarang</a>
+                <div class="md:block hidden">
+                  <h6>X2</h6>
+                </div>
+                <div class="md:block hidden">
+                  <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
                 </div>
               </div>
-              <div class="info-cartSm container md:hidden flex flex-col fixed bottom-0 inset-x-0 z-20 bg-white px-2 py-2 shadow-xl rounded-md font-spartanMedium text-xs justify-center gap-2 capitalize">
-                <div class="body flex flex-col justify-center gap-2.5 items-start p-4">
-                  <h6 class="text-center">Total Belanja</h6>
-                  <h6>3 items</h6>
-                  <p class="text-green-600 font-semibold">Rp 8.492.999</p>
-                  <a class="w-full bg-green-ZAP p-2 text-white rounded-lg text-center" href="chekout.html">Beli Sekarang</a>
+              <hr class="w-full border-[0.1px] border-grey-ZAP border-opacity-30" />
+            </div>
+            <div class="cart_item flex flex-col gap-6 mt-6">
+                <div class="flex justify-between items-center md:gap-8 gap-4">
+                  <div class="flex lg:w-1/2 md:w-[60%] w-full md:gap-6 gap-2 md:items-center items-start">
+                    <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] w-[20%] shadow-md" alt="" />
+                    <span class="flex flex-col gap-3 w-full">
+                      <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
+                      <div class="font-spartanRegular w-full md:text-sm text-xs flex items-center gap-x-2">
+                        <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
+                        <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
+                      </div>
+                      <span class="flex justify-between">
+                        <h6 class="font-semibold text-green-ZAP lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                        <div class="md:hidden">
+                          <h6>X2</h6>
+                        </div>
+                        <div class="md:hidden">
+                          <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="md:block hidden">
+                    <h6>X2</h6>
+                  </div>
+                  <div class="md:block hidden">
+                    <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                  </div>
                 </div>
+                <hr class="w-full border-[0.1px] border-grey-ZAP border-opacity-30" />
+              </div>
+              <div class="cart_item flex flex-col gap-6 mt-6">
+                <div class="flex justify-between items-center md:gap-8 gap-4">
+                  <div class="flex lg:w-1/2 md:w-[60%] w-full md:gap-6 gap-2 md:items-center items-start">
+                    <img src="temp-asset/E-store/card-treatment-2.png" class="lg:w-[22%] w-[20%] shadow-md" alt="" />
+                    <span class="flex flex-col gap-3 w-full">
+                      <h6 class="font-spartanSemiBold lg:text-base md:text-sm text-[10px]">New Edition 1 Year Upper Arm Hair Removal Membership</h6>
+                      <div class="font-spartanRegular w-full md:text-sm text-xs flex items-center gap-x-2">
+                        <div class="bg-pink-ZAP bg-opacity-20 px-2 py-[2px] rounded-full text-pink-ZAP w-fit flex items-center"><p class="lg:mt-1 mt-[2px]">50%</p></div>
+                        <span class="font-spartanRegular line-through"><p class="lg:mt-1 mt-[2px]">Rp 5.988.000</p></span>
+                      </div>
+                      <span class="flex justify-between">
+                        <h6 class="font-semibold text-green-ZAP lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                        <div class="md:hidden">
+                          <h6>X2</h6>
+                        </div>
+                        <div class="md:hidden">
+                          <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                        </div>
+                      </span>
+                    </span>
+                  </div>
+                  <div class="md:block hidden">
+                    <h6>X2</h6>
+                  </div>
+                  <div class="md:block hidden">
+                    <h6 class="font-semibold lg:text-lg md:text-base text-xs">Rp 3.992.000</h6>
+                  </div>
+                </div>
+                <hr class="w-full border-[0.1px] border-grey-ZAP border-opacity-30" />
+              </div>
+            <div class="flex lg:flex-row flex-col justify-between lg:items-center">
+              <div class="flex items-center lg:w-[40%] w-full md:gap-3 gap-2 relative text-start mt-16">
+                <div class="search relative">
+                  <h6 class="absolute -top-9">Kode Promo</h6>
+                  <input id="inputBox" type="text" autocomplete="off" class="2xl:text-base lg:text-sm text-xs lg:w-fit md:w-[350px] h-12 md:text-base font-spartanMedium bg-white-ZAP outline outline-2 p-3 rounded-lg outline-neutral-300" placeholder="Masukkan kode promo" />
+                </div>
+                <button class="bg-green-ZAP rounded-lg p-3 h-12 w-full 2xl:text-base lg:text-sm text-xs text-white font-spartanMedium">Terapkan <span class="md:inline hidden">Promo</span></button>
+              </div>
+              <div class="flex flex-col gap-2.5 lg:mt-16 mt-8 lg:w-1/2 w-full">
+                <span class="flex justify-between">
+                  <h6>SUB TOTAL</h6>
+                  <h6>Rp 8.492.999</h6>
+                </span>
+                <span class="flex justify-between">
+                  <h6>ONGKOS KIRIM</h6>
+                  <h6>Rp 0</h6>
+                </span>
+                <span class="flex justify-between">
+                  <h6>DISKON</h6>
+                  <h6>Rp 0</h6>
+                </span>
+                <span class="flex justify-between font-spartanSemiBold">
+                  <h6>TOTAL BELANJA</h6>
+                  <h6 class="">Rp 8.492.999</h6>
+                </span>
               </div>
             </div>
           </div>
+          <a href="" class="w-fit self-end bg-green-ZAP px-6 py-3 rounded-lg text-white font-spartanMedium 2xl:text-base lg:text-sm text-xs">Proses Pembayaran Sekarang</a>
         </div>
       </section>
       <section class="floating-btn">

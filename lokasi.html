@@ -85,7 +85,7 @@
                 </a>
               </div>
             </div>
-            <a href="#" class="relative">
+            <a href="cart.html" class="relative">
               <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 relative" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M24 3H4.242L4.2 2.649C4.11405 1.91942 3.76338 1.24673 3.21449 0.758478C2.6656 0.270223 1.95663 0.000341793 1.222 0L0 0V2H1.222C1.46693 2.00003 1.70334 2.08996 1.88637 2.25272C2.06941 2.41547 2.18634 2.63975 2.215 2.883L3.8 16.351C3.88595 17.0806 4.23662 17.7533 4.78551 18.2415C5.3344 18.7298 6.04337 18.9997 6.778 19H20V17H6.778C6.53291 16.9999 6.29638 16.9099 6.11333 16.7469C5.93027 16.5839 5.81343 16.3594 5.785 16.116L5.654 15H21.836L24 3ZM20.164 13H5.419L4.478 5H21.607L20.164 13Z"
@@ -106,18 +106,17 @@
       </nav>
       <div id="offCanvasSm" class="xl:hidden fixed top-0 -z-10 left-0 h-screen w-full translate-x-full bg-white-ZAP transform ease-in-out transition-transform duration-500">
         <div class="container nav-wrapper">
-          <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat  bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
+          <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-offcanvas-bg opacity-10 -translate-y-10"></div>
           <div class="bg-nav absolute -z-10 inset-0 h-full bg-no-repeat bg-center bg-bg-nav opacity-10 -translate-y-10"></div>
           <ul class="xl:hidden flex flex-col gap-12 md:text-lg text-sm uppercase transition-all ease-in-out duration-100 -z-10 font-spartanSemiBold mt-20">
             <li class="transition-all ease-in-out duration-300 relative">
               <span class="dropdownNav flex gap-2 items-center hover:text-green-ZAP hover:underline hover:underline-offset-8"
                 >Treatment
-     
-                  <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M6 9l6 6l6 -6"></path>
-                  </svg>
-         
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="transition-all ease-in-out duration-300 w-6" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M6 9l6 6l6 -6"></path>
+                </svg>
               </span>
               <ul class="dropDownBox flex flex-col gap-7 absolute top-5 md:left-10 left-5 opacity-0 -z-10 transition-all ease-in-out duration-100">
                 <li>
@@ -191,7 +190,7 @@
           <div class="mt-20 lg:flex md:grid grid-cols-2 hidden w-full gap-3 text-start">
             <div class="flex flex-col gap-y-2 items-center w-full">
               <div class="h-20 flex items-center">
-                <img src="temp-asset/Lokasi/Zap.png" class="w-[120px]" alt="" />
+                <img src="temp-asset/Lokasi/Zap.png" id="Zaplg" alt="" />
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full h-fit rounded-lg">
                 <div class="card-body">
@@ -230,8 +229,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full h-fit rounded-lg">
@@ -271,8 +270,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full h-fit rounded-lg">
@@ -312,8 +311,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full h-fit rounded-lg">
@@ -353,15 +352,15 @@
                   </div>
                 </div>
                 <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
             </div>
             <!--  -->
             <div class="flex flex-col gap-y-2 items-center w-full">
               <div class="h-20 flex items-center">
-                <img src="temp-asset/Lokasi/Zap-premiere.png" class="w-[260px] relative -top-4" alt="" />
+                <img src="temp-asset/Lokasi/Zap-premiere.png" id="ZapPremierelg" alt="" />
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
                 <div class="card-body">
@@ -400,49 +399,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
-                </div>
-              </div>
-              <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
-                <div class="card-body">
-                  <div class="content">
-                    <div class="head-content flex justify-between items-center py-4 px-3">
-                      <h5 class="uppercase font-spartanMedium font-bold text-brownCream-zap">Menteng</h5>
-                      <img src="temp-asset/Lokasi/Logo-Zap-outlet.png" alt="" />
-                    </div>
-                    <div class="body-content flex flex-col gap-3 px-3 capitalize">
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">open Hours</p>
-                        <span class="flex justify-between"
-                          >mon-sat
-                          <p class="uppercase">10.00am-08.00pm</p></span
-                        >
-                        <span class="flex justify-between"
-                          >sun & public holiday
-                          <p class="uppercase">10.00am-08.00pm</p></span
-                        >
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">address</p>
-                        <span class="line-clamp-1">citywalk sudirman lantai 2 unit 2f jakarta selatan dawdawqdadawdawdawdawdawdawdaw</span>
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">information</p>
-                        <span class="flex gap-2 items-center"><img src="temp-asset/Lokasi/wa.svg" alt="" />0888-9020-3927</span>
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <a class="cursor-pointer ScheduleToggle capitalize flex gap-2 items-center text-pink-ZAP font-spartanMedium"><img src="temp-asset/Lokasi/calender.svg" alt="" />jadwal dermatologis</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
@@ -482,8 +440,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
@@ -523,15 +481,56 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
+                </div>
+              </div>
+              <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
+                <div class="card-body">
+                  <div class="content">
+                    <div class="head-content flex justify-between items-center py-4 px-3">
+                      <h5 class="uppercase font-spartanMedium font-bold text-brownCream-zap">Menteng</h5>
+                      <img src="temp-asset/Lokasi/Logo-Zap-outlet.png" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-3 px-3 capitalize">
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">open Hours</p>
+                        <span class="flex justify-between"
+                          >mon-sat
+                          <p class="uppercase">10.00am-08.00pm</p></span
+                        >
+                        <span class="flex justify-between"
+                          >sun & public holiday
+                          <p class="uppercase">10.00am-08.00pm</p></span
+                        >
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">address</p>
+                        <span class="line-clamp-1">citywalk sudirman lantai 2 unit 2f jakarta selatan dawdawqdadawdawdawdawdawdawdaw</span>
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">information</p>
+                        <span class="flex gap-2 items-center"><img src="temp-asset/Lokasi/wa.svg" alt="" />0888-9020-3927</span>
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <a class="cursor-pointer ScheduleToggle capitalize flex gap-2 items-center text-pink-ZAP font-spartanMedium"><img src="temp-asset/Lokasi/calender.svg" alt="" />jadwal dermatologis</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
             </div>
             <!--  -->
             <div class="flex flex-col gap-y-2 items-center w-full">
               <div class="h-20 flex items-center">
-                <img src="temp-asset/Lokasi/Menlogy.png" class="w-[210px]" alt="" />
+                <img src="temp-asset/Lokasi/Menlogy.png" id="ZapManlogylg" alt="" />
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
                 <div class="card-body">
@@ -570,49 +569,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
-                </div>
-              </div>
-              <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
-                <div class="card-body">
-                  <div class="content">
-                    <div class="head-content flex justify-between items-center py-4 px-3">
-                      <h5 class="uppercase font-spartanMedium font-bold text-brown-zap">Menteng</h5>
-                      <img src="temp-asset/Lokasi/Logo-Zap-outlet.png" alt="" />
-                    </div>
-                    <div class="body-content flex flex-col gap-3 px-3 capitalize">
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">open Hours</p>
-                        <span class="flex justify-between"
-                          >mon-sat
-                          <p class="uppercase">10.00am-08.00pm</p></span
-                        >
-                        <span class="flex justify-between"
-                          >sun & public holiday
-                          <p class="uppercase">10.00am-08.00pm</p></span
-                        >
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">address</p>
-                        <span class="line-clamp-1">citywalk sudirman lantai 2 unit 2f jakarta selatan dawdawqdadawdawdawdawdawdawdaw</span>
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <p class="font-spartanBold">information</p>
-                        <span class="flex gap-2 items-center"><img src="temp-asset/Lokasi/wa.svg" alt="" />0888-9020-3927</span>
-                      </span>
-                      <hr class="border-[1px] w-full border-gray-200" />
-                      <span class="flex flex-col gap-1.5">
-                        <a class="cursor-pointer ScheduleToggle capitalize flex gap-2 items-center text-pink-ZAP font-spartanMedium"><img src="temp-asset/Lokasi/calender.svg" alt="" />jadwal dermatologis</a>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
@@ -652,8 +610,8 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
               <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
@@ -693,8 +651,49 @@
                   </div>
                 </div>
                 <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                  <button class="capitalize w-full">online booking</button>
-                  <button class="capitalize w-full">peta lokasi</button>
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
+                </div>
+              </div>
+              <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 md:w-full w-80 h-fit rounded-lg">
+                <div class="card-body">
+                  <div class="content">
+                    <div class="head-content flex justify-between items-center py-4 px-3">
+                      <h5 class="uppercase font-spartanMedium font-bold text-brown-zap">Menteng</h5>
+                      <img src="temp-asset/Lokasi/Logo-Zap-outlet.png" alt="" />
+                    </div>
+                    <div class="body-content flex flex-col gap-3 px-3 capitalize">
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">open Hours</p>
+                        <span class="flex justify-between"
+                          >mon-sat
+                          <p class="uppercase">10.00am-08.00pm</p></span
+                        >
+                        <span class="flex justify-between"
+                          >sun & public holiday
+                          <p class="uppercase">10.00am-08.00pm</p></span
+                        >
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">address</p>
+                        <span class="line-clamp-1">citywalk sudirman lantai 2 unit 2f jakarta selatan dawdawqdadawdawdawdawdawdawdaw</span>
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <p class="font-spartanBold">information</p>
+                        <span class="flex gap-2 items-center"><img src="temp-asset/Lokasi/wa.svg" alt="" />0888-9020-3927</span>
+                      </span>
+                      <hr class="border-[1px] w-full border-gray-200" />
+                      <span class="flex flex-col gap-1.5">
+                        <a class="cursor-pointer ScheduleToggle capitalize flex gap-2 items-center text-pink-ZAP font-spartanMedium"><img src="temp-asset/Lokasi/calender.svg" alt="" />jadwal dermatologis</a>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
+                  <a class="capitalize w-full text-center">online booking</a>
+                  <a class="capitalize w-full text-center">peta lokasi</a>
                 </div>
               </div>
             </div>
@@ -704,9 +703,9 @@
           <div class="mt-20 md:hidden text-start">
             <div class="swiper">
               <div class="chooseby flex items-center gap-6 overflow-x-auto mb-10">
-                <img src="temp-asset/Lokasi/Zap.png" class="h-8 cursor-pointer opacity-100" id="zap" alt="" />
-                <img src="temp-asset/Lokasi/Zap-premiere.png" class="h-16 cursor-pointer opacity-25 relative -top-4" id="zapPremiere" alt="" />
-                <img src="temp-asset/Lokasi/Menlogy.png" class="h-10 cursor-pointer opacity-25" id="zapManlogy" alt="" />
+                <img src="temp-asset/Lokasi/Zap.png" id="zap" alt="" />
+                <img src="temp-asset/Lokasi/Zap-premiere.png" id="zapPremiere" alt="" />
+                <img src="temp-asset/Lokasi/Menlogy.png" id="zapManlogy" alt="" />
               </div>
             </div>
             <div id="zapLoc" class="zap block">
@@ -761,8 +760,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -802,8 +801,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -860,8 +859,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -901,8 +900,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -959,8 +958,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1000,8 +999,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1060,8 +1059,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1101,8 +1100,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1160,8 +1159,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1201,8 +1200,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1259,8 +1258,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1300,8 +1299,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1360,8 +1359,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1401,8 +1400,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-green-ZAP rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1459,8 +1458,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1500,8 +1499,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brownCream-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1558,8 +1557,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                     <div class="card-wrapper md:text-sm text-xs border-2 border-gray-200 w-full h-fit rounded-lg">
@@ -1599,8 +1598,8 @@
                         </div>
                       </div>
                       <div class="card-footer bg-brown-zap rounded-lg rounded-t-none py-3 text-white flex justify-around mt-5">
-                        <button class="capitalize w-full">online booking</button>
-                        <button class="capitalize w-full">peta lokasi</button>
+                        <a class="capitalize w-full text-center">online booking</a>
+                        <a class="capitalize w-full text-center">peta lokasi</a>
                       </div>
                     </div>
                   </div>
@@ -1640,7 +1639,7 @@
       <section class="scheduleWrapper">
         <div class="modal bg-black bg-opacity-0 fixed inset-0 -z-50">
           <div class="modal-schedule container">
-            <div class="wrapper-jadwalTreatment  opacity-0 md:block absolute max-w-screen-md hidden rounded-lg bg-white mx-auto bottom-1/2 translate-y-1/2 inset-x-0 md:px-16 px-8 md:py-14 pb-5">
+            <div class="wrapper-jadwalTreatment opacity-0 md:block absolute max-w-screen-md hidden rounded-lg bg-white mx-auto bottom-1/2 translate-y-1/2 inset-x-0 md:px-16 px-8 md:py-14 pb-5">
               <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white md:w-10 md:h-10 w-9 h-9">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x md:w-6 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -1713,7 +1712,7 @@
               </div>
               <div class="swiper-pagination jadwal-paggination"></div>
             </div>
-            <div class="wrapper-jadwalTreatment  opacity-0  md:hidden absolute w-[90%] rounded-lg bg-white mx-auto md:px-16 px-8 md:py-14 bottom-1/2 translate-y-1/2 inset-x-0">
+            <div class="wrapper-jadwalTreatment opacity-0 md:hidden absolute w-[90%] rounded-lg bg-white mx-auto md:px-16 px-8 md:py-14 bottom-1/2 translate-y-1/2 inset-x-0">
               <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white md:w-10 md:h-10 w-9 h-9">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x md:w-6 w-4" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

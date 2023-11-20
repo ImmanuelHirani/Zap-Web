@@ -38,8 +38,6 @@ module.exports = {
         "brownCream-zap": "#C0A279",
         "brown-zap": "#8B4328",
         "blue-water-zap": "#50ABF0",
-        "zap-border": "#D3D3D3",
-        "zap-brown-table": "#B49E78",
       },
 
       screens: {
