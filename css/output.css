@@ -772,6 +772,10 @@ hr {
   bottom: 5rem;
 }
 
+.bottom-24 {
+  bottom: 6rem;
+}
+
 .bottom-40 {
   bottom: 10rem;
 }
@@ -886,14 +890,6 @@ hr {
 
 .top-8 {
   top: 2rem;
-}
-
-.bottom-16 {
-  bottom: 4rem;
-}
-
-.bottom-24 {
-  bottom: 6rem;
 }
 
 .-z-10 {
@@ -1171,8 +1167,8 @@ hr {
   height: 650px;
 }
 
-.h-\[80\%\] {
-  height: 80%;
+.h-\[70\%\] {
+  height: 70%;
 }
 
 .h-fit {
@@ -1186,6 +1182,10 @@ hr {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[80\%\] {
+  height: 80%;
 }
 
 .w-10 {
@@ -2020,10 +2020,6 @@ hr {
   padding: 1.5rem;
 }
 
-.p-12 {
-  padding: 3rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -2159,17 +2155,16 @@ hr {
   padding-bottom: 2px;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
 }
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pb-4 {
@@ -2194,14 +2189,6 @@ hr {
 
 .pt-40 {
   padding-top: 10rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -3222,6 +3209,10 @@ input[type=checkbox]:checked::before {
     bottom: 50%;
   }
 
+  .md\:bottom-14 {
+    bottom: 3.5rem;
+  }
+
   .md\:bottom-28 {
     bottom: 7rem;
   }
@@ -3276,14 +3267,6 @@ input[type=checkbox]:checked::before {
 
   .md\:bottom-20 {
     bottom: 5rem;
-  }
-
-  .md\:bottom-24 {
-    bottom: 6rem;
-  }
-
-  .md\:bottom-14 {
-    bottom: 3.5rem;
   }
 
   .md\:col-span-1 {
@@ -3406,10 +3389,6 @@ input[type=checkbox]:checked::before {
     height: 336px;
   }
 
-  .md\:h-9 {
-    height: 2.25rem;
-  }
-
   .md\:w-10 {
     width: 2.5rem;
   }
@@ -3505,14 +3484,6 @@ input[type=checkbox]:checked::before {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-14 {
-    width: 3.5rem;
-  }
-
-  .md\:w-9 {
-    width: 2.25rem;
   }
 
   .md\:max-w-screen-md {
@@ -3706,14 +3677,14 @@ input[type=checkbox]:checked::before {
     padding-bottom: 0.75rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pb-0 {
@@ -3724,28 +3695,12 @@ input[type=checkbox]:checked::before {
     padding-bottom: 5rem;
   }
 
-  .md\:pb-6 {
-    padding-bottom: 1.5rem;
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
   }
 
   .md\:pb-7 {
     padding-bottom: 1.75rem;
-  }
-
-  .md\:pb-28 {
-    padding-bottom: 7rem;
-  }
-
-  .md\:pb-24 {
-    padding-bottom: 6rem;
-  }
-
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
-  .md\:pb-5 {
-    padding-bottom: 1.25rem;
   }
 
   .md\:text-center {
@@ -3824,6 +3779,10 @@ input[type=checkbox]:checked::before {
     bottom: 0.5rem;
   }
 
+  .lg\:bottom-24 {
+    bottom: 6rem;
+  }
+
   .lg\:bottom-8 {
     bottom: 2rem;
   }
@@ -3842,10 +3801,6 @@ input[type=checkbox]:checked::before {
 
   .lg\:top-9 {
     top: 2.25rem;
-  }
-
-  .lg\:bottom-24 {
-    bottom: 6rem;
   }
 
   .lg\:col-span-1 {
@@ -4204,6 +4159,11 @@ input[type=checkbox]:checked::before {
     padding-right: 2rem;
   }
 
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .lg\:py-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -4219,8 +4179,7 @@ input[type=checkbox]:checked::before {
     padding-bottom: 1rem;
   }
 
-  .lg\:py-0 {
-    padding-top: 0px;
+  .lg\:pb-0 {
     padding-bottom: 0px;
   }
 
@@ -4234,10 +4193,6 @@ input[type=checkbox]:checked::before {
 
   .lg\:pt-60 {
     padding-top: 15rem;
-  }
-
-  .lg\:pb-0 {
-    padding-bottom: 0px;
   }
 
   .lg\:text-start {
@@ -4393,8 +4348,48 @@ input[type=checkbox]:checked::before {
     left: 80%;
   }
 
+  .\33xl\:bottom-28 {
+    bottom: 7rem;
+  }
+
+  .\33xl\:bottom-32 {
+    bottom: 8rem;
+  }
+
+  .\33xl\:bottom-36 {
+    bottom: 9rem;
+  }
+
+  .\33xl\:bottom-40 {
+    bottom: 10rem;
+  }
+
   .\33xl\:h-16 {
     height: 4rem;
+  }
+
+  .\33xl\:h-\[60\%\] {
+    height: 60%;
+  }
+
+  .\33xl\:h-\[70\%\] {
+    height: 70%;
+  }
+
+  .\33xl\:h-\[80\%\] {
+    height: 80%;
+  }
+
+  .\33xl\:h-\[75\%\] {
+    height: 75%;
+  }
+
+  .\33xl\:h-\[90\%\] {
+    height: 90%;
+  }
+
+  .\33xl\:h-\[72\%\] {
+    height: 72%;
   }
 
   .\33xl\:w-16 {
