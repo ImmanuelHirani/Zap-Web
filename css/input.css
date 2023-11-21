@@ -392,3 +392,17 @@ input[type=checkbox]:checked::before {
 }
 
 /* Floating button End*/
+
+
+
+/* Artikel */
+.artikelToggle-active > svg {
+  @apply opacity-100
+}
+.artikel-active {
+  @apply grid
+}
+
+/* Artikel End*/
+
+
