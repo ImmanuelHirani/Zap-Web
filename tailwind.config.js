@@ -39,7 +39,6 @@ module.exports = {
         "brown-zap": "#8B4328",
         "blue-water-zap": "#50ABF0",
       },
-
       screens: {
         xl: "1200px",
         "2xl": "1320px",

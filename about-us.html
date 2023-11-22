@@ -402,7 +402,7 @@
           </div>
         </div>
         <div id="image-popup" class="fixed inset-0 w-full h-full bg-black bg-opacity-30 opacity-0 -z-50 flex items-center">
-          <div class="container flex items-center justify-center 3xl:max-w-screen-md max-w-screen-sm  transition-all ease-in-out duration-300">
+          <div class="container flex items-center justify-center 3xl:max-w-screen-md max-w-screen-sm transition-all ease-in-out duration-300">
             <div class="md:max-w-screen-md max-w-screen-sm relative flex flex-col items-center">
               <img id="popup-image" class="md:w-fit w-[90%]" alt="" />
               <button id="close-popup" class="absolute bg-green-ZAP flex items-center justify-center md:-top-3 md:-right-3 -top-3 right-1 rounded-full text-white md:w-10 md:h-10 w-9 h-9">
@@ -419,7 +419,7 @@
       <section class="zapCarrier">
         <div class="fixed bg-dark-grey bg-opacity-0 inset-0 -z-50 flex items-center">
           <div class="container card-carrier">
-            <div class="card-item opacity-0  bg-white-ZAP grid lg:px-8 md:px-6 px-4 py-6 grid-cols-8 relative rounded-lg md:gap-x-12">
+            <div class="card-item opacity-0 bg-white-ZAP grid lg:px-8 md:px-6 px-4 py-6 grid-cols-8 relative rounded-lg md:gap-x-12">
               <div class="lg:col-span-5 md:col-span-4 col-span-8 flex flex-col gap-8" id="jobDesc">
                 <h2 class="font-spartanMedium uppercase md:tracking-[4.2px] tracking-[3PX] text-green-ZAP">GUEST RELATION OFFICER</h2>
                 <span class="flex flex-col gap-2">
@@ -465,7 +465,7 @@
                     <label for="">Upload CV (pdf / docx, max 1MB) </label>
                     <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
                     <button type="submit" class="cursor-pointer kirim-button bg-green-ZAP capitalize text-white font-spartanMedium px-12 py-2 rounded-lg w-fit mx-auto mt-4 md:text-base text-xs">kirim</button>
-                  </form> 
+                  </form>
                 </div>
               </div>
               <button class="absolute bg-green-ZAP flex items-center justify-center -top-3 -right-3 rounded-full closeModal text-white md:w-10 md:h-10 w-9 h-9">
@@ -482,7 +482,7 @@
               <div class="modal-body py-2 text-center flex flex-col gap-4">
                 <h5 class="capitalize text-green-ZAP font-spartanMedium">dokument telah terkirim</h5>
                 <h6>SIlahkan menunggu follow up dari team HR ZAP Clinic ya</h6>
-                <button id="okClosebtn" class="bg-green-ZAP uppercase md:px-16 px-4 py-1  w-fit mx-auto rounded-lg text-white font-spartanMedium md:text-base text-sm flex">ok</button>
+                <button id="okClosebtn" class="bg-green-ZAP uppercase md:px-16 px-4 py-1 w-fit mx-auto rounded-lg text-white font-spartanMedium md:text-base text-sm flex">ok</button>
               </div>
             </div>
           </div>
@@ -628,10 +628,10 @@
       <div class="container flex flex-col gap-8">
         <img src="temp-asset/statis-asset/Logo-Zap.svg" class="lg:w-40 md:w-32 w-24 mx-auto" alt="" />
         <span class="flex md:flex-row flex-col md:gap-16 gap-4 justify-center items-center">
-          <h6>Download Katalog</h6>
-          <h6>Liputan</h6>
-          <h6>FAQ</h6>
-          <h6>Contact Us</h6>
+          <a href=""><h6>Download Katalog</h6></a>
+          <a href=""><h6>Liputan</h6></a>
+          <a href="faq.html"><h6>FAQ</h6></a>
+          <a href="contact-us.html"><h6>Contact Us</h6></a>
         </span>
         <hr class="w-full border-[1px] border-dark-grey border-opacity-20" />
         <div class="related-links flex justify-between items-center">
@@ -667,7 +667,7 @@
         <h6 class="text-center">Copyright © 2023 PT.Zulu Alpha Papa All Right Reserved</h6>
       </div>
     </footer>
-  </body>  
+  </body>
   <script src="js/nav.js"></script>
   <script src="js/floatingbtn.js"></script>
   <script src="js/modal.js"></script>
