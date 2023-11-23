@@ -194,6 +194,14 @@
   @apply rotate-45 bg-red-500;
 }
 
+.Navlink-Active {
+  @apply text-green-ZAP
+}
+
+.NavlinkTreatment-Active {
+  @apply bg-green-ZAP text-white
+}
+
 .navCont-active {
   @apply 3xl:pb-16 md:pb-16 shadow-md bg-white-ZAP;
 }
@@ -405,5 +413,12 @@ input[type=checkbox]:checked::before {
 
 
 /* Artikel End*/
+
+/* Estore */
+.CategoriesLinkStore-Active {
+  @apply text-green-ZAP
+}
+
+/* Estore End*/
 
 
