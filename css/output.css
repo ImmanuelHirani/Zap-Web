@@ -1942,11 +1942,6 @@ hr {
   background-color: rgb(250 247 245 / var(--tw-bg-opacity));
 }
 
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
@@ -2662,7 +2657,7 @@ h6 {
 @font-face {
   font-family: "spartanSemiBold";
 
-  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf") format("truetype");
+  src: url("../spartan-cufonfonts/Spartan-SemiBold.ttf") format("truetype");
 
   font-weight: 600;
 

@@ -126,7 +126,7 @@
 
 @font-face {
   font-family: "spartanSemiBold";
-  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf") format("truetype");
+  src: url("../spartan-cufonfonts/Spartan-SemiBold.ttf") format("truetype");
   font-weight: 600; /* This corresponds to Semibold font weight */
 }
 
