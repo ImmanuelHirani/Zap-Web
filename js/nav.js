@@ -60,6 +60,24 @@ if (pageName === "fulldetails.html") {
     element.classList.add("Navlink-Active");
   });
 }
+
+if (pageName === "promo.html") {
+  document.querySelectorAll(".Promo").forEach(function (element) {
+    element.classList.add("Navlink-Active");
+  });
+}
+
+if (pageName === "membership.html") {
+  document.querySelectorAll(".Promo").forEach(function (element) {
+    element.classList.add("Navlink-Active");
+  });
+}
+
+if (pageName === "series.html") {
+  document.querySelectorAll(".Promo").forEach(function (element) {
+    element.classList.add("Navlink-Active");
+  });
+}
 // Navlink end
 
 // Navlink Active Navbar End

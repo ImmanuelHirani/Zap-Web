@@ -35,6 +35,7 @@ module.exports = {
         "pink-ZAP": "#F8958C",
         "grey-ZAP": "#767876",
         "dark-grey": "#343534",
+        "brownLight-ZAP" : "#B49E78",
         "brownCream-zap": "#C0A279",
         "brown-zap": "#8B4328",
         "blue-water-zap": "#50ABF0",

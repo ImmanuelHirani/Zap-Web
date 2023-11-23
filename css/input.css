@@ -126,7 +126,7 @@
 
 @font-face {
   font-family: "spartanSemiBold";
-  src: url("../spartan-cufonfonts/Spartan-Semibold.ttf") format("truetype");
+  src: url("../spartan-cufonfonts/Spartan-SemiBold.ttf") format("truetype");
   font-weight: 600; /* This corresponds to Semibold font weight */
 }
 
@@ -195,11 +195,7 @@
 }
 
 .Navlink-Active {
-  @apply text-green-ZAP
-}
-
-.NavlinkTreatment-Active {
-  @apply bg-green-ZAP text-white
+  @apply text-green-ZAP;
 }
 
 .navCont-active {
@@ -257,33 +253,33 @@
 }
 
 #Zaplg {
-  @apply w-[120px]
+  @apply w-[120px];
 }
-#ZapPremierelg{
-  @apply w-[260px] relative -top-4
+#ZapPremierelg {
+  @apply w-[260px] relative -top-4;
 }
 #ZapManlogylg {
-  @apply w-[210px]
+  @apply w-[210px];
 }
 
 #zap {
-  @apply h-8 cursor-pointer 
+  @apply h-8 cursor-pointer;
 }
 
 #zapPremiere {
-  @apply h-16 cursor-pointer  relative -top-4
+  @apply h-16 cursor-pointer  relative -top-4;
 }
 
-#zapManlogy{
-  @apply h-10 cursor-pointer 
+#zapManlogy {
+  @apply h-10 cursor-pointer;
 }
 
-.loc-Active  {
-  @apply opacity-100
+.loc-Active {
+  @apply opacity-100;
 }
 
 .loc-NActive {
-  @apply opacity-25
+  @apply opacity-25;
 }
 
 /* Locations End */
@@ -370,22 +366,18 @@
   @apply transform scale-100;
 }
 
-
-
-input[type=checkbox] {
-  @apply border-[3px] border-green-ZAP w-6 h-6 bg-transparent rounded-[4px] inline-block appearance-none align-middle relative  ;
+input[type="checkbox"] {
+  @apply border-[3px] border-green-ZAP w-6 h-6 bg-transparent rounded-[4px] inline-block appearance-none align-middle relative;
 }
 
-input[type=checkbox]::before {
-  @apply absolute text-lg tracking-widest text-green-ZAP scale-0 transition-all ease-in-out duration-200 left-0.5 -top-[3px] ;
-  content : '\2713';
+input[type="checkbox"]::before {
+  @apply absolute text-lg tracking-widest text-green-ZAP scale-0 transition-all ease-in-out duration-200 left-0.5 -top-[3px];
+  content: "\2713";
 }
 
-
-input[type=checkbox]:checked::before {
-  @apply scale-100 ;
+input[type="checkbox"]:checked::before {
+  @apply scale-100;
 }
-
 
 .o-active {
   @apply transform scale-0;
@@ -401,24 +393,45 @@ input[type=checkbox]:checked::before {
 
 /* Floating button End*/
 
-
-
 /* Artikel */
 .artikelToggle-active > svg {
-  @apply opacity-100
+  @apply opacity-100;
 }
 .artikel-active {
-  @apply grid
+  @apply grid;
 }
-
 
 /* Artikel End*/
 
 /* Estore */
 .CategoriesLinkStore-Active {
-  @apply text-green-ZAP
+  @apply text-green-ZAP;
 }
 
 /* Estore End*/
 
+.active__lifetime__button,
+.active__lifetime__button h6 {
+  background-color: #31ab5c;
+  color: #faf7f5;
+}
 
+.active__one__year__button {
+  background-color: #31ab5c;
+  border-radius: 8px;
+  color: #faf7f5;
+}
+.active__one__year__button h6 {
+  color: #faf7f5;
+}
+.question.active__series {
+  transform: rotateX(180deg);
+}
+.question.active__online__booking {
+  transform: rotateX(180deg);
+}
+.jawaban__online__booking {
+  display: none;
+}
+
+/* vanila css end*/
