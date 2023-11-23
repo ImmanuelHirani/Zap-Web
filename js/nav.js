@@ -36,6 +36,19 @@ if (pageName === "lokasi.html") {
   });
 }
 
+
+if (pageName === "artikel.html") {
+  document.querySelectorAll(".Artikel").forEach(function (element) {
+    element.classList.add("Navlink-Active");
+  });
+}
+
+if (pageName === "artikel-detail.html") {
+  document.querySelectorAll(".Artikel").forEach(function (element) {
+    element.classList.add("Navlink-Active");
+  });
+}
+
 if (pageName === "store.html" || pageName === "store-itemDetails.html") {
   document.querySelectorAll(".EStore").forEach(function (element) {
     element.classList.add("Navlink-Active");
