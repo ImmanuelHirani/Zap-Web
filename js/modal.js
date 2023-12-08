@@ -8,11 +8,13 @@ const closeBox = document.querySelector('.closeModal')
 const applyBtn = document.querySelector('.apply-btn')
 const kirimBtn = document.querySelector('.kirim-button')
 const parentBox = cardCarrier.parentNode
+const body = document.body;
 
 
 
 toggleCarrier.forEach(othertoggle => {
     othertoggle.addEventListener('click', () => {
+        toggleBodyScroll(true);
         othertoggle.classList.add('active');
         cardCarrier.classList.add('modal-carrier-active');
         parentBox.classList.add('box-active');
@@ -23,6 +25,7 @@ toggleCarrier.forEach(othertoggle => {
 closeBox.addEventListener('click', () => {
     cardCarrier.classList.remove('modal-carrier-active');
     parentBox.classList.remove('box-active');
+    toggleBodyScroll(false);
 
     // Hapus kelas 'active' dari elemen-elemen 'othertoggle' yang memiliki kelas tersebut
     toggleCarrier.forEach(othertoggle => {
@@ -94,3 +97,13 @@ applyBtn.addEventListener('click' ,() => {
       closeButton.addEventListener('click', () => {
         hidePopup();
       });
+
+
+      function toggleBodyScroll(active) {
+        if (active) {
+            body.style.overflow = "hidden"; // Menghentikan scrolling saat PopUpBox aktif
+        } else {
+            body.style.overflow = ""; // Menghentikan scrolling saat PopUpBox aktif
+        }
+    }
+    

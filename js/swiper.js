@@ -8,7 +8,7 @@ const bannerSwiper = new Swiper(".hero-banner-content ", {
     clickable: true,
   },
   autoplay: {
-    delay: 2500,
+    delay: 5000,
     disableOnInteraction: false,
   },
   // Navigation arrows
@@ -72,8 +72,8 @@ let promoContent = new Swiper(".promo-content ", {
       spaceBetween: 12,
     },
     968: {
-      slidesPerView: 3.5,
-      spaceBetween: 16,
+      slidesPerView: 3.1,
+      spaceBetween: 12,
       centeredSlides: true,
     },
   },
@@ -170,7 +170,7 @@ let bannerStoreSwiper = new Swiper(".banner-Store-content ", {
     clickable: true,
   },
   autoplay: {
-    delay: 2500,
+    delay: 5000,
     disableOnInteraction: false,
   },
 
@@ -346,8 +346,8 @@ let BaSwiper = new Swiper(".card-content-Before-After", {
       spaceBetween: 12,
     },
     968: {
-      slidesPerView: 3.5,
-      spaceBetween: 10,
+      slidesPerView: 3,
+      spaceBetween: 12,
       centeredSlides: true,
     },
   },
@@ -509,8 +509,8 @@ let artikelTerbaruContent = new Swiper(".artikelTerbaru-Content", {
 
   // Navigation arrows
   navigation: {
-    nextEl: "#nextArtikelTerbaru",
-    prevEl: "#prevArtikelTerbaru",
+    nextEl: ".nextArtikelTerbaru",
+    prevEl: ".prevArtikelTerbaru",
   },
 
   breakpoints: {
@@ -529,3 +529,22 @@ let artikelTerbaruContent = new Swiper(".artikelTerbaru-Content", {
     },
   },
 });
+
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 10,
+  slidesPerView: 4,
+  grabCursor: true,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 10,
+  grabCursor: true,
+
+  thumbs: {
+    swiper: swiper,
+  },
+});
+
+

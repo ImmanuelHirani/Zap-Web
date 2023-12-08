@@ -171,7 +171,7 @@
 }
 
 .dropMenu-Active {
-  @apply 2xl:top-[60px] md:top-16 top-[52px] md:left-0 z-10 opacity-100;
+  @apply 2xl:top-[60px] md:top-16 top-[52px] md:left-0 visible transition-all ease-in-out duration-500;
 }
 
 .nav-active > span:nth-child(1) {
@@ -340,7 +340,7 @@
 }
 
 .box-active {
-  @apply z-50 bg-opacity-30;
+  @apply z-50 bg-opacity-30 visible;
 }
 
 .modalSucces-Active {
@@ -349,6 +349,10 @@
 
 .popImg-Active {
   @apply opacity-100 z-50;
+}
+
+#jobDesc > .JobDescriptions > ul {
+  @apply list-disc;
 }
 
 /* about us end */
@@ -408,7 +412,27 @@ input[type="checkbox"]:checked::before {
   @apply text-green-ZAP;
 }
 
+#DescriptionItem > .BulletPointDesc > ul {
+  @apply list-disc;
+}
+
+.VariantActive {
+  @apply outline-[2px] outline-green-ZAP bg-green-ZAP bg-opacity-5 text-green-ZAP;
+}
+
 /* Estore End*/
+
+/* Fulldetails */
+.VidioBox-Active {
+  @apply visible;
+}
+
+.PopUpOutletCardLocations-Active {
+  @apply visible;
+}
+
+/* Fulldetails end */
+
 
 .active__lifetime__button,
 .active__lifetime__button h6 {
