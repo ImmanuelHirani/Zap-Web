@@ -462,11 +462,13 @@ input[type="number"]::-webkit-inner-spin-button,
   list-style-type: disc;
 }
 
-#sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > ul {
+#sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div {
+  margin-left: 1rem;
   list-style-type: disc;
 }
 
-#sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > ul {
+#sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div {
+  margin-left: 1rem;
   list-style-type: disc;
 }
 
@@ -981,11 +983,6 @@ hr {
   margin-right: auto;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -1237,10 +1234,6 @@ hr {
   height: 3.5rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-20 {
   height: 5rem;
 }
@@ -1309,6 +1302,10 @@ hr {
   height: 48px;
 }
 
+.h-\[58px\] {
+  height: 58px;
+}
+
 .h-\[650px\] {
   height: 650px;
 }
@@ -1344,18 +1341,6 @@ hr {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[60px\] {
-  height: 60px;
-}
-
-.h-\[58px\] {
-  height: 58px;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .w-1\/2 {
@@ -1510,6 +1495,10 @@ hr {
   width: 55%;
 }
 
+.w-\[58px\] {
+  width: 58px;
+}
+
 .w-\[60\%\] {
   width: 60%;
 }
@@ -1557,14 +1546,6 @@ hr {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[60px\] {
-  width: 60px;
-}
-
-.w-\[58px\] {
-  width: 58px;
 }
 
 .min-w-\[600px\] {
@@ -1736,18 +1717,6 @@ hr {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.place-content-end {
-  place-content: end;
-}
-
-.place-content-between {
-  place-content: space-between;
-}
-
-.place-items-end {
-  place-items: end;
 }
 
 .items-start {
@@ -2574,6 +2543,10 @@ hr {
   padding-top: 10rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .pt-\[10px\] {
   padding-top: 10px;
 }
@@ -2584,10 +2557,6 @@ hr {
 
 .pt-\[56px\] {
   padding-top: 56px;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -2697,16 +2666,16 @@ hr {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .uppercase {
@@ -3833,10 +3802,6 @@ input[type="checkbox"]:checked::before {
     position: absolute;
   }
 
-  .md\:relative {
-    position: relative;
-  }
-
   .md\:sticky {
     position: sticky;
   }
@@ -3970,10 +3935,6 @@ input[type="checkbox"]:checked::before {
     margin-left: 0.5rem;
   }
 
-  .md\:ml-64 {
-    margin-left: 16rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -4038,6 +3999,10 @@ input[type="checkbox"]:checked::before {
     height: 4rem;
   }
 
+  .md\:h-20 {
+    height: 5rem;
+  }
+
   .md\:h-5 {
     height: 1.25rem;
   }
@@ -4072,14 +4037,6 @@ input[type="checkbox"]:checked::before {
 
   .md\:h-\[80px\] {
     height: 80px;
-  }
-
-  .md\:h-24 {
-    height: 6rem;
-  }
-
-  .md\:h-20 {
-    height: 5rem;
   }
 
   .md\:w-1\/2 {
@@ -4598,10 +4555,6 @@ input[type="checkbox"]:checked::before {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:ml-72 {
-    margin-left: 18rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -4666,6 +4619,10 @@ input[type="checkbox"]:checked::before {
     height: 6rem;
   }
 
+  .lg\:h-32 {
+    height: 8rem;
+  }
+
   .lg\:h-40 {
     height: 10rem;
   }
@@ -4693,10 +4650,6 @@ input[type="checkbox"]:checked::before {
 
   .lg\:h-full {
     height: 100%;
-  }
-
-  .lg\:h-32 {
-    height: 8rem;
   }
 
   .lg\:w-1\/2 {
@@ -4765,10 +4718,6 @@ input[type="checkbox"]:checked::before {
 
   .lg\:w-\[52px\] {
     width: 52px;
-  }
-
-  .lg\:w-\[600px\] {
-    width: 600px;
   }
 
   .lg\:w-\[667px\] {
@@ -5131,8 +5080,8 @@ input[type="checkbox"]:checked::before {
     left: 6rem;
   }
 
-  .\32xl\:left-\[65\%\] {
-    left: 65%;
+  .\32xl\:left-\[25\%\] {
+    left: 25%;
   }
 
   .\32xl\:right-0 {
@@ -5245,6 +5194,10 @@ input[type="checkbox"]:checked::before {
     height: 4rem;
   }
 
+  .\33xl\:h-28 {
+    height: 7rem;
+  }
+
   .\33xl\:h-\[180px\] {
     height: 180px;
   }
@@ -5259,10 +5212,6 @@ input[type="checkbox"]:checked::before {
 
   .\33xl\:h-\[700px\] {
     height: 700px;
-  }
-
-  .\33xl\:h-28 {
-    height: 7rem;
   }
 
   .\33xl\:w-16 {

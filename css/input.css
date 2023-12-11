@@ -30,12 +30,12 @@
     @apply list-disc;
   }
 
-  #sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > ul {
-    @apply list-disc;
+  #sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div {
+    @apply list-disc ml-4;
   }
 
-  #sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > ul {
-    @apply list-disc;
+  #sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div {
+    @apply list-disc ml-4;
   }
 
   html {
