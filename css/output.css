@@ -1190,6 +1190,13 @@ hr {
   -webkit-line-clamp: 5;
 }
 
+.line-clamp-6 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+}
+
 .block {
   display: block;
 }
@@ -1729,6 +1736,18 @@ hr {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.place-content-end {
+  place-content: end;
+}
+
+.place-content-between {
+  place-content: space-between;
+}
+
+.place-items-end {
+  place-items: end;
 }
 
 .items-start {
@@ -2567,6 +2586,10 @@ hr {
   padding-top: 56px;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2680,6 +2703,10 @@ hr {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .uppercase {
@@ -4792,6 +4819,10 @@ input[type="checkbox"]:checked::before {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:place-items-end {
+    place-items: end;
   }
 
   .lg\:items-center {
