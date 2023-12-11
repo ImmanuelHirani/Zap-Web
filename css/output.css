@@ -1183,6 +1183,13 @@ hr {
   -webkit-line-clamp: 4;
 }
 
+.line-clamp-5 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
 .block {
   display: block;
 }
@@ -1221,6 +1228,10 @@ hr {
 
 .h-14 {
   height: 3.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-20 {
@@ -1326,6 +1337,18 @@ hr {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[58px\] {
+  height: 58px;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .w-1\/2 {
@@ -1527,6 +1550,14 @@ hr {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
+.w-\[58px\] {
+  width: 58px;
 }
 
 .min-w-\[600px\] {
@@ -4016,6 +4047,14 @@ input[type="checkbox"]:checked::before {
     height: 80px;
   }
 
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-20 {
+    height: 5rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -4629,6 +4668,10 @@ input[type="checkbox"]:checked::before {
     height: 100%;
   }
 
+  .lg\:h-32 {
+    height: 8rem;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -5185,6 +5228,10 @@ input[type="checkbox"]:checked::before {
 
   .\33xl\:h-\[700px\] {
     height: 700px;
+  }
+
+  .\33xl\:h-28 {
+    height: 7rem;
   }
 
   .\33xl\:w-16 {
