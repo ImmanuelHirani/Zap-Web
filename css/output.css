@@ -1148,6 +1148,10 @@ hr {
   margin-top: 34px;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -5038,6 +5042,10 @@ input[type="checkbox"]:checked::before {
     margin-right: 4rem;
   }
 
+  .xl\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -5126,6 +5134,10 @@ input[type="checkbox"]:checked::before {
 
   .\32xl\:mt-0 {
     margin-top: 0px;
+  }
+
+  .\32xl\:mb-96 {
+    margin-bottom: 24rem;
   }
 
   .\32xl\:block {
