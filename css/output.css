@@ -5096,6 +5096,10 @@ input[type="checkbox"]:checked::before {
     grid-column: span 4 / span 4;
   }
 
+  .\32xl\:mb-40 {
+    margin-bottom: 10rem;
+  }
+
   .\32xl\:mt-0 {
     margin-top: 0px;
   }
@@ -5188,6 +5192,10 @@ input[type="checkbox"]:checked::before {
   .\33xl\:mx-40 {
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+
+  .\33xl\:mb-60 {
+    margin-bottom: 15rem;
   }
 
   .\33xl\:h-16 {
