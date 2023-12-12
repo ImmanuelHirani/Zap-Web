@@ -462,12 +462,12 @@ input[type="number"]::-webkit-inner-spin-button,
   list-style-type: disc;
 }
 
-#sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div {
+#sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div > ul {
   margin-left: 1rem;
   list-style-type: disc;
 }
 
-#sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div {
+#sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div > ul {
   margin-left: 1rem;
   list-style-type: disc;
 }
