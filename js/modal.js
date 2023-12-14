@@ -57,7 +57,7 @@ okClosebtn.addEventListener('click', () => {
         }
     });
 
-        
+    toggleBodyScroll(false);
     jobDesc.classList.remove('hidden')
     form.classList.add('hidden')
 })
