@@ -31,7 +31,7 @@ Array.from(isi).forEach((items, index2) => {
         jawaban[0].style.display = "none";
     });
 });
-console.log(isi_outlet);
+
 Array.from(isi_outlet).forEach((itemss, index2) => {
     itemss.addEventListener("click", () => {
         outlet.innerText = itemss.innerText;

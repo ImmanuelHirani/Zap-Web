@@ -8,8 +8,6 @@ toggleSchedule.forEach(otherschedule => {
         ModalSchedule.classList.add('active')
         
         parentBox.classList.add('modalSchedule-active')
-        console.log(parentBox , ModalSchedule)
-
     })
 });
 
