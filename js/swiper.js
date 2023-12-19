@@ -549,3 +549,33 @@ var swiper2 = new Swiper(".mySwiper2", {
 });
 
 
+
+
+let OutletContent = new Swiper(".outlet-content", {
+  grabCursor: true,
+  loop: true,
+  // If we need pagination
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".nextArtikelTerbaru",
+    prevEl: ".prevArtikelTerbaru",
+  },
+
+  breakpoints: {
+    360: {
+      slidesPerView: 1.1,
+      spaceBetween: 8,
+      centeredSlides: true,
+    },
+
+    600: {
+      slidesPerView: 1,
+      spaceBetween: 12,
+    },
+    968: {
+      slidesPerView: 1,
+      spaceBetween: 12,
+    },
+  },
+});
