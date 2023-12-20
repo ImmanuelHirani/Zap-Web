@@ -579,3 +579,36 @@ let OutletContent = new Swiper(".outlet-content", {
     },
   },
 });
+
+
+
+let locationContent = new Swiper(".location-content", {
+  grabCursor: true,
+  loop: true,
+  // If we need pagination
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".nextArtikelTerbaru",
+    prevEl: ".prevArtikelTerbaru",
+  },
+
+  breakpoints: {
+    360: {
+      slidesPerView: 1.1,
+      spaceBetween: 8,
+      centeredSlides: true,
+    },
+
+    600: {
+      slidesPerView: 1.8,
+      spaceBetween: 12,
+      centeredSlides: true,
+    },
+    968: {
+      slidesPerView: 3.2,
+      spaceBetween: 12,
+      centeredSlides: true,
+    },
+  },
+});
