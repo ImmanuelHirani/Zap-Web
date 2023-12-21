@@ -457,16 +457,12 @@ input[type="checkbox"]:checked::before {
   display: none;
 }
 
-.lifetime__membership .wrap > div > ul {
+
+.lifetime__membership   ul {
   @apply list-disc
 }
 
-.lifetime__membership  .SyaratDanKetentuan > ul {
-  @apply list-disc
-}
-
-.one__year
-.one_yearWrap > ul {
+.one__year  ul {
   @apply list-disc
 }
 /* vanila css end*/

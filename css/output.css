@@ -3610,16 +3610,11 @@ input[type="checkbox"]:checked::before {
   display: none;
 }
 
-.lifetime__membership .wrap > div > ul {
+.lifetime__membership   ul {
   list-style-type: disc;
 }
 
-.lifetime__membership  .SyaratDanKetentuan > ul {
-  list-style-type: disc;
-}
-
-.one__year
-.one_yearWrap > ul {
+.one__year  ul {
   list-style-type: disc;
 }
 
