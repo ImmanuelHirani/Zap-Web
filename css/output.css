@@ -3610,6 +3610,19 @@ input[type="checkbox"]:checked::before {
   display: none;
 }
 
+.lifetime__membership .wrap > div > ul {
+  list-style-type: disc;
+}
+
+.lifetime__membership  .SyaratDanKetentuan > ul {
+  list-style-type: disc;
+}
+
+.one__year
+.one_yearWrap > ul {
+  list-style-type: disc;
+}
+
 /* vanila css end*/
 
 @media (min-width: 1024px) {
