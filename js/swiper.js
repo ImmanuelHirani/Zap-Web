@@ -610,5 +610,10 @@ let locationContent = new Swiper(".location-content", {
       spaceBetween: 12,
       centeredSlides: true,
     },
+    1600: {
+      slidesPerView: 3.5,
+      spaceBetween: 12,
+      centeredSlides: true,
+    },
   },
 });
