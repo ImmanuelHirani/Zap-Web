@@ -1731,6 +1731,10 @@ hr {
   flex-wrap: wrap;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .items-start {
   align-items: flex-start;
 }
@@ -2212,6 +2216,11 @@ hr {
 .bg-yellow-ZAP {
   --tw-bg-opacity: 1;
   background-color: rgb(248 214 183 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
