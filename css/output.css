@@ -1148,14 +1148,6 @@ hr {
   margin-top: 34px;
 }
 
-.mt-28 {
-  margin-top: 7rem;
-}
-
-.mt-24 {
-  margin-top: 6rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1359,6 +1351,30 @@ hr {
   height: 100vh;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-\[50\%\] {
+  height: 50%;
+}
+
+.h-\[60\%\] {
+  height: 60%;
+}
+
+.h-\[65\%\] {
+  height: 65%;
+}
+
+.h-\[62\%\] {
+  height: 62%;
+}
+
+.h-\[63\%\] {
+  height: 63%;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1437,10 +1453,6 @@ hr {
 
 .w-7 {
   width: 1.75rem;
-}
-
-.w-72 {
-  width: 18rem;
 }
 
 .w-8 {
@@ -1566,22 +1578,6 @@ hr {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[310px\] {
-  width: 310px;
-}
-
-.w-\[315px\] {
-  width: 315px;
-}
-
-.w-\[312px\] {
-  width: 312px;
 }
 
 .min-w-\[600px\] {
@@ -2339,10 +2335,6 @@ hr {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-1 {
@@ -5367,14 +5359,6 @@ input[type="checkbox"]:checked::before {
 
   .\33xl\:gap-28 {
     gap: 7rem;
-  }
-
-  .\33xl\:gap-y-12 {
-    row-gap: 3rem;
-  }
-
-  .\33xl\:gap-y-6 {
-    row-gap: 1.5rem;
   }
 
   .\33xl\:gap-y-8 {

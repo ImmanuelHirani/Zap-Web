@@ -5,7 +5,7 @@ const parentBox = cardShared.parentNode;
 
 toggleShared.forEach((othertoggle) => {
   othertoggle.addEventListener("click", (event) => {
-    event.stopPropagation();
+
     othertoggle.classList.add("active");
     cardShared.classList.add("modal-share-active");
     parentBox.classList.add("box-active");
