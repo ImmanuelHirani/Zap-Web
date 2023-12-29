@@ -734,6 +734,10 @@ hr {
   right: -0.75rem;
 }
 
+.-right-\[5\%\] {
+  right: -5%;
+}
+
 .-top-0 {
   top: -0px;
 }
@@ -768,6 +772,10 @@ hr {
 
 .-top-9 {
   top: -2.25rem;
+}
+
+.-top-\[5\%\] {
+  top: -5%;
 }
 
 .bottom-0 {
@@ -808,6 +816,10 @@ hr {
 
 .left-0 {
   left: 0px;
+}
+
+.left-1\/2 {
+  left: 50%;
 }
 
 .left-12 {
@@ -1044,6 +1056,10 @@ hr {
   margin-bottom: 1.5rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .mb-\[82px\] {
   margin-bottom: 82px;
 }
@@ -1142,10 +1158,6 @@ hr {
 
 .mt-\[30px\] {
   margin-top: 30px;
-}
-
-.mt-\[34px\] {
-  margin-top: 34px;
 }
 
 .box-border {
@@ -1617,6 +1629,11 @@ hr {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-translate-y-10 {
   --tw-translate-y: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1669,6 +1686,10 @@ hr {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-disc {
@@ -2519,6 +2540,10 @@ hr {
   padding-bottom: 19px;
 }
 
+.pb-\[29px\] {
+  padding-bottom: 29px;
+}
+
 .pb-\[74px\] {
   padding-bottom: 74px;
 }
@@ -2553,6 +2578,10 @@ hr {
 
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .pt-6 {
@@ -2712,6 +2741,11 @@ hr {
 
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+
+.text-black-ZAP {
+  --tw-text-opacity: 1;
+  color: rgb(35 31 32 / var(--tw-text-opacity));
 }
 
 .text-brown-zap {
@@ -3574,6 +3608,8 @@ input[type="checkbox"]:checked::before {
 
 /* Fulldetails end */
 
+/*Membership */
+
 .active__lifetime__button,
 .active__lifetime__button h6 {
   background-color: #31ab5c;
@@ -3590,6 +3626,16 @@ input[type="checkbox"]:checked::before {
   color: #faf7f5;
 }
 
+.active__exclusive__button {
+  background-color: #31ab5c;
+  border-radius: 8px;
+  color: #faf7f5;
+}
+
+.active__exclusive__button h6 {
+  color: #faf7f5;
+}
+
 .question.active__series {
   transform: rotateX(180deg);
 }
@@ -3602,13 +3648,48 @@ input[type="checkbox"]:checked::before {
   display: none;
 }
 
-.lifetime__membership   ul {
-  list-style-type: disc;
+.lokasiSelectOnlineBooking {
+  padding-right: 16px;
+  /* Sesuaikan dengan jumlah padding yang diinginkan */
+  width: calc(100% - 16px);
+  /* Sesuaikan dengan jumlah padding yang digunakan */
+  background-color: #faf7f5;
 }
 
-.one__year  ul {
-  list-style-type: disc;
+/* Ganti warna default radio button */
+
+.popup__membership input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000;
+  /* Warna border yang diinginkan */
+  border-radius: 50%;
+  outline: none;
+  transition: background-color 0.3s ease;
 }
+
+/* Ganti warna background radio button saat dihover */
+
+.popup__membership input[type="radio"]:hover {
+  background-color: #f0f0f0;
+  /* Warna latar belakang yang diinginkan */
+}
+
+/* Ganti warna background radio button saat dipilih */
+
+/* Ganti warna background radio button saat dipilih */
+
+.popup__membership input[type="radio"]:checked {
+  background-color: #000;
+  /* Warna latar belakang yang diinginkan saat dipilih */
+  box-shadow: inset 0 0 0 3px #fff;
+  /* Adjust the color and size of the border */
+}
+
+/* membership end */
 
 /* vanila css end*/
 
@@ -3768,6 +3849,10 @@ input[type="checkbox"]:checked::before {
 
   .sm\:w-\[527px\] {
     width: 527px;
+  }
+
+  .sm\:w-1\/4 {
+    width: 25%;
   }
 
   .sm\:grid-cols-3 {
@@ -4695,6 +4780,10 @@ input[type="checkbox"]:checked::before {
     width: 50%;
   }
 
+  .lg\:w-1\/4 {
+    width: 25%;
+  }
+
   .lg\:w-14 {
     width: 3.5rem;
   }
@@ -5343,10 +5432,6 @@ input[type="checkbox"]:checked::before {
 
   .\33xl\:self-center {
     align-self: center;
-  }
-
-  .\33xl\:pl-72 {
-    padding-left: 18rem;
   }
 
   .\33xl\:text-3xl {

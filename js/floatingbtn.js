@@ -6,7 +6,7 @@ const closeBtn = document.getElementById('CloseBtn');
 const closeBtnLiveChat = document.getElementById('CloseBtnlivechat'); // Perbaikan di sini
 const openBtn = document.getElementById('chatBtnOpen');
 
-openBtn.addEventListener('click' ,() => {
+openBtn?.addEventListener('click' ,() => {
     backToTop.classList.add('b-active')
     openBtn.classList.add('o-active')
     closeBtn.classList.add('C-active')
@@ -14,7 +14,7 @@ openBtn.addEventListener('click' ,() => {
     liveChat.classList.add('l-active')
 })
 
-liveChat.addEventListener('click' , () => {
+liveChat?.addEventListener('click' , () => {
     liveChatBox.classList.add('livechat-active')
     backToTop.classList.add('b-active')
     openBtn.classList.add('o-active')
@@ -23,7 +23,7 @@ liveChat.addEventListener('click' , () => {
     liveChat.classList.remove('l-active')
 })
 
-closeBtnLiveChat.addEventListener('click' , () => {
+closeBtnLiveChat?.addEventListener('click' , () => {
     liveChatBox.classList.remove('livechat-active')
     closeBtn.classList.add('C-active')
     whatsApp.classList.add('w-active')
@@ -31,7 +31,7 @@ closeBtnLiveChat.addEventListener('click' , () => {
 })
 
 
-closeBtn.addEventListener('click' ,() => {
+closeBtn?.addEventListener('click' ,() => {
     backToTop.classList.remove('b-active')
     openBtn.classList.remove('o-active')
     closeBtn.classList.remove('C-active')

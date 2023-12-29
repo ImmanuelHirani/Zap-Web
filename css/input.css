@@ -29,11 +29,11 @@
   #perubahanPascaTreatment > .list-wrapper > .accordion-wrapper > .accordion-body > div > span > ul {
     @apply list-disc;
   }
-  #sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div > ul  {
+  #sebelumsesudah > .list-wrapper > .text-list-wrapper > div > span > div > ul {
     @apply list-disc ml-4;
   }
 
-  #sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div > ul  {
+  #sebelumsesudah > .list-wrapper > .accordion-wrapper > .accordion-body > div > div > span > div > ul {
     @apply list-disc ml-4;
   }
 
@@ -432,7 +432,7 @@ input[type="checkbox"]:checked::before {
 
 /* Fulldetails end */
 
-
+/*Membership */
 .active__lifetime__button,
 .active__lifetime__button h6 {
   background-color: #31ab5c;
@@ -447,6 +447,16 @@ input[type="checkbox"]:checked::before {
 .active__one__year__button h6 {
   color: #faf7f5;
 }
+
+.active__exclusive__button {
+  background-color: #31ab5c;
+  border-radius: 8px;
+  color: #faf7f5;
+}
+.active__exclusive__button h6 {
+  color: #faf7f5;
+}
+
 .question.active__series {
   transform: rotateX(180deg);
 }
@@ -456,13 +466,36 @@ input[type="checkbox"]:checked::before {
 .jawaban__online__booking {
   display: none;
 }
-
-
-.lifetime__membership   ul {
-  @apply list-disc
+.lokasiSelectOnlineBooking {
+  padding-right: 16px; /* Sesuaikan dengan jumlah padding yang diinginkan */
+  width: calc(100% - 16px); /* Sesuaikan dengan jumlah padding yang digunakan */
+  background-color: #faf7f5;
+}
+/* Ganti warna default radio button */
+.popup__membership input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #000; /* Warna border yang diinginkan */
+  border-radius: 50%;
+  outline: none;
+  transition: background-color 0.3s ease;
 }
 
-.one__year  ul {
-  @apply list-disc
+/* Ganti warna background radio button saat dihover */
+.popup__membership input[type="radio"]:hover {
+  background-color: #f0f0f0; /* Warna latar belakang yang diinginkan */
 }
+
+/* Ganti warna background radio button saat dipilih */
+/* Ganti warna background radio button saat dipilih */
+.popup__membership input[type="radio"]:checked {
+  background-color: #000; /* Warna latar belakang yang diinginkan saat dipilih */
+  box-shadow: inset 0 0 0 3px #fff; /* Adjust the color and size of the border */
+}
+
+/* membership end */
+
 /* vanila css end*/
