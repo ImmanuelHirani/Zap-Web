@@ -432,6 +432,12 @@ input[type="checkbox"]:checked::before {
 
 /* Fulldetails end */
 
+/*Promo*/
+.kiri-member {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+/*Promo End*/
+
 /*Membership */
 .active__lifetime__button,
 .active__lifetime__button h6 {
