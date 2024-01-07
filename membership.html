@@ -176,9 +176,9 @@
           <h3 class="text-grey-ZAP text-center text-[13px] font-spartanRegular">Zap Series</h3>
         </div>
       </div>
-      <div class="flex items-center justify-center container gap-3 lg:gap-10">
+      <div class="flex items-center sm:justify-center justify-start container gap-3 lg:gap-10 sm:overflow-hidden overflow-x-auto min-w-full">
         <div class="py-2 px-4 rounded-lg lifetime__button cursor-pointer active__lifetime__button">
-          <h6 class="text-center text-grey-ZAP uppercase lg:text-2xl md:text-lg">lifetime membership</h6>
+          <h6 class="text-center text-grey-ZAP uppercase lg:text-2xl md:text-lg">Lifetime Membership</h6>
         </div>
         <div class="px-4 py-2 one__year__button">
           <h6 class="text-center text-grey-ZAP cursor-pointer uppercase lg:text-2xl md:text-lg">1 Year Membership</h6>
@@ -186,7 +186,11 @@
         <div class="px-4 py-2 exclusive__button">
           <h6 class="text-center text-grey-ZAP cursor-pointer uppercase lg:text-2xl md:text-lg">Exclusive Membership</h6>
         </div>
+        <div class="px-4 py-2 test__button">
+          <h6 class="text-center text-grey-ZAP cursor-pointer uppercase lg:text-2xl md:text-lg">Test Membership</h6>
+        </div>
       </div>
+
       <div class="container lifetime__membership flex flex-col gap-7">
         <div class="flex justify-center bg-yellow-ZAP rounded-lg mx-auto px-4 w-fit">
           <div class="my-5 lg:w-[667px] md:w-1/2 w-full box-border">
@@ -281,7 +285,7 @@
             </table>
           </div>
 
-          <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full">
+          <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full z-[100]">
             <div class="bg-white-ZAP rounded-lg fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] lg:w-1/4">
               <div class="popup-content px-5 pt-5 rounded-lg relative flex flex-col justify-center text-center">
                 <span class="close bg-green-ZAP absolute -top-[5%] -right-[5%] text-sm font-spartanSemiBold cursor-pointer rounded-full" onclick="closePopup(0)"><img src="temp-asset/promo/membership/close.svg" class="w-full" alt="" /></span>
@@ -548,7 +552,7 @@
               </tbody>
             </table>
           </div>
-          <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full">
+          <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full z-[100]">
             <div class="bg-white-ZAP rounded-lg fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] sm:w-1/4">
               <div class="popup-content px-5 pt-5 rounded-lg relative flex flex-col justify-center text-center">
                 <span class="close bg-green-ZAP absolute -top-[5%] -right-[5%] text-sm font-spartanSemiBold cursor-pointer rounded-full" onclick="closePopup(1)"><img src="temp-asset/promo/membership/close.svg" class="w-full" alt="" /></span>
@@ -627,6 +631,9 @@
             </button>
           </div>
         </div>
+      </div>
+      <div class="container test__membership hidden">
+        <h1>tEST</h1>
       </div>
     </section>
     <footer>
