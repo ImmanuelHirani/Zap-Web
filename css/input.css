@@ -463,6 +463,15 @@ input[type="checkbox"]:checked::before {
   color: #faf7f5;
 }
 
+.active__test__button {
+  background-color: #31ab5c;
+  border-radius: 8px;
+  color: #faf7f5;
+}
+.active__test__button h6 {
+  color: #faf7f5;
+}
+
 .question.active__series {
   transform: rotateX(180deg);
 }
